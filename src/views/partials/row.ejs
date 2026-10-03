@@ -1,0 +1,26 @@
+<section class="row">
+  <h2 class="row-title"><%= rowTitle %></h2>
+  <div class="row-cards">
+    <% items.forEach(function (t, i) { %>
+      <article class="card<%= numbered ? ' numbered' : '' %>">
+        <% if (numbered) { %><span class="rank"><%= i + 1 %></span><% } %>
+        <img src="<%= t.poster %>" alt="<%= t.name %>" loading="lazy" width="300" height="450" />
+        <div class="card-meta">
+          <span class="card-name"><%= t.name %></span>
+          <% if (myListIds.has(t.id)) { %>
+            <form method="post" action="/my-list/<%= t.id %>/delete">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+              <button class="pill remove" title="Remove from My List">&#10003; My List</button>
+            </form>
+          <% } else { %>
+            <form method="post" action="/my-list">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+              <input type="hidden" name="title_id" value="<%= t.id %>" />
+              <button class="pill add" title="Add to My List">+ My List</button>
+            </form>
+          <% } %>
+        </div>
+      </article>
+    <% }); %>
+  </div>
+</section>

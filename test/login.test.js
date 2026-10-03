@@ -36,4 +36,7 @@ test("login with wrong password fails with generic message", async () => {
   const res = await agent.post("/login").type("form").send({ _csrf: t, email: "dan@example.com", password: "wrongpass1" });
   assert.equal(res.status, 401);
   assert.match(res.text, /Incorrect email or password/);
+  const b = await agent.get("/browse");
+  assert.equal(b.status, 302);
+  assert.equal(b.headers.location, "/login");
 });

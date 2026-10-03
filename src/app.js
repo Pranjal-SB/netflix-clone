@@ -8,6 +8,7 @@ import { dirname, join } from "node:path";
 import config from "./config.js";
 import { pool } from "./db.js";
 import { authRouter } from "./auth.js";
+import { browseRouter } from "./browse.js";
 
 const dir = dirname(fileURLToPath(import.meta.url));
 
@@ -62,6 +63,7 @@ export default function createApp() {
   app.get("/healthz", (_req, res) => res.type("text").send("ok"));
 
   app.use(authRouter);
+  app.use(browseRouter);
 
   app.use((err, _req, res, next) => {
     if (err === invalidCsrfTokenError) {

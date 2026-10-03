@@ -1,0 +1,26 @@
+<%- include("partials/head", { title }) %>
+<header class="browse-nav">
+  <span class="brand">NETFLIX</span>
+  <form method="post" action="/logout" class="logout">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+    <button>Sign Out</button>
+  </form>
+</header>
+<% if (featured) { %>
+<section class="hero" style="background-image:linear-gradient(0deg,#141414,transparent),url('<%= featured.poster %>')">
+  <div class="hero-body">
+    <h1><%= featured.name %></h1>
+    <p><%= featured.synopsis %></p>
+  </div>
+</section>
+<% } %>
+<main class="rows">
+  <% if (myList.length) { %>
+    <%- include("partials/row", { rowTitle: "My List", items: myList, numbered: false, myListIds, csrfToken }) %>
+  <% } %>
+  <%- include("partials/row", { rowTitle: "Trending Now", items: trending, numbered: true, myListIds, csrfToken }) %>
+  <% genres.forEach(function (g) { %>
+    <%- include("partials/row", { rowTitle: g.genre, items: g.titles, numbered: false, myListIds, csrfToken }) %>
+  <% }); %>
+</main>
+<%- include("partials/footer") %>
