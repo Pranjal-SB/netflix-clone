@@ -1,7 +1,13 @@
 import express from "express";
 import helmet from "helmet";
+import session from "express-session";
+import connectPgSimple from "connect-pg-simple";
+import { csrfSync } from "csrf-sync";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import config from "./config.js";
+import { pool } from "./db.js";
+import { authRouter } from "./auth.js";
 
 const dir = dirname(fileURLToPath(import.meta.url));
 
@@ -25,11 +31,44 @@ export default function createApp() {
     })
   );
   app.use(express.urlencoded({ extended: false }));
-  app.use(express.static(join(dir, "..", "public")));
 
+  const PgStore = connectPgSimple(session);
+  app.use(
+    session({
+      store: new PgStore({ pool, tableName: "session", createTableIfMissing: true }),
+      secret: config.sessionSecret,
+      resave: false,
+      saveUninitialized: false,
+      cookie: {
+        httpOnly: true,
+        sameSite: "lax",
+        secure: config.isProd,
+        maxAge: 7 * 24 * 60 * 60 * 1000,
+      },
+    })
+  );
+
+  const { csrfSynchronisedProtection, generateToken, invalidCsrfTokenError } = csrfSync({
+    getTokenFromRequest: (req) => req.body._csrf,
+  });
+  app.use(csrfSynchronisedProtection);
+  app.use((req, res, next) => {
+    res.locals.csrfToken = generateToken(req);
+    res.locals.userId = req.session.userId || null;
+    next();
+  });
+
+  app.use(express.static(join(dir, "..", "public")));
   app.get("/healthz", (_req, res) => res.type("text").send("ok"));
 
-  // Routers mounted here in later tasks.
+  app.use(authRouter);
+
+  app.use((err, _req, res, next) => {
+    if (err === invalidCsrfTokenError) {
+      return res.status(403).render("error", { message: "Invalid or missing form token." });
+    }
+    next(err);
+  });
 
   app.use((err, _req, res, _next) => {
     console.error(err);

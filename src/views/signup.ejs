@@ -1,0 +1,13 @@
+<%- include("partials/head", { title }) %>
+<main class="auth-page">
+  <form class="auth-card" method="post" action="/signup">
+    <h1>Create a password to start your membership</h1>
+    <% if (error) { %><p class="form-error"><%= error %></p><% } %>
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+    <input type="email" name="email" placeholder="Email" value="<%= email %>" required />
+    <input type="password" name="password" placeholder="Add a password" minlength="8" required />
+    <button type="submit">Sign Up</button>
+    <p>Already have an account? <a href="/login">Sign in</a>.</p>
+  </form>
+</main>
+<%- include("partials/footer") %>
