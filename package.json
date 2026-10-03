@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --env-file-if-exists=.env --watch src/server.js",
-    "test": "node --env-file-if-exists=.env --test",
+    "test": "node --env-file-if-exists=.env --test --test-concurrency=1",
     "db:setup": "node --env-file-if-exists=.env scripts/db-setup.js"
   },
   "dependencies": {

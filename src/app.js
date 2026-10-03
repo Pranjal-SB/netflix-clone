@@ -3,6 +3,7 @@ import helmet from "helmet";
 import session from "express-session";
 import connectPgSimple from "connect-pg-simple";
 import { csrfSync } from "csrf-sync";
+import rateLimit from "express-rate-limit";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import config from "./config.js";
@@ -62,6 +63,17 @@ export default function createApp() {
 
   app.use(express.static(join(dir, "..", "public")));
   app.get("/healthz", (_req, res) => res.type("text").send("ok"));
+
+  const authLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 10,
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: "Too many attempts. Try again later.",
+  });
+  app.use(["/login", "/signup"], (req, res, next) =>
+    req.method === "POST" ? authLimiter(req, res, next) : next()
+  );
 
   app.use(homeRouter);
   app.use(authRouter);
