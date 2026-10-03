@@ -1,0 +1,26 @@
+<%- include("partials/head", { title }) %>
+<header class="landing-nav"><span class="brand">NETFLIX</span><a class="signin-btn" href="/login">Sign In</a></header>
+<section class="landing-hero">
+  <div class="landing-hero-body">
+    <h1>Unlimited movies, shows and more</h1>
+    <p>Starts at a low monthly price. Cancel at any time.</p>
+    <form class="email-capture" method="get" action="/signup">
+      <input type="email" name="email" placeholder="Email address" required />
+      <button type="submit">Get Started &rsaquo;</button>
+    </form>
+  </div>
+</section>
+<main class="rows landing-rows">
+  <%- include("partials/row", { rowTitle: "Trending Now", items: trending, numbered: true, myListIds: new Set(), csrfToken }) %>
+  <section class="reasons">
+    <h2>More reasons to join</h2>
+    <div class="reason-cards">
+      <div class="reason-card"><h3>Enjoy on your TV</h3><p>Watch on smart TVs, consoles, streaming devices and more.</p></div>
+      <div class="reason-card"><h3>Download to watch offline</h3><p>Save your favourites and always have something to watch.</p></div>
+      <div class="reason-card"><h3>Watch everywhere</h3><p>Stream on your phone, tablet, laptop and TV.</p></div>
+      <div class="reason-card"><h3>Create profiles for kids</h3><p>Send kids on adventures in a space made just for them.</p></div>
+    </div>
+  </section>
+  <%- include("partials/faq") %>
+</main>
+<%- include("partials/footer") %>

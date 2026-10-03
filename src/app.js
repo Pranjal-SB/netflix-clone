@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import config from "./config.js";
 import { pool } from "./db.js";
+import { homeRouter } from "./home.js";
 import { authRouter } from "./auth.js";
 import { browseRouter } from "./browse.js";
 
@@ -62,6 +63,7 @@ export default function createApp() {
   app.use(express.static(join(dir, "..", "public")));
   app.get("/healthz", (_req, res) => res.type("text").send("ok"));
 
+  app.use(homeRouter);
   app.use(authRouter);
   app.use(browseRouter);
 

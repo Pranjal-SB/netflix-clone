@@ -1,0 +1,12 @@
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <% const qas = [
+    ["What is Netflix?", "Netflix is a streaming service with a wide variety of shows, movies, anime and more on thousands of internet-connected devices."],
+    ["How much does Netflix cost?", "Watch on your phone, tablet, Smart TV, laptop or streaming device for one fixed monthly fee. Plans range from a low price upward."],
+    ["Where can I watch?", "Watch anywhere, anytime. Sign in to watch instantly on the web or on any internet-connected device that offers the Netflix app."],
+    ["How do I cancel?", "Netflix is flexible. There are no annoying contracts and no commitments. Cancel your account online in two clicks."]
+  ]; %>
+  <% qas.forEach(function (qa) { %>
+    <details><summary><%= qa[0] %></summary><p><%= qa[1] %></p></details>
+  <% }); %>
+</section>
