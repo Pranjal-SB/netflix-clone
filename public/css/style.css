@@ -1,0 +1,5 @@
+:root { --bg: #141414; --red: #e50914; --text: #fff; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: system-ui, Arial, sans-serif; }
+a { color: inherit; }
+.site-footer { padding: 2rem; color: #808080; font-size: .85rem; }
