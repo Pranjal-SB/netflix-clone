@@ -35,6 +35,11 @@ export default function createApp() {
   );
   app.use(express.urlencoded({ extended: false }));
 
+  // Static assets and health check need neither session nor CSRF — mount them
+  // before the session middleware so they don't trigger a session-store round-trip.
+  app.use(express.static(join(dir, "..", "public")));
+  app.get("/healthz", (_req, res) => res.type("text").send("ok"));
+
   const PgStore = connectPgSimple(session);
   app.use(
     session({
@@ -52,7 +57,7 @@ export default function createApp() {
   );
 
   const { csrfSynchronisedProtection, generateToken, invalidCsrfTokenError } = csrfSync({
-    getTokenFromRequest: (req) => req.body._csrf,
+    getTokenFromRequest: (req) => req.body?._csrf,
   });
   app.use(csrfSynchronisedProtection);
   app.use((req, res, next) => {
@@ -60,9 +65,6 @@ export default function createApp() {
     res.locals.userId = req.session.userId || null;
     next();
   });
-
-  app.use(express.static(join(dir, "..", "public")));
-  app.get("/healthz", (_req, res) => res.type("text").send("ok"));
 
   const authLimiter = rateLimit({
     windowMs: 15 * 60 * 1000,

@@ -28,7 +28,7 @@ SELECT * FROM (VALUES
   ('Never Have I Ever', 2020, 'Comedy', 'An Indian-American teen navigates high school.', '/img/posters/never-have-i-ever.jpg', NULL),
   ('Space Force', 2020, 'Comedy', 'A general builds a new branch of the US military.', '/img/posters/space-force.jpg', NULL),
   ('Grace and Frankie', 2015, 'Comedy', 'Two women bond after their husbands leave them.', '/img/posters/grace-frankie.jpg', NULL),
-  ('Arcane', 2021, 'Trending', 'Sisters clash across two cities in a war of magic and tech.', '/img/posters/arcane.jpg', NULL),
+  ('Arcane', 2021, 'Action', 'Sisters clash across two cities in a war of magic and tech.', '/img/posters/arcane.jpg', NULL),
   ('Maniac', 2018, 'Drama', 'Two strangers in a mysterious pharmaceutical trial.', '/img/posters/maniac.jpg', NULL)
 ) AS v(name, year, genre, synopsis, poster, trending_rank)
 WHERE NOT EXISTS (SELECT 1 FROM titles);

@@ -18,11 +18,15 @@ browseRouter.get("/browse", requireAuth, async (req, res, next) => {
 browseRouter.post("/my-list", requireAuth, async (req, res, next) => {
   try {
     const titleId = Number(req.body.title_id);
-    if (!Number.isInteger(titleId)) return res.redirect("/browse");
-    await query(
-      "INSERT INTO my_list (user_id, title_id) VALUES ($1, $2) ON CONFLICT DO NOTHING",
-      [req.session.userId, titleId]
-    );
+    if (!Number.isInteger(titleId) || titleId < 1) return res.redirect("/browse");
+    try {
+      await query(
+        "INSERT INTO my_list (user_id, title_id) VALUES ($1, $2) ON CONFLICT DO NOTHING",
+        [req.session.userId, titleId]
+      );
+    } catch (e) {
+      if (e.code !== "23503") throw e; // unknown title_id (FK violation) -> ignore
+    }
     res.redirect("/browse");
   } catch (e) { next(e); }
 });
