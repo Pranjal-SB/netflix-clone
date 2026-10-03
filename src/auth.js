@@ -57,3 +57,51 @@ authRouter.post("/signup", async (req, res, next) => {
     next(e);
   }
 });
+
+// Real argon2id hash of a random throwaway string, so the no-user branch does
+// the same work as a real verify and login timing does not leak account existence.
+const DUMMY_HASH = await hash("dummy-password-for-constant-time-" + Date.now());
+
+authRouter.get("/login", (req, res) => {
+  res.render("login", { title: "Sign In", email: "", error: null });
+});
+
+authRouter.post("/login", async (req, res, next) => {
+  try {
+    const email = String(req.body.email || "").trim();
+    const password = String(req.body.password || "");
+    const r = await query(
+      "SELECT id, password_hash FROM users WHERE lower(email) = lower($1)",
+      [email]
+    );
+    const fail = () =>
+      res.status(401).render("login", {
+        title: "Sign In",
+        email,
+        error: "Incorrect email or password",
+      });
+
+    if (r.rowCount === 0) {
+      await verify(DUMMY_HASH, password).catch(() => {});
+      return fail();
+    }
+    const ok = await verify(r.rows[0].password_hash, password).catch(() => false);
+    if (!ok) return fail();
+
+    req.session.regenerate((rerr) => {
+      if (rerr) return next(rerr);
+      req.session.userId = r.rows[0].id;
+      res.redirect("/browse");
+    });
+  } catch (e) {
+    next(e);
+  }
+});
+
+authRouter.post("/logout", (req, res, next) => {
+  req.session.destroy((err) => {
+    if (err) return next(err);
+    res.clearCookie("connect.sid");
+    res.redirect("/");
+  });
+});
