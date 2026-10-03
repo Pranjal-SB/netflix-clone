@@ -1,20 +1,29 @@
 <%- include("partials/head", { title }) %>
-<header class="browse-nav">
-  <a class="brand" href="/browse">NETFLIX</a>
-  <form method="post" action="/logout" class="logout">
-    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
-    <button>Sign Out</button>
-  </form>
+<header class="nav-wrap">
+  <nav class="pill-nav" aria-label="Main navigation">
+    <a class="brand" href="/browse">NETFLIX</a>
+    <span class="nav-items">
+      <a class="nav-pill" href="/browse">Home</a>
+    </span>
+    <form method="post" action="/logout" class="logout">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+      <button>Sign Out</button>
+    </form>
+  </nav>
 </header>
-<section class="detail-hero"<% if (item.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.4) 70%),linear-gradient(0deg,#141414,transparent 55%),url('<%= item.backdrop_url %>')"<% } %>>
+<section class="detail-hero"<% if (item.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(4,18,11,.94),rgba(4,18,11,.45) 70%),linear-gradient(0deg,#04120b,transparent 58%),url('<%= item.backdrop_url %>')"<% } %>>
   <div class="detail-body">
     <% if (item.poster_url) { %><img class="detail-poster" src="<%= item.poster_url %>" alt="<%= item.name %>" width="300" height="450" /><% } %>
     <div class="detail-info">
-      <h1><%= item.name %></h1>
+      <% if (item.logo_url) { %>
+        <img class="title-logo" src="<%= item.logo_url %>" alt="<%= item.name %>" />
+      <% } else { %>
+        <h1><%= item.name %></h1>
+      <% } %>
       <div class="hero-meta">
         <% if (item.rating) { %><span class="chip rating">&#9733; <%= item.rating %></span><% } %>
-        <% if (item.year) { %><span class="chip"><%= item.year %></span><% } %>
-        <% if (item.runtime) { %><span class="chip"><%= item.runtime %> min</span><% } %>
+        <% if (item.year) { %><span class="chip">&#128197; <%= item.year %></span><% } %>
+        <% if (item.runtime) { %><span class="chip">&#9201; <%= item.runtime %> min</span><% } %>
         <% (item.genres || []).forEach(function (g) { %><span class="chip"><%= g %></span><% }); %>
       </div>
       <% if (item.overview) { %><p class="detail-overview"><%= item.overview %></p><% } %>

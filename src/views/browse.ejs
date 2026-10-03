@@ -1,30 +1,37 @@
 <%- include("partials/head", { title }) %>
-<header class="browse-nav">
-  <a class="brand" href="/browse">NETFLIX</a>
-  <form method="post" action="/logout" class="logout">
-    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
-    <button>Sign Out</button>
-  </form>
+<header class="nav-wrap">
+  <nav class="pill-nav" aria-label="Main navigation">
+    <a class="brand" href="/browse">NETFLIX</a>
+    <span class="nav-items">
+      <a class="nav-pill active" href="/browse">Home</a>
+      <% if (myItems.length) { %><a class="nav-pill" href="#my-list">My List</a><% } %>
+    </span>
+    <form method="post" action="/logout" class="logout">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+      <button>Sign Out</button>
+    </form>
+  </nav>
 </header>
 <% if (featured) { %>
-<section class="hero"<% if (featured.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.85),transparent 60%),linear-gradient(0deg,#141414,transparent 60%),url('<%= featured.backdrop_url %>')"<% } %>>
+<section class="hero"<% if (featured.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(4,18,11,.92),rgba(4,18,11,.35) 55%,transparent 80%),linear-gradient(0deg,#04120b,transparent 62%),url('<%= featured.backdrop_url %>')"<% } %>>
   <div class="hero-body">
     <h1><%= featured.name %></h1>
     <div class="hero-meta">
       <% if (featured.rating) { %><span class="chip rating">&#9733; <%= featured.rating %></span><% } %>
-      <% if (featured.year) { %><span class="chip"><%= featured.year %></span><% } %>
-      <% if (featured.media_type && featured.media_type !== 'local') { %><span class="chip"><%= featured.media_type === 'tv' ? 'Series' : 'Movie' %></span><% } %>
+      <% if (featured.year) { %><span class="chip">&#128197; <%= featured.year %></span><% } %>
+      <% if (featured.media_type && featured.media_type !== 'local') { %><span class="chip">&#127916; <%= featured.media_type === 'tv' ? 'Series' : 'Movie' %></span><% } %>
     </div>
     <% if (featured.overview) { %><p class="hero-overview"><%= featured.overview %></p><% } %>
     <div class="hero-actions">
-      <a class="btn primary" href="<%= featured.href %>">More Info</a>
+      <a class="btn primary" href="<%= featured.href %>">&#9654; More Info</a>
+      <a class="btn ghost icon-only" href="<%= featured.href %>" aria-label="Details">&#9432;</a>
     </div>
   </div>
 </section>
 <% } %>
 <main class="rows">
   <% if (myItems.length) { %>
-    <%- include("partials/row", { rowTitle: "My List", items: myItems, numbered: false, inList, csrfToken, back: "/browse" }) %>
+    <%- include("partials/row", { rowTitle: "My List", items: myItems, numbered: false, inList, csrfToken, back: "/browse", anchor: "my-list" }) %>
   <% } %>
   <% rows.forEach(function (r, i) { %>
     <%- include("partials/row", { rowTitle: r.title, items: r.items, numbered: i === 0, inList, csrfToken, back: "/browse" }) %>
