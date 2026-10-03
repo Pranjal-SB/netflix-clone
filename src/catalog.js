@@ -14,17 +14,3 @@ export async function getGenres() {
   }
   return [...map.entries()].map(([genre, titles]) => ({ genre, titles }));
 }
-
-export async function getFeatured() {
-  const r = await query("SELECT * FROM titles WHERE trending_rank = 1 LIMIT 1");
-  return r.rows[0] || null;
-}
-
-export async function getUserList(userId) {
-  const r = await query(
-    `SELECT t.* FROM titles t JOIN my_list m ON m.title_id = t.id
-     WHERE m.user_id = $1 ORDER BY m.added_at DESC`,
-    [userId]
-  );
-  return r.rows;
-}

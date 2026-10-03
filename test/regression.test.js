@@ -31,14 +31,13 @@ test("POST /logout with no form body returns 403 (not 500)", async () => {
   assert.equal(res.status, 403);
 });
 
-// Fix #3: my-list add with a valid-integer but nonexistent/zero title must not 500.
-test("POST /my-list with title_id=0 redirects, does not 500, adds nothing", async () => {
+// Fix #3: my-list add with missing/invalid fields must not 500, adds nothing.
+test("POST /my-list with missing fields redirects, does not 500, adds nothing", async () => {
   const agent = newAgent();
   await loginNew(agent, "reg@example.com");
   const t = await csrf(agent, "/browse");
-  const res = await agent.post("/my-list").type("form").send({ _csrf: t, title_id: 0 });
+  const res = await agent.post("/my-list").type("form").send({ _csrf: t, media_type: "movie" });
   assert.equal(res.status, 302);
-  assert.equal(res.headers.location, "/browse");
   const n = (await query("SELECT count(*)::int AS n FROM my_list")).rows[0].n;
   assert.equal(n, 0);
 });

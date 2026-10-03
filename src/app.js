@@ -11,6 +11,7 @@ import { pool } from "./db.js";
 import { homeRouter } from "./home.js";
 import { authRouter } from "./auth.js";
 import { browseRouter } from "./browse.js";
+import { titleRouter } from "./title.js";
 
 const dir = dirname(fileURLToPath(import.meta.url));
 
@@ -27,7 +28,7 @@ export default function createApp() {
           defaultSrc: ["'self'"],
           styleSrc: ["'self'", "https://fonts.googleapis.com", "'unsafe-inline'"],
           fontSrc: ["'self'", "https://fonts.gstatic.com"],
-          imgSrc: ["'self'", "data:"],
+          imgSrc: ["'self'", "data:", "https://image.tmdb.org"],
           scriptSrc: ["'self'"],
         },
       },
@@ -80,6 +81,7 @@ export default function createApp() {
   app.use(homeRouter);
   app.use(authRouter);
   app.use(browseRouter);
+  app.use(titleRouter);
 
   app.use((err, _req, res, next) => {
     if (err === invalidCsrfTokenError) {

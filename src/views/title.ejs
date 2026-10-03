@@ -1,0 +1,61 @@
+<%- include("partials/head", { title }) %>
+<header class="browse-nav">
+  <a class="brand" href="/browse">NETFLIX</a>
+  <form method="post" action="/logout" class="logout">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+    <button>Sign Out</button>
+  </form>
+</header>
+<section class="detail-hero"<% if (item.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.4) 70%),linear-gradient(0deg,#141414,transparent 55%),url('<%= item.backdrop_url %>')"<% } %>>
+  <div class="detail-body">
+    <% if (item.poster_url) { %><img class="detail-poster" src="<%= item.poster_url %>" alt="<%= item.name %>" width="300" height="450" /><% } %>
+    <div class="detail-info">
+      <h1><%= item.name %></h1>
+      <div class="hero-meta">
+        <% if (item.rating) { %><span class="chip rating">&#9733; <%= item.rating %></span><% } %>
+        <% if (item.year) { %><span class="chip"><%= item.year %></span><% } %>
+        <% if (item.runtime) { %><span class="chip"><%= item.runtime %> min</span><% } %>
+        <% (item.genres || []).forEach(function (g) { %><span class="chip"><%= g %></span><% }); %>
+      </div>
+      <% if (item.overview) { %><p class="detail-overview"><%= item.overview %></p><% } %>
+      <div class="detail-actions">
+        <% if (item.trailer_key) { %>
+          <a class="btn primary" href="https://www.youtube.com/watch?v=<%= item.trailer_key %>" target="_blank" rel="noopener">Watch Trailer</a>
+        <% } %>
+        <% if (inList) { %>
+          <form method="post" action="/my-list/remove">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+            <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+            <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+            <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
+            <button class="btn ghost">&#10003; In My List</button>
+          </form>
+        <% } else { %>
+          <form method="post" action="/my-list">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+            <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+            <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+            <input type="hidden" name="name" value="<%= item.name %>" />
+            <input type="hidden" name="poster_url" value="<%= item.poster_url || '' %>" />
+            <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
+            <button class="btn ghost">+ My List</button>
+          </form>
+        <% } %>
+      </div>
+      <% if ((item.cast || []).length) { %>
+        <h2 class="detail-subhead">Cast</h2>
+        <div class="cast-row">
+          <% item.cast.forEach(function (c) { %>
+            <div class="cast">
+              <% if (c.profile_url) { %><img src="<%= c.profile_url %>" alt="<%= c.name %>" width="185" height="278" loading="lazy" /><% } else { %><div class="cast-noimg"><%= c.name %></div><% } %>
+              <span class="cast-name"><%= c.name %></span>
+              <% if (c.character) { %><span class="cast-char"><%= c.character %></span><% } %>
+            </div>
+          <% }); %>
+        </div>
+      <% } %>
+      <p class="back-link"><a href="/browse">&larr; Back to browse</a></p>
+    </div>
+  </div>
+</section>
+<%- include("partials/footer") %>

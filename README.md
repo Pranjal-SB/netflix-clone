@@ -5,7 +5,9 @@ API, with per-user accounts and a saved "My List". Coursework project, not
 affiliated with Netflix.
 
 Node 24, Express 5, EJS, PostgreSQL. Passwords hashed with argon2id, server-side
-sessions in Postgres, CSRF and rate limiting on auth.
+sessions in Postgres, CSRF and rate limiting on auth. Catalog, posters, and detail
+pages come from the TMDB API when `TMDB_READ_TOKEN` is set; without it the app
+serves a seeded local catalog so it still runs.
 
 ## Run locally
 

@@ -1,0 +1,38 @@
+<%
+  // params: item, inList (Set), csrfToken, back, numbered (bool), rank (int)
+  const key = item.media_type + ":" + item.tmdb_id;
+  const saved = inList.has(key);
+%>
+<article class="card<%= numbered ? ' numbered' : '' %>">
+  <% if (numbered) { %><span class="rank"><%= rank %></span><% } %>
+  <a class="card-link" href="<%= item.href %>">
+    <% if (item.poster_url) { %>
+      <img src="<%= item.poster_url %>" alt="<%= item.name %>" loading="lazy" width="300" height="450" />
+    <% } else { %>
+      <div class="card-noimg"><%= item.name %></div>
+    <% } %>
+    <% if (item.rating) { %><span class="card-rating">&#9733; <%= item.rating %></span><% } %>
+  </a>
+  <div class="card-meta">
+    <span class="card-name"><%= item.name %></span>
+    <% if (saved) { %>
+      <form method="post" action="/my-list/remove">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+        <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+        <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+        <input type="hidden" name="back" value="<%= back %>" />
+        <button class="pill remove" aria-label="Remove <%= item.name %> from My List">&#10003; My List</button>
+      </form>
+    <% } else { %>
+      <form method="post" action="/my-list">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+        <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+        <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+        <input type="hidden" name="name" value="<%= item.name %>" />
+        <input type="hidden" name="poster_url" value="<%= item.poster_url || '' %>" />
+        <input type="hidden" name="back" value="<%= back %>" />
+        <button class="pill add" aria-label="Add <%= item.name %> to My List">+ My List</button>
+      </form>
+    <% } %>
+  </div>
+</article>

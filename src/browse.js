@@ -1,44 +1,41 @@
 import { Router } from "express";
 import { requireAuth } from "./auth.js";
-import { query } from "./db.js";
-import { getTrending, getGenres, getFeatured, getUserList } from "./catalog.js";
+import { browseRows } from "./content.js";
+import * as mylist from "./mylist.js";
 
 export const browseRouter = Router();
 
 browseRouter.get("/browse", requireAuth, async (req, res, next) => {
   try {
-    const [featured, trending, genres, myList] = await Promise.all([
-      getFeatured(), getTrending(), getGenres(), getUserList(req.session.userId),
+    const [rows, myItems] = await Promise.all([
+      browseRows(),
+      mylist.listFor(req.session.userId),
     ]);
-    const myListIds = new Set(myList.map((t) => t.id));
-    res.render("browse", { title: "Browse", featured, trending, genres, myList, myListIds });
+    const inList = new Set(myItems.map((x) => mylist.listKey(x.media_type, x.tmdb_id)));
+    const featured = rows[0]?.items?.[0] || null;
+    res.render("browse", { title: "Browse", featured, rows, myItems, inList });
   } catch (e) { next(e); }
 });
 
 browseRouter.post("/my-list", requireAuth, async (req, res, next) => {
   try {
-    const titleId = Number(req.body.title_id);
-    if (!Number.isInteger(titleId) || titleId < 1) return res.redirect("/browse");
-    try {
-      await query(
-        "INSERT INTO my_list (user_id, title_id) VALUES ($1, $2) ON CONFLICT DO NOTHING",
-        [req.session.userId, titleId]
-      );
-    } catch (e) {
-      if (e.code !== "23503") throw e; // unknown title_id (FK violation) -> ignore
-    }
-    res.redirect("/browse");
+    await mylist.add(req.session.userId, {
+      media_type: String(req.body.media_type || ""),
+      tmdb_id: String(req.body.tmdb_id || ""),
+      name: String(req.body.name || ""),
+      poster_url: String(req.body.poster_url || ""),
+    });
+    res.redirect(req.body.back || "/browse");
   } catch (e) { next(e); }
 });
 
-browseRouter.post("/my-list/:titleId/delete", requireAuth, async (req, res, next) => {
+browseRouter.post("/my-list/remove", requireAuth, async (req, res, next) => {
   try {
-    const titleId = Number(req.params.titleId);
-    if (Number.isInteger(titleId)) {
-      await query("DELETE FROM my_list WHERE user_id = $1 AND title_id = $2", [
-        req.session.userId, titleId,
-      ]);
-    }
-    res.redirect("/browse");
+    await mylist.remove(
+      req.session.userId,
+      String(req.body.media_type || ""),
+      String(req.body.tmdb_id || "")
+    );
+    res.redirect(req.body.back || "/browse");
   } catch (e) { next(e); }
 });

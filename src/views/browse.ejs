@@ -1,26 +1,33 @@
 <%- include("partials/head", { title }) %>
 <header class="browse-nav">
-  <span class="brand">NETFLIX</span>
+  <a class="brand" href="/browse">NETFLIX</a>
   <form method="post" action="/logout" class="logout">
     <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
     <button>Sign Out</button>
   </form>
 </header>
 <% if (featured) { %>
-<section class="hero" style="background-image:linear-gradient(0deg,#141414,transparent),url('<%= featured.poster %>')">
+<section class="hero"<% if (featured.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.85),transparent 60%),linear-gradient(0deg,#141414,transparent 60%),url('<%= featured.backdrop_url %>')"<% } %>>
   <div class="hero-body">
     <h1><%= featured.name %></h1>
-    <p><%= featured.synopsis %></p>
+    <div class="hero-meta">
+      <% if (featured.rating) { %><span class="chip rating">&#9733; <%= featured.rating %></span><% } %>
+      <% if (featured.year) { %><span class="chip"><%= featured.year %></span><% } %>
+      <% if (featured.media_type && featured.media_type !== 'local') { %><span class="chip"><%= featured.media_type === 'tv' ? 'Series' : 'Movie' %></span><% } %>
+    </div>
+    <% if (featured.overview) { %><p class="hero-overview"><%= featured.overview %></p><% } %>
+    <div class="hero-actions">
+      <a class="btn primary" href="<%= featured.href %>">More Info</a>
+    </div>
   </div>
 </section>
 <% } %>
 <main class="rows">
-  <% if (myList.length) { %>
-    <%- include("partials/row", { rowTitle: "My List", items: myList, numbered: false, myListIds, csrfToken }) %>
+  <% if (myItems.length) { %>
+    <%- include("partials/row", { rowTitle: "My List", items: myItems, numbered: false, inList, csrfToken, back: "/browse" }) %>
   <% } %>
-  <%- include("partials/row", { rowTitle: "Trending Now", items: trending, numbered: true, myListIds, csrfToken }) %>
-  <% genres.forEach(function (g) { %>
-    <%- include("partials/row", { rowTitle: g.genre, items: g.titles, numbered: false, myListIds, csrfToken }) %>
+  <% rows.forEach(function (r, i) { %>
+    <%- include("partials/row", { rowTitle: r.title, items: r.items, numbered: i === 0, inList, csrfToken, back: "/browse" }) %>
   <% }); %>
 </main>
 <%- include("partials/footer") %>
