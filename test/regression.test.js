@@ -42,6 +42,31 @@ test("POST /my-list with missing fields redirects, does not 500, adds nothing", 
   assert.equal(n, 0);
 });
 
+// Open redirect: `back` must only allow local paths.
+test("POST /my-list ignores an external back= and redirects locally", async () => {
+  const agent = newAgent();
+  await loginNew(agent, "redir@example.com");
+  const t = await csrf(agent, "/browse");
+  const res = await agent.post("/my-list").type("form").send({
+    _csrf: t, media_type: "movie", tmdb_id: "603", name: "X", poster_url: "",
+    back: "https://evil.com/phish",
+  });
+  assert.equal(res.status, 302);
+  assert.equal(res.headers.location, "/browse");
+});
+
+test("POST /my-list preserves a local back= path", async () => {
+  const agent = newAgent();
+  await loginNew(agent, "redir2@example.com");
+  const t = await csrf(agent, "/browse");
+  const res = await agent.post("/my-list").type("form").send({
+    _csrf: t, media_type: "movie", tmdb_id: "603", name: "X", poster_url: "",
+    back: "/title/movie/603",
+  });
+  assert.equal(res.status, 302);
+  assert.equal(res.headers.location, "/title/movie/603");
+});
+
 // Fix #4: genre grouping must not emit a row literally titled "Trending".
 test("getGenres emits no genre named Trending", async () => {
   const genres = await getGenres();

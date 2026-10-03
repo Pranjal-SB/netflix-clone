@@ -5,6 +5,11 @@ import * as mylist from "./mylist.js";
 
 export const browseRouter = Router();
 
+// Only allow local, non-protocol-relative paths as a redirect target.
+function safeBack(value) {
+  return typeof value === "string" && /^\/(?![/\\])/.test(value) ? value : "/browse";
+}
+
 browseRouter.get("/browse", requireAuth, async (req, res, next) => {
   try {
     const [rows, myItems] = await Promise.all([
@@ -25,7 +30,7 @@ browseRouter.post("/my-list", requireAuth, async (req, res, next) => {
       name: String(req.body.name || ""),
       poster_url: String(req.body.poster_url || ""),
     });
-    res.redirect(req.body.back || "/browse");
+    res.redirect(safeBack(req.body.back));
   } catch (e) { next(e); }
 });
 
@@ -36,6 +41,6 @@ browseRouter.post("/my-list/remove", requireAuth, async (req, res, next) => {
       String(req.body.media_type || ""),
       String(req.body.tmdb_id || "")
     );
-    res.redirect(req.body.back || "/browse");
+    res.redirect(safeBack(req.body.back));
   } catch (e) { next(e); }
 });
