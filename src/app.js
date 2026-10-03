@@ -35,8 +35,8 @@ export default function createApp() {
   );
   app.use(express.urlencoded({ extended: false }));
 
-  // Static assets and health check need neither session nor CSRF — mount them
-  // before the session middleware so they don't trigger a session-store round-trip.
+  // Static assets and health check need neither session nor CSRF, so mount them
+  // before the session middleware to skip a session-store round-trip per request.
   app.use(express.static(join(dir, "..", "public")));
   app.get("/healthz", (_req, res) => res.type("text").send("ok"));
 
