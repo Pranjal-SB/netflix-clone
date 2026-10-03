@@ -49,3 +49,18 @@ test("normalizeDetails extracts genres, cast, and a YouTube trailer", () => {
   assert.equal(d.cast[0].name, "Keanu Reeves");
   assert.equal(d.trailer_key, "m8e-FF8MsqU");
 });
+
+test("normalizeDetails prefers the English title logo", () => {
+  const d = normalizeDetails({
+    id: 1, title: "X", images: { logos: [
+      { iso_639_1: "fr", file_path: "/fr.png" },
+      { iso_639_1: "en", file_path: "/en.png" },
+    ] },
+  }, "movie");
+  assert.match(d.logo_url, /\/en\.png$/);
+});
+
+test("normalizeDetails logo_url is null when no logos exist", () => {
+  const d = normalizeDetails({ id: 1, title: "X" }, "movie");
+  assert.equal(d.logo_url, null);
+});

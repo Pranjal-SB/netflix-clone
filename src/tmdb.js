@@ -44,6 +44,8 @@ export function normalizeDetails(raw, type) {
   const trailer = (raw.videos?.results || []).find(
     (v) => v.site === "YouTube" && v.type === "Trailer"
   );
+  const logos = raw.images?.logos || [];
+  const logo = logos.find((l) => l.iso_639_1 === "en") || logos[0];
   return {
     media_type: type,
     tmdb_id: String(raw.id),
@@ -51,6 +53,7 @@ export function normalizeDetails(raw, type) {
     overview: raw.overview || "",
     poster_url: posterUrl(raw.poster_path, "w500"),
     backdrop_url: backdropUrl(raw.backdrop_path),
+    logo_url: logo ? posterUrl(logo.file_path, "w500") : null,
     year: date ? date.slice(0, 4) : null,
     rating: raw.vote_average ? Number(raw.vote_average).toFixed(1) : null,
     runtime: raw.runtime || raw.episode_run_time?.[0] || null,
@@ -112,7 +115,7 @@ export async function getTrending(fetchImpl) {
 export async function getDetails(type, id, fetchImpl) {
   const data = await tmdbGet(
     `/${type}/${id}`,
-    { append_to_response: "credits,videos" },
+    { append_to_response: "credits,videos,images", include_image_language: "en,null" },
     fetchImpl
   );
   return normalizeDetails(data, type);

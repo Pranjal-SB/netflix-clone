@@ -50,6 +50,7 @@ export async function detail(type, id, fetchImpl) {
       overview: t.synopsis || "",
       poster_url: t.poster,
       backdrop_url: t.poster,
+      logo_url: null,
       year: t.year ? String(t.year) : null,
       rating: null,
       runtime: null,
