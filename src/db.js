@@ -5,7 +5,7 @@ const isLocal = /@(localhost|127\.0\.0\.1)[:/]/.test(config.databaseUrl);
 
 export const pool = new pg.Pool({
   connectionString: config.databaseUrl,
-  ssl: isLocal ? false : true, // verify cert in prod; Supabase serves a valid chain
+  ssl: isLocal ? false : { rejectUnauthorized: false },
 });
 
 export function query(text, params) {
