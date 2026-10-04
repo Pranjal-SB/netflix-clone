@@ -1,29 +1,28 @@
 /* =========================================================================
-   Netflix clone, restyled to the Cinejoy aesthetic.
-   Dark green-black palette, near-white pill actions, floating pill nav.
+   Netflix clone. Dark neutral palette, Netflix red accent, pill nav.
    Fonts: Inter (body/UI) + Montserrat (display). Plain CSS, single file.
    ========================================================================= */
 
 /* ---------- Tokens ---------- */
 :root {
-  --bg: #04120b;            /* very dark green-black, subtle green tint */
-  --bg-deep: #020a06;
-  --elev-1: #0a1b12;        /* card / surface */
-  --elev-2: #10241a;        /* raised surface */
-  --elev-3: #16301f;
+  --bg: #0a0a0a;            /* near-black */
+  --bg-deep: #000000;
+  --elev-1: #141414;        /* card / surface */
+  --elev-2: #1a1a1a;        /* raised surface */
+  --elev-3: #222222;
 
-  --primary: #f2f2f2;       /* near-white action, black text */
-  --primary-hover: #ffffff;
+  --primary: #E50914;       /* Netflix red */
+  --primary-hover: #ff0a16;
   --gold: #f5c518;          /* rating star */
 
-  --text: #f4f7f5;
-  --muted: #cdd6d0;         /* body-muted, >9:1 on --bg */
-  --muted-dim: #a7b0ab;     /* meta text, ~5.3:1 on --bg */
+  --text: #f4f4f4;
+  --muted: #d0d0d0;         /* body-muted */
+  --muted-dim: #a8a8a8;     /* meta text */
   --line: rgba(255, 255, 255, 0.10);
   --line-soft: rgba(255, 255, 255, 0.06);
 
-  --glass: rgba(14, 14, 16, 0.42);
-  --glass-strong: rgba(10, 18, 13, 0.72);
+  --glass: rgba(14, 14, 14, 0.42);
+  --glass-strong: rgba(10, 10, 10, 0.72);
 
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --font-display: "Montserrat", "Inter", system-ui, Arial, sans-serif;
@@ -33,7 +32,7 @@
   --radius: 10px;           /* rounded posters */
   --radius-lg: 14px;
   --pill: 999px;
-  --ring: 0 0 0 3px rgba(242, 242, 242, 0.9);
+  --ring: 0 0 0 3px rgba(229, 9, 20, 0.6);
   --shadow-card: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --dur: 220ms;
@@ -98,7 +97,7 @@ input:focus-visible,
   transition: transform var(--dur) var(--ease), background var(--dur), color var(--dur), border-color var(--dur);
 }
 .btn:active { transform: scale(0.97); }
-.btn.primary { background: var(--primary); color: #0a0a0a; }
+.btn.primary { background: var(--primary); color: #fff; }
 .btn.primary:hover { background: var(--primary-hover); }
 .btn.ghost {
   background: rgba(255, 255, 255, 0.08);
@@ -167,7 +166,7 @@ input:focus-visible,
   transition: background var(--dur), color var(--dur);
 }
 .nav-pill:hover { color: var(--text); background: rgba(255, 255, 255, 0.07); }
-.nav-pill.active { background: var(--primary); color: #0a0a0a; }
+.nav-pill.active { background: var(--primary); color: #fff; }
 
 .logout { margin: 0; }
 .logout button {
@@ -186,7 +185,7 @@ input:focus-visible,
 
 .signin-btn {
   background: var(--primary);
-  color: #0a0a0a;
+  color: #fff;
   padding: 0.5rem 1.3rem;
   border-radius: var(--pill);
   font-weight: 600;
@@ -380,7 +379,7 @@ input:focus-visible,
 .pill.add:hover { border-color: #fff; background: rgba(255, 255, 255, 0.18); }
 .pill.remove {
   background: var(--primary);
-  color: #0a0a0a;
+  color: #fff;
   border: 1.5px solid transparent;
 }
 .pill.remove:hover { background: #fff; }
@@ -416,7 +415,7 @@ input:focus-visible,
   font-weight: 900;
   line-height: 1;
   color: var(--bg);
-  -webkit-text-stroke: 3px #3f5a4b;
+  -webkit-text-stroke: 3px #444444;
   text-align: center;
   user-select: none;
 }
@@ -582,7 +581,7 @@ input:focus-visible,
   font-size: 1.05rem;
   font-weight: 700;
   font-family: var(--font-body);
-  color: #0a0a0a;
+  color: #fff;
   background: var(--primary);
   border: none;
   border-radius: var(--pill);
@@ -702,7 +701,7 @@ input:focus-visible,
   font-size: 1.05rem;
   font-weight: 700;
   font-family: var(--font-body);
-  color: #0a0a0a;
+  color: #fff;
   background: var(--primary);
   border: none;
   border-radius: var(--pill);
