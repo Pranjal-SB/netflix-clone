@@ -32,8 +32,7 @@ test("unknown local title returns 404", async () => {
   assert.equal(res.status, 404);
 });
 
-test("logged-out detail page redirects to /login", async () => {
-  const res = await newAgent().get("/title/movie/603");
-  assert.equal(res.status, 302);
-  assert.equal(res.headers.location, "/login");
+test("logged-out detail page is accessible without login", async () => {
+  const res = await newAgent().get("/title/local/1");
+  assert.equal(res.status, 200);
 });

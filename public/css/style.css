@@ -283,15 +283,13 @@ input:focus-visible,
   overflow-x: auto;
   overflow-y: visible;
   scrollbar-width: none;
-  scroll-snap-type: x proximity;
-  /* negative margin/padding trick to allow overflow-y visible while scrolling */
-  padding-bottom: 0;
+  padding: 0 var(--gutter);
 }
 .row-cards-wrap::-webkit-scrollbar { display: none; }
 .row-cards {
   display: flex;
   gap: 0.75rem;
-  padding: 1.4rem var(--gutter);
+  padding: 1.4rem 0;
   width: max-content;
   scroll-snap-type: x proximity;
 }
