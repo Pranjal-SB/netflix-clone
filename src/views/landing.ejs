@@ -16,7 +16,9 @@
   </div>
 </section>
 <main class="rows landing-rows">
-  <%- include("partials/row", { rowTitle: "Trending Now", rowSubtitle: "What everyone is watching this week", items: trending, numbered: true, inList: new Set(), csrfToken, back: "/" }) %>
+  <% rows.forEach(function (r, i) { %>
+    <%- include("partials/row", { rowTitle: r.title, rowSubtitle: r.subtitle || null, items: r.items, numbered: i === 0, inList: new Set(), csrfToken, back: "/" }) %>
+  <% }); %>
   <section class="reasons">
     <h2>More reasons to join</h2>
     <div class="reason-cards">

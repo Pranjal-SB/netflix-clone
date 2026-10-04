@@ -249,10 +249,22 @@ input:focus-visible,
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  margin-left: var(--gutter);
-  padding-left: 12px;
+  padding: 0 var(--gutter);
   margin-bottom: 0.85rem;
-  border-left: 3px solid var(--primary);
+  position: relative;
+}
+.row-head::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--gutter) - 11px);
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+.row-title, .row-subtitle {
+  padding-left: 0;
 }
 .row-title {
   font-family: var(--font-display);
