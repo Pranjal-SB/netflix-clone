@@ -13,7 +13,7 @@
   </nav>
 </header>
 <% if (featured) { %>
-<section class="hero"<% if (featured.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(4,18,11,.92),rgba(4,18,11,.35) 55%,transparent 80%),linear-gradient(0deg,#04120b,transparent 62%),url('<%= featured.backdrop_url %>')"<% } %>>
+<section class="hero"<% if (featured.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.35) 55%,transparent 80%),linear-gradient(0deg,var(--bg),transparent 62%),url('<%= featured.backdrop_url %>')"<% } %>>
   <div class="hero-body">
     <h1><%= featured.name %></h1>
     <div class="hero-meta">
@@ -23,7 +23,7 @@
     </div>
     <% if (featured.overview) { %><p class="hero-overview"><%= featured.overview %></p><% } %>
     <div class="hero-actions">
-      <a class="btn primary" href="<%= featured.href %>">&#9654; More Info</a>
+      <a class="btn primary" href="<%= featured.href %>">&#9654; Play</a>
       <a class="btn ghost icon-only" href="<%= featured.href %>" aria-label="Details">&#9432;</a>
     </div>
   </div>
