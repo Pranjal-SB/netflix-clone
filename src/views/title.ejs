@@ -1,14 +1,18 @@
 <%- include("partials/head", { title }) %>
 <header class="nav-wrap">
   <nav class="pill-nav" aria-label="Main navigation">
-    <a class="brand" href="/browse">NETFLIX</a>
+    <a class="brand" href="<%= userId ? '/browse' : '/' %>">NETFLIX</a>
     <span class="nav-items">
-      <a class="nav-pill" href="/browse">Home</a>
+      <% if (userId) { %><a class="nav-pill" href="/browse">Home</a><% } %>
     </span>
-    <form method="post" action="/logout" class="logout">
-      <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
-      <button>Sign Out</button>
-    </form>
+    <% if (userId) { %>
+      <form method="post" action="/logout" class="logout">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+        <button>Sign Out</button>
+      </form>
+    <% } else { %>
+      <a class="signin-btn" href="/login">Sign In</a>
+    <% } %>
   </nav>
 </header>
 <section class="detail-hero"<% if (item.backdrop_url) { %> style="background-image:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.45) 70%),linear-gradient(0deg,var(--bg),transparent 58%),url('<%= item.backdrop_url %>')"<% } %>>
@@ -31,24 +35,28 @@
         <% if (item.trailer_key) { %>
           <a class="btn primary" href="https://www.youtube.com/watch?v=<%= item.trailer_key %>" target="_blank" rel="noopener">Watch Trailer</a>
         <% } %>
-        <% if (inList) { %>
-          <form method="post" action="/my-list/remove">
-            <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
-            <input type="hidden" name="media_type" value="<%= item.media_type %>" />
-            <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
-            <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
-            <button class="btn ghost">&#10003; In My List</button>
-          </form>
+        <% if (userId) { %>
+          <% if (inList) { %>
+            <form method="post" action="/my-list/remove">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+              <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+              <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+              <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
+              <button class="btn ghost">&#10003; In My List</button>
+            </form>
+          <% } else { %>
+            <form method="post" action="/my-list">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+              <input type="hidden" name="media_type" value="<%= item.media_type %>" />
+              <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
+              <input type="hidden" name="name" value="<%= item.name %>" />
+              <input type="hidden" name="poster_url" value="<%= item.poster_url || '' %>" />
+              <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
+              <button class="btn ghost">+ My List</button>
+            </form>
+          <% } %>
         <% } else { %>
-          <form method="post" action="/my-list">
-            <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
-            <input type="hidden" name="media_type" value="<%= item.media_type %>" />
-            <input type="hidden" name="tmdb_id" value="<%= item.tmdb_id %>" />
-            <input type="hidden" name="name" value="<%= item.name %>" />
-            <input type="hidden" name="poster_url" value="<%= item.poster_url || '' %>" />
-            <input type="hidden" name="back" value="/title/<%= item.media_type %>/<%= item.tmdb_id %>" />
-            <button class="btn ghost">+ My List</button>
-          </form>
+          <a class="btn ghost" href="/login">Sign in to save</a>
         <% } %>
       </div>
       <% if ((item.cast || []).length) { %>

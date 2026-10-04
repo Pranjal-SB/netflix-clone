@@ -1,0 +1,25 @@
+- generic [active] [ref=f5e1]:
+  - banner:
+    - navigation "Main navigation" [ref=f5e2]:
+      - link "NETFLIX" [ref=f5e3] [cursor=pointer]:
+        - /url: /browse
+      - link "Home" [ref=f5e5] [cursor=pointer]:
+        - /url: /browse
+      - button "Sign Out" [ref=f5e7] [cursor=pointer]
+  - generic [ref=f5e9]:
+    - img "Stranger Things" [ref=f5e10]
+    - generic [ref=f5e11]:
+      - heading "Stranger Things" [level=1] [ref=f5e12]
+      - generic [ref=f5e13]:
+        - generic [ref=f5e14]: 📅 2016
+        - generic [ref=f5e15]: · Trending
+      - paragraph [ref=f5e16]: Kids in Hawkins uncover a secret lab and a parallel dimension.
+      - button "+ My List" [ref=f5e19] [cursor=pointer]
+      - paragraph [ref=f5e20]:
+        - link "← Back to browse" [ref=f5e21] [cursor=pointer]:
+          - /url: /browse
+  - contentinfo [ref=f5e22]:
+    - paragraph [ref=f5e23]: Netflix Clone. Built for HTB. Not affiliated with Netflix.
+  - link "Back to top" [ref=f5e24] [cursor=pointer]:
+    - /url: "#top"
+    - text: ↑

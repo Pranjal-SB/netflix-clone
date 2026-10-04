@@ -1,0 +1,3387 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Home" [ref=e177] [cursor=pointer]:
+      - /url: /
+      - img "Cinejoy" [ref=e179]
+    - tablist [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e8] [cursor=pointer]:
+        - /url: /movies
+      - link "Shows" [ref=e9] [cursor=pointer]:
+        - /url: /series
+      - link "My List" [ref=e10] [cursor=pointer]:
+        - /url: /lists
+      - button "Search" [ref=e12]
+      - button "Settings" [ref=e15]
+  - generic [ref=e17]:
+    - button "Verity Verity 6.6/10 • 2026 • Mystery Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing trut… Play Add to list More Info Go to slide 1 Go to slide 2 Go to slide 3 Go to slide 4 Go to slide 5 Go to slide 6 Go to slide 7" [ref=e180]:
+      - img "Verity" [ref=e182]
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - button "Verity":
+            - img "Verity"
+          - generic [ref=e186]:
+            - generic [ref=e187]: 6.6/10
+            - generic [ref=e190]: •
+            - generic [ref=e191]: "2026"
+            - generic [ref=e194]: •
+            - generic [ref=e195]: Mystery
+          - paragraph [ref=e198]: Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing trut…
+        - generic [ref=e199]:
+          - button "Play" [ref=e200]
+          - generic [ref=e202]:
+            - button "Add to list" [ref=e204]:
+              - generic [ref=e205] [cursor=pointer]
+            - button "More Info" [ref=e208]
+      - generic [ref=e210]:
+        - button "Go to slide 1" [ref=e211] [cursor=pointer]
+        - button "Go to slide 2" [ref=e212] [cursor=pointer]
+        - button "Go to slide 3" [ref=e214] [cursor=pointer]
+        - button "Go to slide 4" [ref=e215] [cursor=pointer]
+        - button "Go to slide 5" [ref=e216] [cursor=pointer]
+        - button "Go to slide 6" [ref=e217] [cursor=pointer]
+        - button "Go to slide 7" [ref=e218] [cursor=pointer]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Browse by Provider" [level=2] [ref=e32]
+        - generic [ref=e33]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e34] [cursor=pointer]
+          - generic [ref=e36]:
+            - link "Netflix Netflix" [ref=e219] [cursor=pointer]:
+              - /url: /provider/8
+              - img "Netflix" [ref=e220]
+              - generic [ref=e39]: Netflix
+            - link "Amazon Prime Video Amazon Prime Video" [ref=e221] [cursor=pointer]:
+              - /url: /provider/9
+              - img "Amazon Prime Video" [ref=e222]
+              - generic [ref=e42]: Amazon Prime Video
+            - link "Disney Plus Disney Plus" [ref=e223] [cursor=pointer]:
+              - /url: /provider/337
+              - img "Disney Plus" [ref=e224]
+              - generic [ref=e45]: Disney Plus
+            - link "Apple TV+ Apple TV+" [ref=e225] [cursor=pointer]:
+              - /url: /provider/350
+              - img "Apple TV+" [ref=e226]
+              - generic [ref=e48]: Apple TV+
+            - link "Apple TV Apple TV" [ref=e227] [cursor=pointer]:
+              - /url: /provider/2
+              - img "Apple TV" [ref=e228]
+              - generic [ref=e51]: Apple TV
+            - link "Hulu Hulu" [ref=e229] [cursor=pointer]:
+              - /url: /provider/15
+              - img "Hulu" [ref=e230]
+              - generic [ref=e54]: Hulu
+            - link "HBO Max HBO Max" [ref=e231] [cursor=pointer]:
+              - /url: /provider/1899
+              - img "HBO Max" [ref=e232]
+              - generic [ref=e57]: HBO Max
+            - link "Paramount Plus Paramount Plus" [ref=e233] [cursor=pointer]:
+              - /url: /provider/2303
+              - img "Paramount Plus" [ref=e234]
+              - generic [ref=e60]: Paramount Plus
+            - link "Peacock Premium Peacock Premium" [ref=e235] [cursor=pointer]:
+              - /url: /provider/386
+              - img "Peacock Premium" [ref=e236]
+              - generic [ref=e63]: Peacock Premium
+            - link "Crunchyroll Crunchyroll" [ref=e237] [cursor=pointer]:
+              - /url: /provider/283
+              - img "Crunchyroll" [ref=e238]
+              - generic [ref=e66]: Crunchyroll
+            - link "Starz Starz" [ref=e239] [cursor=pointer]:
+              - /url: /provider/43
+              - img "Starz" [ref=e240]
+              - generic [ref=e69]: Starz
+            - link "AMC+ AMC+" [ref=e241] [cursor=pointer]:
+              - /url: /provider/526
+              - img "AMC+" [ref=e242]
+              - generic [ref=e72]: AMC+
+            - link "MGM Plus MGM Plus" [ref=e243] [cursor=pointer]:
+              - /url: /provider/34
+              - img "MGM Plus" [ref=e244]
+              - generic [ref=e75]: MGM Plus
+            - link "YouTube Premium YouTube Premium" [ref=e245] [cursor=pointer]:
+              - /url: /provider/188
+              - img "YouTube Premium" [ref=e246]
+              - generic [ref=e78]: YouTube Premium
+            - link "YouTube YouTube" [ref=e247] [cursor=pointer]:
+              - /url: /provider/192
+              - img "YouTube" [ref=e248]
+              - generic [ref=e81]: YouTube
+            - link "Tubi TV Tubi TV" [ref=e249] [cursor=pointer]:
+              - /url: /provider/73
+              - img "Tubi TV" [ref=e250]
+              - generic [ref=e84]: Tubi TV
+            - link "Pluto TV Pluto TV" [ref=e251] [cursor=pointer]:
+              - /url: /provider/300
+              - img "Pluto TV" [ref=e252]
+              - generic [ref=e87]: Pluto TV
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - heading "Trending Movies" [level=2] [ref=e255]
+          - link "View All" [ref=e256] [cursor=pointer]:
+            - /url: /category/movie/trending
+        - generic [ref=e259]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e260] [cursor=pointer]
+          - generic [ref=e262]:
+            - link "Digger" [ref=e263] [cursor=pointer]:
+              - /url: /movie/1248832-digger-2026
+              - generic [ref=e264]:
+                - img "Digger" [ref=e265]
+                - generic [ref=e269]:
+                  - heading "Digger" [level=3] [ref=e270]
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: "2026"
+                    - generic [ref=e273]: "7.4"
+            - link "Verity" [ref=e275] [cursor=pointer]:
+              - /url: /movie/1283515-verity-2026
+              - generic [ref=e276]:
+                - img "Verity" [ref=e277]
+                - generic [ref=e281]:
+                  - heading "Verity" [level=3] [ref=e282]
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: "2026"
+                    - generic [ref=e285]: "6.6"
+            - link "Doing Life" [ref=e287] [cursor=pointer]:
+              - /url: /movie/1458857-doing-life-2026
+              - generic [ref=e288]:
+                - img "Doing Life" [ref=e289]
+                - generic [ref=e293]:
+                  - heading "Doing Life" [level=3] [ref=e294]
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: "2026"
+                    - generic [ref=e297]: "5.9"
+            - link "The Uprising" [ref=e299] [cursor=pointer]:
+              - /url: /movie/977942-the-uprising-2026
+              - generic [ref=e300]:
+                - img "The Uprising" [ref=e301]
+                - generic [ref=e305]:
+                  - heading "The Uprising" [level=3] [ref=e306]
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: "2026"
+                    - generic [ref=e309]: "7.8"
+            - link "Resident Evil" [ref=e311] [cursor=pointer]:
+              - /url: /movie/1423191-resident-evil-2026
+              - generic [ref=e312]:
+                - img "Resident Evil" [ref=e313]
+                - generic [ref=e317]:
+                  - heading "Resident Evil" [level=3] [ref=e318]
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: "2026"
+                    - generic [ref=e321]: "7.3"
+            - link "Runner" [ref=e323] [cursor=pointer]:
+              - /url: /movie/1377237-runner-2026
+              - generic [ref=e324]:
+                - img "Runner" [ref=e325]
+                - generic [ref=e329]:
+                  - heading "Runner" [level=3] [ref=e330]
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: "2026"
+                    - generic [ref=e333]: "8.3"
+            - link "UNABOMBER" [ref=e335] [cursor=pointer]:
+              - /url: /movie/1492640-unabomber-2026
+              - generic [ref=e336]:
+                - img "UNABOMBER" [ref=e337]
+                - generic [ref=e341]:
+                  - heading "UNABOMBER" [level=3] [ref=e342]
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: "2026"
+                    - generic [ref=e345]: "6.6"
+            - link "Obsession" [ref=e347] [cursor=pointer]:
+              - /url: /movie/1339713-obsession-2026
+              - generic [ref=e348]:
+                - img "Obsession" [ref=e349]
+                - generic [ref=e353]:
+                  - heading "Obsession" [level=3] [ref=e354]
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: "2026"
+                    - generic [ref=e357]: "8.2"
+            - 'link "Avengers: Doomsday" [ref=e359] [cursor=pointer]':
+              - /url: /movie/1003596-avengers-doomsday-2026
+              - generic [ref=e360]:
+                - 'img "Avengers: Doomsday" [ref=e361]'
+                - generic [ref=e365]:
+                  - 'heading "Avengers: Doomsday" [level=3] [ref=e366]'
+                  - generic [ref=e367]: "2026"
+            - 'link "Spider-Man: Brand New Day" [ref=e369] [cursor=pointer]':
+              - /url: /movie/969681-spider-man-brand-new-day-2026
+              - generic [ref=e370]:
+                - 'img "Spider-Man: Brand New Day" [ref=e371]'
+                - generic [ref=e375]:
+                  - 'heading "Spider-Man: Brand New Day" [level=3] [ref=e376]'
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: "2026"
+                    - generic [ref=e379]: "7.9"
+            - link "Schumacher '94 - The Birth of a Legend" [ref=e381] [cursor=pointer]:
+              - /url: /movie/1752355-schumacher-94-the-birth-of-a-legend-2026
+              - generic [ref=e382]:
+                - img "Schumacher '94 - The Birth of a Legend" [ref=e383]
+                - generic [ref=e387]:
+                  - heading "Schumacher '94 - The Birth of a Legend" [level=3] [ref=e388]
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: "2026"
+                    - generic [ref=e391]: "9.2"
+            - link "Soulm8te" [ref=e393] [cursor=pointer]:
+              - /url: /movie/1307118-soulm8te-2026
+              - generic [ref=e394]:
+                - img "Soulm8te" [ref=e395]
+                - generic [ref=e399]:
+                  - heading "Soulm8te" [level=3] [ref=e400]
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: "2026"
+                    - generic [ref=e403]: "7.5"
+            - link "Backrooms" [ref=e405] [cursor=pointer]:
+              - /url: /movie/1083381-backrooms-2026
+              - generic [ref=e406]:
+                - img "Backrooms" [ref=e407]
+                - generic [ref=e411]:
+                  - heading "Backrooms" [level=3] [ref=e412]
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: "2026"
+                    - generic [ref=e415]: "7.0"
+            - link "Kung Fu Soccer" [ref=e417] [cursor=pointer]:
+              - /url: /movie/1491920-kung-fu-soccer-2026
+              - generic [ref=e418]:
+                - img "Kung Fu Soccer" [ref=e419]
+                - generic [ref=e423]:
+                  - heading "Kung Fu Soccer" [level=3] [ref=e424]
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: "2026"
+                    - generic [ref=e427]: "6.2"
+            - link "Coyote vs. Acme" [ref=e429] [cursor=pointer]:
+              - /url: /movie/1204680-coyote-vs-acme-2026
+              - generic [ref=e430]:
+                - img "Coyote vs. Acme" [ref=e431]
+                - generic [ref=e435]:
+                  - heading "Coyote vs. Acme" [level=3] [ref=e436]
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: "2026"
+                    - generic [ref=e439]: "7.5"
+            - link "Street Fighter" [ref=e441] [cursor=pointer]:
+              - /url: /movie/1153576-street-fighter-2026
+              - generic [ref=e442]:
+                - img "Street Fighter" [ref=e443]
+                - generic [ref=e447]:
+                  - heading "Street Fighter" [level=3] [ref=e448]
+                  - generic [ref=e449]: "2026"
+            - link "Union County" [ref=e451] [cursor=pointer]:
+              - /url: /movie/1482938-union-county-2026
+              - generic [ref=e452]:
+                - img "Union County" [ref=e453]
+                - generic [ref=e457]:
+                  - heading "Union County" [level=3] [ref=e458]
+                  - generic [ref=e459]:
+                    - generic [ref=e460]: "2026"
+                    - generic [ref=e461]: "7.3"
+            - link "Heart of the Beast" [ref=e463] [cursor=pointer]:
+              - /url: /movie/1263337-heart-of-the-beast-2026
+              - generic [ref=e464]:
+                - img "Heart of the Beast" [ref=e465]
+                - generic [ref=e469]:
+                  - heading "Heart of the Beast" [level=3] [ref=e470]
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: "2026"
+                    - generic [ref=e473]: "7.5"
+            - 'link "Drishyam: The Conclusion" [ref=e475] [cursor=pointer]':
+              - /url: /movie/1269325-drishyam-the-conclusion-2026
+              - generic [ref=e476]:
+                - 'img "Drishyam: The Conclusion" [ref=e477]'
+                - generic [ref=e481]:
+                  - 'heading "Drishyam: The Conclusion" [level=3] [ref=e482]'
+                  - generic [ref=e483]:
+                    - generic [ref=e484]: "2026"
+                    - generic [ref=e485]: "10.0"
+            - link "Stranglehold" [ref=e487] [cursor=pointer]:
+              - /url: /movie/1320039-stranglehold-2026
+              - generic [ref=e488]:
+                - img "Stranglehold" [ref=e489]
+                - generic [ref=e493]:
+                  - heading "Stranglehold" [level=3] [ref=e494]
+                  - generic [ref=e495]:
+                    - generic [ref=e496]: "2026"
+                    - generic [ref=e497]: "4.0"
+      - generic [ref=e499]:
+        - generic [ref=e500]:
+          - heading "Trending Series" [level=2] [ref=e501]
+          - link "View All" [ref=e502] [cursor=pointer]:
+            - /url: /category/tv/trending
+        - generic [ref=e505]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e506] [cursor=pointer]
+          - generic [ref=e508]:
+            - link "Black Clover" [ref=e509] [cursor=pointer]:
+              - /url: /series/73223-black-clover-2017
+              - generic [ref=e510]:
+                - img "Black Clover" [ref=e511]
+                - generic [ref=e515]:
+                  - heading "Black Clover" [level=3] [ref=e516]
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: "2017"
+                    - generic [ref=e519]: "8.5"
+            - link "Coven Academy" [ref=e521] [cursor=pointer]:
+              - /url: /series/298505-coven-academy-2026
+              - generic [ref=e522]:
+                - img "Coven Academy" [ref=e523]
+                - generic [ref=e527]:
+                  - heading "Coven Academy" [level=3] [ref=e528]
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: "2026"
+                    - generic [ref=e531]: "7.6"
+            - link "The Apothecary Diaries" [ref=e533] [cursor=pointer]:
+              - /url: /series/220542-the-apothecary-diaries-2023
+              - generic [ref=e534]:
+                - img "The Apothecary Diaries" [ref=e535]
+                - generic [ref=e539]:
+                  - heading "The Apothecary Diaries" [level=3] [ref=e540]
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: "2023"
+                    - generic [ref=e543]: "8.6"
+            - link "Kill Jackie" [ref=e545] [cursor=pointer]:
+              - /url: /series/284558-kill-jackie-2026
+              - generic [ref=e546]:
+                - img "Kill Jackie" [ref=e547]
+                - generic [ref=e551]:
+                  - heading "Kill Jackie" [level=3] [ref=e552]
+                  - generic [ref=e553]:
+                    - generic [ref=e554]: "2026"
+                    - generic [ref=e555]: "8.3"
+            - link "I Would Rather Die" [ref=e557] [cursor=pointer]:
+              - /url: /series/335227-i-would-rather-die-2026
+              - generic [ref=e558]:
+                - img "I Would Rather Die" [ref=e559]
+                - generic [ref=e563]:
+                  - heading "I Would Rather Die" [level=3] [ref=e564]
+                  - generic [ref=e565]:
+                    - generic [ref=e566]: "2026"
+                    - generic [ref=e567]: "9.6"
+            - link "Lanterns" [ref=e569] [cursor=pointer]:
+              - /url: /series/95350-lanterns-2026
+              - generic [ref=e570]:
+                - img "Lanterns" [ref=e571]
+                - generic [ref=e575]:
+                  - heading "Lanterns" [level=3] [ref=e576]
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: "2026"
+                    - generic [ref=e579]: "8.4"
+            - link "East of Eden" [ref=e581] [cursor=pointer]:
+              - /url: /series/258165-east-of-eden-2026
+              - generic [ref=e582]:
+                - img "East of Eden" [ref=e583]
+                - generic [ref=e587]:
+                  - heading "East of Eden" [level=3] [ref=e588]
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: "2026"
+                    - generic [ref=e591]: "8.3"
+            - link "WAR" [ref=e593] [cursor=pointer]:
+              - /url: /series/298852-war-2026
+              - generic [ref=e594]:
+                - img "WAR" [ref=e595]
+                - generic [ref=e599]:
+                  - heading "WAR" [level=3] [ref=e600]
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: "2026"
+                    - generic [ref=e603]: "9.1"
+            - link "MobLand" [ref=e605] [cursor=pointer]:
+              - /url: /series/247718-mobland-2025
+              - generic [ref=e606]:
+                - img "MobLand" [ref=e607]
+                - generic [ref=e611]:
+                  - heading "MobLand" [level=3] [ref=e612]
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: "2025"
+                    - generic [ref=e615]: "8.5"
+            - link "Magical Explorer" [ref=e617] [cursor=pointer]:
+              - /url: /series/335194-magical-explorer-2026
+              - generic [ref=e618]:
+                - img "Magical Explorer" [ref=e619]
+                - generic [ref=e623]:
+                  - heading "Magical Explorer" [level=3] [ref=e624]
+                  - generic [ref=e625]: "2026"
+            - link "Tokyo Revengers" [ref=e627] [cursor=pointer]:
+              - /url: /series/105009-tokyo-revengers-2021
+              - generic [ref=e628]:
+                - img "Tokyo Revengers" [ref=e629]
+                - generic [ref=e633]:
+                  - heading "Tokyo Revengers" [level=3] [ref=e634]
+                  - generic [ref=e635]:
+                    - generic [ref=e636]: "2021"
+                    - generic [ref=e637]: "8.4"
+            - link "Ranma1/2" [ref=e639] [cursor=pointer]:
+              - /url: /series/259140-ranma1-2-2024
+              - generic [ref=e640]:
+                - img "Ranma1/2" [ref=e641]
+                - generic [ref=e645]:
+                  - heading "Ranma1/2" [level=3] [ref=e646]
+                  - generic [ref=e647]:
+                    - generic [ref=e648]: "2024"
+                    - generic [ref=e649]: "8.1"
+            - link "Red Queen" [ref=e651] [cursor=pointer]:
+              - /url: /series/203667-red-queen-2024
+              - generic [ref=e652]:
+                - img "Red Queen" [ref=e653]
+                - generic [ref=e657]:
+                  - heading "Red Queen" [level=3] [ref=e658]
+                  - generic [ref=e659]:
+                    - generic [ref=e660]: "2024"
+                    - generic [ref=e661]: "7.0"
+            - link "VERTEX FORCE" [ref=e663] [cursor=pointer]:
+              - /url: /series/317259-vertex-force-2026
+              - generic [ref=e664]:
+                - img "VERTEX FORCE" [ref=e665]
+                - generic [ref=e669]:
+                  - heading "VERTEX FORCE" [level=3] [ref=e670]
+                  - generic [ref=e671]: "2026"
+            - link "The Seven Knights of the Marronnier Kingdom" [ref=e673] [cursor=pointer]:
+              - /url: /series/324326-the-seven-knights-of-the-marronnier-kingdom-2026
+              - generic [ref=e674]:
+                - img "The Seven Knights of the Marronnier Kingdom" [ref=e675]
+                - generic [ref=e679]:
+                  - heading "The Seven Knights of the Marronnier Kingdom" [level=3] [ref=e680]
+                  - generic [ref=e681]: "2026"
+            - link "Tougen Anki" [ref=e683] [cursor=pointer]:
+              - /url: /series/253811-tougen-anki-2025
+              - generic [ref=e684]:
+                - img "Tougen Anki" [ref=e685]
+                - generic [ref=e689]:
+                  - heading "Tougen Anki" [level=3] [ref=e690]
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: "2025"
+                    - generic [ref=e693]: "7.6"
+            - link "Romelia War Chronicle" [ref=e695] [cursor=pointer]:
+              - /url: /series/305313-romelia-war-chronicle-2026
+              - generic [ref=e696]:
+                - img "Romelia War Chronicle" [ref=e697]
+                - generic [ref=e701]:
+                  - heading "Romelia War Chronicle" [level=3] [ref=e702]
+                  - generic [ref=e703]: "2026"
+            - link "American Horror Story" [ref=e705] [cursor=pointer]:
+              - /url: /series/1413-american-horror-story-2011
+              - generic [ref=e706]:
+                - img "American Horror Story" [ref=e707]
+                - generic [ref=e711]:
+                  - heading "American Horror Story" [level=3] [ref=e712]
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: "2011"
+                    - generic [ref=e715]: "8.1"
+            - 'link "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!" [ref=e717] [cursor=pointer]':
+              - /url: /series/333622-magic-repo-man-dumped-by-my-party-i-ll-cash-in-with-a-cute-support-fairy-to-become-the-strongest-2026
+              - generic [ref=e718]:
+                - 'img "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!" [ref=e719]'
+                - generic [ref=e723]:
+                  - 'heading "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!" [level=3] [ref=e724]'
+                  - generic [ref=e725]: "2026"
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - heading "Movies on" [level=2] [ref=e108]
+          - button "Netflix" [ref=e110] [cursor=pointer]
+        - generic [ref=e728]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e729] [cursor=pointer]
+          - generic [ref=e731]:
+            - link "UNABOMBER" [ref=e732] [cursor=pointer]:
+              - /url: /movie/1492640-unabomber-2026
+              - generic [ref=e733]:
+                - img "UNABOMBER" [ref=e734]
+                - generic [ref=e738]:
+                  - heading "UNABOMBER" [level=3] [ref=e739]
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: "2026"
+                    - generic [ref=e742]: "6.6"
+            - link "Alien" [ref=e744] [cursor=pointer]:
+              - /url: /movie/348-alien-1979
+              - generic [ref=e745]:
+                - img "Alien" [ref=e746]
+                - generic [ref=e750]:
+                  - heading "Alien" [level=3] [ref=e751]
+                  - generic [ref=e752]:
+                    - generic [ref=e753]: "1979"
+                    - generic [ref=e754]: "8.2"
+            - 'link "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [ref=e756] [cursor=pointer]':
+              - /url: /movie/1311031-demon-slayer-kimetsu-no-yaiba-infinity-castle-2025
+              - generic [ref=e757]:
+                - 'img "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [ref=e758]'
+                - generic [ref=e762]:
+                  - 'heading "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [level=3] [ref=e763]'
+                  - generic [ref=e764]:
+                    - generic [ref=e765]: "2025"
+                    - generic [ref=e766]: "8.8"
+            - link "Facing El Chapo" [ref=e768] [cursor=pointer]:
+              - /url: /movie/1621552-facing-el-chapo-2026
+              - generic [ref=e769]:
+                - img "Facing El Chapo" [ref=e770]
+                - generic [ref=e774]:
+                  - heading "Facing El Chapo" [level=3] [ref=e775]
+                  - generic [ref=e776]:
+                    - generic [ref=e777]: "2026"
+                    - generic [ref=e778]: "8.8"
+            - 'link "Top Gun: Maverick" [ref=e780] [cursor=pointer]':
+              - /url: /movie/361743-top-gun-maverick-2022
+              - generic [ref=e781]:
+                - 'img "Top Gun: Maverick" [ref=e782]'
+                - generic [ref=e786]:
+                  - 'heading "Top Gun: Maverick" [level=3] [ref=e787]'
+                  - generic [ref=e788]:
+                    - generic [ref=e789]: "2022"
+                    - generic [ref=e790]: "8.2"
+            - 'link "Spider-Man: Into the Spider-Verse" [ref=e792] [cursor=pointer]':
+              - /url: /movie/324857-spider-man-into-the-spider-verse-2018
+              - generic [ref=e793]:
+                - 'img "Spider-Man: Into the Spider-Verse" [ref=e794]'
+                - generic [ref=e798]:
+                  - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=e799]'
+                  - generic [ref=e800]:
+                    - generic [ref=e801]: "2018"
+                    - generic [ref=e802]: "8.4"
+            - 'link "Karate Kid: Legends" [ref=e804] [cursor=pointer]':
+              - /url: /movie/1011477-karate-kid-legends-2025
+              - generic [ref=e805]:
+                - 'img "Karate Kid: Legends" [ref=e806]'
+                - generic [ref=e810]:
+                  - 'heading "Karate Kid: Legends" [level=3] [ref=e811]'
+                  - generic [ref=e812]:
+                    - generic [ref=e813]: "2025"
+                    - generic [ref=e814]: "7.0"
+            - 'link "The Hunger Games: Mockingjay - Part 1" [ref=e816] [cursor=pointer]':
+              - /url: /movie/131631-the-hunger-games-mockingjay-part-1-2014
+              - generic [ref=e817]:
+                - 'img "The Hunger Games: Mockingjay - Part 1" [ref=e818]'
+                - generic [ref=e822]:
+                  - 'heading "The Hunger Games: Mockingjay - Part 1" [level=3] [ref=e823]'
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: "2014"
+                    - generic [ref=e826]: "6.8"
+            - link "Jurassic World Rebirth" [ref=e828] [cursor=pointer]:
+              - /url: /movie/1234821-jurassic-world-rebirth-2025
+              - generic [ref=e829]:
+                - img "Jurassic World Rebirth" [ref=e830]
+                - generic [ref=e834]:
+                  - heading "Jurassic World Rebirth" [level=3] [ref=e835]
+                  - generic [ref=e836]:
+                    - generic [ref=e837]: "2025"
+                    - generic [ref=e838]: "6.3"
+            - link "White Chicks" [ref=e840] [cursor=pointer]:
+              - /url: /movie/12153-white-chicks-2004
+              - generic [ref=e841]:
+                - img "White Chicks" [ref=e842]
+                - generic [ref=e846]:
+                  - heading "White Chicks" [level=3] [ref=e847]
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: "2004"
+                    - generic [ref=e850]: "7.0"
+            - link "Vishwanath & Sons" [ref=e852] [cursor=pointer]:
+              - /url: /movie/1408162-vishwanath-sons-2026
+              - generic [ref=e853]:
+                - img "Vishwanath & Sons" [ref=e854]
+                - generic [ref=e858]:
+                  - heading "Vishwanath & Sons" [level=3] [ref=e859]
+                  - generic [ref=e860]:
+                    - generic [ref=e861]: "2026"
+                    - generic [ref=e862]: "7.2"
+            - link "Swapped" [ref=e864] [cursor=pointer]:
+              - /url: /movie/1007757-swapped-2026
+              - generic [ref=e865]:
+                - img "Swapped" [ref=e866]
+                - generic [ref=e870]:
+                  - heading "Swapped" [level=3] [ref=e871]
+                  - generic [ref=e872]:
+                    - generic [ref=e873]: "2026"
+                    - generic [ref=e874]: "8.9"
+            - link "Doing Life" [ref=e876] [cursor=pointer]:
+              - /url: /movie/1458857-doing-life-2026
+              - generic [ref=e877]:
+                - img "Doing Life" [ref=e878]
+                - generic [ref=e882]:
+                  - heading "Doing Life" [level=3] [ref=e883]
+                  - generic [ref=e884]:
+                    - generic [ref=e885]: "2026"
+                    - generic [ref=e886]: "6.1"
+            - link "War Machine" [ref=e888] [cursor=pointer]:
+              - /url: /movie/1265609-war-machine-2026
+              - generic [ref=e889]:
+                - img "War Machine" [ref=e890]
+                - generic [ref=e894]:
+                  - heading "War Machine" [level=3] [ref=e895]
+                  - generic [ref=e896]:
+                    - generic [ref=e897]: "2026"
+                    - generic [ref=e898]: "7.5"
+            - link "KPop Demon Hunters" [ref=e900] [cursor=pointer]:
+              - /url: /movie/803796-kpop-demon-hunters-2025
+              - generic [ref=e901]:
+                - img "KPop Demon Hunters" [ref=e902]
+                - generic [ref=e906]:
+                  - heading "KPop Demon Hunters" [level=3] [ref=e907]
+                  - generic [ref=e908]:
+                    - generic [ref=e909]: "2025"
+                    - generic [ref=e910]: "8.0"
+            - link "GOAT" [ref=e912] [cursor=pointer]:
+              - /url: /movie/1297842-goat-2026
+              - generic [ref=e913]:
+                - img "GOAT" [ref=e914]
+                - generic [ref=e918]:
+                  - heading "GOAT" [level=3] [ref=e919]
+                  - generic [ref=e920]:
+                    - generic [ref=e921]: "2026"
+                    - generic [ref=e922]: "8.1"
+            - link "The Whisper Man" [ref=e924] [cursor=pointer]:
+              - /url: /movie/860508-the-whisper-man-2026
+              - generic [ref=e925]:
+                - img "The Whisper Man" [ref=e926]
+                - generic [ref=e930]:
+                  - heading "The Whisper Man" [level=3] [ref=e931]
+                  - generic [ref=e932]:
+                    - generic [ref=e933]: "2026"
+                    - generic [ref=e934]: "6.9"
+            - link "The Devil Wears Prada" [ref=e936] [cursor=pointer]:
+              - /url: /movie/350-the-devil-wears-prada-2006
+              - generic [ref=e937]:
+                - img "The Devil Wears Prada" [ref=e938]
+                - generic [ref=e942]:
+                  - heading "The Devil Wears Prada" [level=3] [ref=e943]
+                  - generic [ref=e944]:
+                    - generic [ref=e945]: "2006"
+                    - generic [ref=e946]: "7.4"
+            - link "How to Train Your Dragon" [ref=e948] [cursor=pointer]:
+              - /url: /movie/1087192-how-to-train-your-dragon-2025
+              - generic [ref=e949]:
+                - img "How to Train Your Dragon" [ref=e950]
+                - generic [ref=e954]:
+                  - heading "How to Train Your Dragon" [level=3] [ref=e955]
+                  - generic [ref=e956]:
+                    - generic [ref=e957]: "2025"
+                    - generic [ref=e958]: "7.9"
+            - 'link "Puss in Boots: The Last Wish" [ref=e960] [cursor=pointer]':
+              - /url: /movie/315162-puss-in-boots-the-last-wish-2022
+              - generic [ref=e961]:
+                - 'img "Puss in Boots: The Last Wish" [ref=e962]'
+                - generic [ref=e966]:
+                  - 'heading "Puss in Boots: The Last Wish" [level=3] [ref=e967]'
+                  - generic [ref=e968]:
+                    - generic [ref=e969]: "2022"
+                    - generic [ref=e970]: "8.2"
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - heading "TV Series on" [level=2] [ref=e122]
+          - button "Netflix" [ref=e124] [cursor=pointer]
+        - generic [ref=e973]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e974] [cursor=pointer]
+          - generic [ref=e976]:
+            - link "The Scandal" [ref=e977] [cursor=pointer]:
+              - /url: /series/275102-the-scandal-2026
+              - generic [ref=e978]:
+                - img "The Scandal" [ref=e979]
+                - generic [ref=e983]:
+                  - heading "The Scandal" [level=3] [ref=e984]
+                  - generic [ref=e985]:
+                    - generic [ref=e986]: "2026"
+                    - generic [ref=e987]: "6.7"
+            - link "Grey's Anatomy" [ref=e989] [cursor=pointer]:
+              - /url: /series/1416-grey-s-anatomy-2005
+              - generic [ref=e990]:
+                - img "Grey's Anatomy" [ref=e991]
+                - generic [ref=e995]:
+                  - heading "Grey's Anatomy" [level=3] [ref=e996]
+                  - generic [ref=e997]:
+                    - generic [ref=e998]: "2005"
+                    - generic [ref=e999]: "8.2"
+            - link "Law & Order" [ref=e1001] [cursor=pointer]:
+              - /url: /series/549-law-order-1990
+              - generic [ref=e1002]:
+                - img "Law & Order" [ref=e1003]
+                - generic [ref=e1007]:
+                  - heading "Law & Order" [level=3] [ref=e1008]
+                  - generic [ref=e1009]:
+                    - generic [ref=e1010]: "1990"
+                    - generic [ref=e1011]: "7.3"
+            - link "NCIS" [ref=e1013] [cursor=pointer]:
+              - /url: /series/4614-ncis-2003
+              - generic [ref=e1014]:
+                - img "NCIS" [ref=e1015]
+                - generic [ref=e1019]:
+                  - heading "NCIS" [level=3] [ref=e1020]
+                  - generic [ref=e1021]:
+                    - generic [ref=e1022]: "2003"
+                    - generic [ref=e1023]: "7.6"
+            - link "C.I.D." [ref=e1025] [cursor=pointer]:
+              - /url: /series/15226-c-i-d-1998
+              - generic [ref=e1026]:
+                - img "C.I.D." [ref=e1027]
+                - generic [ref=e1031]:
+                  - heading "C.I.D." [level=3] [ref=e1032]
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]: "1998"
+                    - generic [ref=e1035]: "5.7"
+            - link "Raw" [ref=e1037] [cursor=pointer]:
+              - /url: /series/4656-raw-1993
+              - generic [ref=e1038]:
+                - img "Raw" [ref=e1039]
+                - generic [ref=e1043]:
+                  - heading "Raw" [level=3] [ref=e1044]
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]: "1993"
+                    - generic [ref=e1047]: "6.8"
+            - link "The Blacklist" [ref=e1049] [cursor=pointer]:
+              - /url: /series/46952-the-blacklist-2013
+              - generic [ref=e1050]:
+                - img "The Blacklist" [ref=e1051]
+                - generic [ref=e1055]:
+                  - heading "The Blacklist" [level=3] [ref=e1056]
+                  - generic [ref=e1057]:
+                    - generic [ref=e1058]: "2013"
+                    - generic [ref=e1059]: "7.6"
+            - link "Teen Titans Go!" [ref=e1061] [cursor=pointer]:
+              - /url: /series/45140-teen-titans-go-2013
+              - generic [ref=e1062]:
+                - img "Teen Titans Go!" [ref=e1063]
+                - generic [ref=e1067]:
+                  - heading "Teen Titans Go!" [level=3] [ref=e1068]
+                  - generic [ref=e1069]:
+                    - generic [ref=e1070]: "2013"
+                    - generic [ref=e1071]: "6.4"
+            - link "The Flash" [ref=e1073] [cursor=pointer]:
+              - /url: /series/60735-the-flash-2014
+              - generic [ref=e1074]:
+                - img "The Flash" [ref=e1075]
+                - generic [ref=e1079]:
+                  - heading "The Flash" [level=3] [ref=e1080]
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]: "2014"
+                    - generic [ref=e1083]: "7.7"
+            - link "JoJo's Bizarre Adventure" [ref=e1085] [cursor=pointer]:
+              - /url: /series/45790-jojo-s-bizarre-adventure-2012
+              - generic [ref=e1086]:
+                - img "JoJo's Bizarre Adventure" [ref=e1087]
+                - generic [ref=e1091]:
+                  - heading "JoJo's Bizarre Adventure" [level=3] [ref=e1092]
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: "2012"
+                    - generic [ref=e1095]: "8.5"
+            - link "Shameless" [ref=e1097] [cursor=pointer]:
+              - /url: /series/34307-shameless-2011
+              - generic [ref=e1098]:
+                - img "Shameless" [ref=e1099]
+                - generic [ref=e1103]:
+                  - heading "Shameless" [level=3] [ref=e1104]
+                  - generic [ref=e1105]:
+                    - generic [ref=e1106]: "2011"
+                    - generic [ref=e1107]: "8.2"
+            - link "Sesame Street" [ref=e1109] [cursor=pointer]:
+              - /url: /series/502-sesame-street-1969
+              - generic [ref=e1110]:
+                - img "Sesame Street" [ref=e1111]
+                - generic [ref=e1115]:
+                  - heading "Sesame Street" [level=3] [ref=e1116]
+                  - generic [ref=e1117]:
+                    - generic [ref=e1118]: "1969"
+                    - generic [ref=e1119]: "7.1"
+            - link "Hawaii Five-0" [ref=e1121] [cursor=pointer]:
+              - /url: /series/32798-hawaii-five-0-2010
+              - generic [ref=e1122]:
+                - img "Hawaii Five-0" [ref=e1123]
+                - generic [ref=e1127]:
+                  - heading "Hawaii Five-0" [level=3] [ref=e1128]
+                  - generic [ref=e1129]:
+                    - generic [ref=e1130]: "2010"
+                    - generic [ref=e1131]: "7.7"
+            - link "Breaking Bad" [ref=e1133] [cursor=pointer]:
+              - /url: /series/1396-breaking-bad-2008
+              - generic [ref=e1134]:
+                - img "Breaking Bad" [ref=e1135]
+                - generic [ref=e1139]:
+                  - heading "Breaking Bad" [level=3] [ref=e1140]
+                  - generic [ref=e1141]:
+                    - generic [ref=e1142]: "2008"
+                    - generic [ref=e1143]: "9.0"
+            - link "Good Mythical Morning" [ref=e1145] [cursor=pointer]:
+              - /url: /series/65701-good-mythical-morning-2012
+              - generic [ref=e1146]:
+                - img "Good Mythical Morning" [ref=e1147]
+                - generic [ref=e1151]:
+                  - heading "Good Mythical Morning" [level=3] [ref=e1152]
+                  - generic [ref=e1153]:
+                    - generic [ref=e1154]: "2012"
+                    - generic [ref=e1155]: "6.9"
+            - link "S.W.A.T." [ref=e1157] [cursor=pointer]:
+              - /url: /series/71790-s-w-a-t-2017
+              - generic [ref=e1158]:
+                - img "S.W.A.T." [ref=e1159]
+                - generic [ref=e1163]:
+                  - heading "S.W.A.T." [level=3] [ref=e1164]
+                  - generic [ref=e1165]:
+                    - generic [ref=e1166]: "2017"
+                    - generic [ref=e1167]: "8.0"
+            - link "Detective Conan" [ref=e1169] [cursor=pointer]:
+              - /url: /series/30983-detective-conan-1996
+              - generic [ref=e1170]:
+                - img "Detective Conan" [ref=e1171]
+                - generic [ref=e1175]:
+                  - heading "Detective Conan" [level=3] [ref=e1176]
+                  - generic [ref=e1177]:
+                    - generic [ref=e1178]: "1996"
+                    - generic [ref=e1179]: "8.0"
+            - link "Stranger Things" [ref=e1181] [cursor=pointer]:
+              - /url: /series/66732-stranger-things-2016
+              - generic [ref=e1182]:
+                - img "Stranger Things" [ref=e1183]
+                - generic [ref=e1187]:
+                  - heading "Stranger Things" [level=3] [ref=e1188]
+                  - generic [ref=e1189]:
+                    - generic [ref=e1190]: "2016"
+                    - generic [ref=e1191]: "8.5"
+            - 'link "Miraculous: Tales of Ladybug & Cat Noir" [ref=e1193] [cursor=pointer]':
+              - /url: /series/65334-miraculous-tales-of-ladybug-cat-noir-2015
+              - generic [ref=e1194]:
+                - 'img "Miraculous: Tales of Ladybug & Cat Noir" [ref=e1195]'
+                - generic [ref=e1199]:
+                  - 'heading "Miraculous: Tales of Ladybug & Cat Noir" [level=3] [ref=e1200]'
+                  - generic [ref=e1201]:
+                    - generic [ref=e1202]: "2015"
+                    - generic [ref=e1203]: "8.1"
+            - link "PAW Patrol" [ref=e1205] [cursor=pointer]:
+              - /url: /series/57532-paw-patrol-2013
+              - generic [ref=e1206]:
+                - img "PAW Patrol" [ref=e1207]
+                - generic [ref=e1211]:
+                  - heading "PAW Patrol" [level=3] [ref=e1212]
+                  - generic [ref=e1213]:
+                    - generic [ref=e1214]: "2013"
+                    - generic [ref=e1215]: "7.0"
+      - generic [ref=e1217]:
+        - heading "Award Winning Movies" [level=2] [ref=e1219]
+        - generic [ref=e1220]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e1221] [cursor=pointer]
+          - generic [ref=e1223]:
+            - link "Anora" [ref=e1224] [cursor=pointer]:
+              - /url: /movie/1064213-anora-2024
+              - generic [ref=e1225]:
+                - img "Anora" [ref=e1226]
+                - generic [ref=e1230]:
+                  - heading "Anora" [level=3] [ref=e1231]
+                  - generic [ref=e1232]:
+                    - generic [ref=e1233]: "2024"
+                    - generic [ref=e1234]: "7.1"
+            - link "Oppenheimer" [ref=e1236] [cursor=pointer]:
+              - /url: /movie/872585-oppenheimer-2023
+              - generic [ref=e1237]:
+                - img "Oppenheimer" [ref=e1238]
+                - generic [ref=e1242]:
+                  - heading "Oppenheimer" [level=3] [ref=e1243]
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]: "2023"
+                    - generic [ref=e1246]: "8.0"
+            - link "Everything Everywhere All at Once" [ref=e1248] [cursor=pointer]:
+              - /url: /movie/545611-everything-everywhere-all-at-once-2022
+              - generic [ref=e1249]:
+                - img "Everything Everywhere All at Once" [ref=e1250]
+                - generic [ref=e1254]:
+                  - heading "Everything Everywhere All at Once" [level=3] [ref=e1255]
+                  - generic [ref=e1256]:
+                    - generic [ref=e1257]: "2022"
+                    - generic [ref=e1258]: "7.7"
+            - link "CODA" [ref=e1260] [cursor=pointer]:
+              - /url: /movie/776503-coda-2021
+              - generic [ref=e1261]:
+                - img "CODA" [ref=e1262]
+                - generic [ref=e1266]:
+                  - heading "CODA" [level=3] [ref=e1267]
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: "2021"
+                    - generic [ref=e1270]: "7.9"
+            - link "Nomadland" [ref=e1272] [cursor=pointer]:
+              - /url: /movie/581734-nomadland-2021
+              - generic [ref=e1273]:
+                - img "Nomadland" [ref=e1274]
+                - generic [ref=e1278]:
+                  - heading "Nomadland" [level=3] [ref=e1279]
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]: "2021"
+                    - generic [ref=e1282]: "7.2"
+            - link "Parasite" [ref=e1284] [cursor=pointer]:
+              - /url: /movie/496243-parasite-2019
+              - generic [ref=e1285]:
+                - img "Parasite" [ref=e1286]
+                - generic [ref=e1290]:
+                  - heading "Parasite" [level=3] [ref=e1291]
+                  - generic [ref=e1292]:
+                    - generic [ref=e1293]: "2019"
+                    - generic [ref=e1294]: "8.5"
+            - link "Green Book" [ref=e1296] [cursor=pointer]:
+              - /url: /movie/490132-green-book-2018
+              - generic [ref=e1297]:
+                - img "Green Book" [ref=e1298]
+                - generic [ref=e1302]:
+                  - heading "Green Book" [level=3] [ref=e1303]
+                  - generic [ref=e1304]:
+                    - generic [ref=e1305]: "2018"
+                    - generic [ref=e1306]: "8.2"
+            - link "The Shape of Water" [ref=e1308] [cursor=pointer]:
+              - /url: /movie/399055-the-shape-of-water-2017
+              - generic [ref=e1309]:
+                - img "The Shape of Water" [ref=e1310]
+                - generic [ref=e1314]:
+                  - heading "The Shape of Water" [level=3] [ref=e1315]
+                  - generic [ref=e1316]:
+                    - generic [ref=e1317]: "2017"
+                    - generic [ref=e1318]: "7.2"
+            - link "Moonlight" [ref=e1320] [cursor=pointer]:
+              - /url: /movie/376867-moonlight-2016
+              - generic [ref=e1321]:
+                - img "Moonlight" [ref=e1322]
+                - generic [ref=e1326]:
+                  - heading "Moonlight" [level=3] [ref=e1327]
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: "2016"
+                    - generic [ref=e1330]: "7.4"
+            - link "Spotlight" [ref=e1332] [cursor=pointer]:
+              - /url: /movie/314365-spotlight-2015
+              - generic [ref=e1333]:
+                - img "Spotlight" [ref=e1334]
+                - generic [ref=e1338]:
+                  - heading "Spotlight" [level=3] [ref=e1339]
+                  - generic [ref=e1340]:
+                    - generic [ref=e1341]: "2015"
+                    - generic [ref=e1342]: "7.8"
+            - link "Birdman or (The Unexpected Virtue of Ignorance)" [ref=e1344] [cursor=pointer]:
+              - /url: /movie/194662-birdman-or-the-unexpected-virtue-of-ignorance-2014
+              - generic [ref=e1345]:
+                - img "Birdman or (The Unexpected Virtue of Ignorance)" [ref=e1346]
+                - generic [ref=e1350]:
+                  - heading "Birdman or (The Unexpected Virtue of Ignorance)" [level=3] [ref=e1351]
+                  - generic [ref=e1352]:
+                    - generic [ref=e1353]: "2014"
+                    - generic [ref=e1354]: "7.4"
+            - link "12 Years a Slave" [ref=e1356] [cursor=pointer]:
+              - /url: /movie/76203-12-years-a-slave-2013
+              - generic [ref=e1357]:
+                - img "12 Years a Slave" [ref=e1358]
+                - generic [ref=e1362]:
+                  - heading "12 Years a Slave" [level=3] [ref=e1363]
+                  - generic [ref=e1364]:
+                    - generic [ref=e1365]: "2013"
+                    - generic [ref=e1366]: "7.9"
+            - link "Argo" [ref=e1368] [cursor=pointer]:
+              - /url: /movie/68734-argo-2012
+              - generic [ref=e1369]:
+                - img "Argo" [ref=e1370]
+                - generic [ref=e1374]:
+                  - heading "Argo" [level=3] [ref=e1375]
+                  - generic [ref=e1376]:
+                    - generic [ref=e1377]: "2012"
+                    - generic [ref=e1378]: "7.3"
+            - link "The Artist" [ref=e1380] [cursor=pointer]:
+              - /url: /movie/74643-the-artist-2011
+              - generic [ref=e1381]:
+                - img "The Artist" [ref=e1382]
+                - generic [ref=e1386]:
+                  - heading "The Artist" [level=3] [ref=e1387]
+                  - generic [ref=e1388]:
+                    - generic [ref=e1389]: "2011"
+                    - generic [ref=e1390]: "7.4"
+            - link "The King's Speech" [ref=e1392] [cursor=pointer]:
+              - /url: /movie/45269-the-king-s-speech-2010
+              - generic [ref=e1393]:
+                - img "The King's Speech" [ref=e1394]
+                - generic [ref=e1398]:
+                  - heading "The King's Speech" [level=3] [ref=e1399]
+                  - generic [ref=e1400]:
+                    - generic [ref=e1401]: "2010"
+                    - generic [ref=e1402]: "7.7"
+            - link "The Hurt Locker" [ref=e1404] [cursor=pointer]:
+              - /url: /movie/12162-the-hurt-locker-2008
+              - generic [ref=e1405]:
+                - img "The Hurt Locker" [ref=e1406]
+                - generic [ref=e1410]:
+                  - heading "The Hurt Locker" [level=3] [ref=e1411]
+                  - generic [ref=e1412]:
+                    - generic [ref=e1413]: "2008"
+                    - generic [ref=e1414]: "7.2"
+            - link "Slumdog Millionaire" [ref=e1416] [cursor=pointer]:
+              - /url: /movie/12405-slumdog-millionaire-2008
+              - generic [ref=e1417]:
+                - img "Slumdog Millionaire" [ref=e1418]
+                - generic [ref=e1422]:
+                  - heading "Slumdog Millionaire" [level=3] [ref=e1423]
+                  - generic [ref=e1424]:
+                    - generic [ref=e1425]: "2008"
+                    - generic [ref=e1426]: "7.7"
+            - link "No Country for Old Men" [ref=e1428] [cursor=pointer]:
+              - /url: /movie/6977-no-country-for-old-men-2007
+              - generic [ref=e1429]:
+                - img "No Country for Old Men" [ref=e1430]
+                - generic [ref=e1434]:
+                  - heading "No Country for Old Men" [level=3] [ref=e1435]
+                  - generic [ref=e1436]:
+                    - generic [ref=e1437]: "2007"
+                    - generic [ref=e1438]: "8.0"
+            - link "The Departed" [ref=e1440] [cursor=pointer]:
+              - /url: /movie/1422-the-departed-2006
+              - generic [ref=e1441]:
+                - img "The Departed" [ref=e1442]
+                - generic [ref=e1446]:
+                  - heading "The Departed" [level=3] [ref=e1447]
+                  - generic [ref=e1448]:
+                    - generic [ref=e1449]: "2006"
+                    - generic [ref=e1450]: "8.2"
+            - link "Crash" [ref=e1452] [cursor=pointer]:
+              - /url: /movie/1640-crash-2005
+              - generic [ref=e1453]:
+                - img "Crash" [ref=e1454]
+                - generic [ref=e1458]:
+                  - heading "Crash" [level=3] [ref=e1459]
+                  - generic [ref=e1460]:
+                    - generic [ref=e1461]: "2005"
+                    - generic [ref=e1462]: "7.2"
+            - link "Million Dollar Baby" [ref=e1464] [cursor=pointer]:
+              - /url: /movie/70-million-dollar-baby-2004
+              - generic [ref=e1465]:
+                - img "Million Dollar Baby" [ref=e1466]
+                - generic [ref=e1470]:
+                  - heading "Million Dollar Baby" [level=3] [ref=e1471]
+                  - generic [ref=e1472]:
+                    - generic [ref=e1473]: "2004"
+                    - generic [ref=e1474]: "8.0"
+            - 'link "The Lord of the Rings: The Return of the King" [ref=e1476] [cursor=pointer]':
+              - /url: /movie/122-the-lord-of-the-rings-the-return-of-the-king-2003
+              - generic [ref=e1477]:
+                - 'img "The Lord of the Rings: The Return of the King" [ref=e1478]'
+                - generic [ref=e1482]:
+                  - 'heading "The Lord of the Rings: The Return of the King" [level=3] [ref=e1483]'
+                  - generic [ref=e1484]:
+                    - generic [ref=e1485]: "2003"
+                    - generic [ref=e1486]: "8.5"
+            - link "A Beautiful Mind" [ref=e1488] [cursor=pointer]:
+              - /url: /movie/453-a-beautiful-mind-2001
+              - generic [ref=e1489]:
+                - img "A Beautiful Mind" [ref=e1490]
+                - generic [ref=e1494]:
+                  - heading "A Beautiful Mind" [level=3] [ref=e1495]
+                  - generic [ref=e1496]:
+                    - generic [ref=e1497]: "2001"
+                    - generic [ref=e1498]: "7.9"
+            - link "Gladiator" [ref=e1500] [cursor=pointer]:
+              - /url: /movie/98-gladiator-2000
+              - generic [ref=e1501]:
+                - img "Gladiator" [ref=e1502]
+                - generic [ref=e1506]:
+                  - heading "Gladiator" [level=3] [ref=e1507]
+                  - generic [ref=e1508]:
+                    - generic [ref=e1509]: "2000"
+                    - generic [ref=e1510]: "8.2"
+            - link "American Beauty" [ref=e1512] [cursor=pointer]:
+              - /url: /movie/14-american-beauty-1999
+              - generic [ref=e1513]:
+                - img "American Beauty" [ref=e1514]
+                - generic [ref=e1518]:
+                  - heading "American Beauty" [level=3] [ref=e1519]
+                  - generic [ref=e1520]:
+                    - generic [ref=e1521]: "1999"
+                    - generic [ref=e1522]: "8.0"
+            - link "Titanic" [ref=e1524] [cursor=pointer]:
+              - /url: /movie/597-titanic-1997
+              - generic [ref=e1525]:
+                - img "Titanic" [ref=e1526]
+                - generic [ref=e1530]:
+                  - heading "Titanic" [level=3] [ref=e1531]
+                  - generic [ref=e1532]:
+                    - generic [ref=e1533]: "1997"
+                    - generic [ref=e1534]: "7.9"
+            - link "Forrest Gump" [ref=e1536] [cursor=pointer]:
+              - /url: /movie/13-forrest-gump-1994
+              - generic [ref=e1537]:
+                - img "Forrest Gump" [ref=e1538]
+                - generic [ref=e1542]:
+                  - heading "Forrest Gump" [level=3] [ref=e1543]
+                  - generic [ref=e1544]:
+                    - generic [ref=e1545]: "1994"
+                    - generic [ref=e1546]: "8.5"
+            - link "Schindler's List" [ref=e1548] [cursor=pointer]:
+              - /url: /movie/424-schindler-s-list-1993
+              - generic [ref=e1549]:
+                - img "Schindler's List" [ref=e1550]
+                - generic [ref=e1554]:
+                  - heading "Schindler's List" [level=3] [ref=e1555]
+                  - generic [ref=e1556]:
+                    - generic [ref=e1557]: "1993"
+                    - generic [ref=e1558]: "8.6"
+            - link "The Silence of the Lambs" [ref=e1560] [cursor=pointer]:
+              - /url: /movie/274-the-silence-of-the-lambs-1991
+              - generic [ref=e1561]:
+                - img "The Silence of the Lambs" [ref=e1562]
+                - generic [ref=e1566]:
+                  - heading "The Silence of the Lambs" [level=3] [ref=e1567]
+                  - generic [ref=e1568]:
+                    - generic [ref=e1569]: "1991"
+                    - generic [ref=e1570]: "8.3"
+            - link "The Godfather" [ref=e1572] [cursor=pointer]:
+              - /url: /movie/238-the-godfather-1972
+              - generic [ref=e1573]:
+                - img "The Godfather" [ref=e1574]
+                - generic [ref=e1578]:
+                  - heading "The Godfather" [level=3] [ref=e1579]
+                  - generic [ref=e1580]:
+                    - generic [ref=e1581]: "1972"
+                    - generic [ref=e1582]: "8.7"
+      - generic [ref=e1584]:
+        - heading "Award Winning Shows" [level=2] [ref=e1586]
+        - generic [ref=e1587]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e1588] [cursor=pointer]
+          - generic [ref=e1590]:
+            - link "Shōgun" [ref=e1591] [cursor=pointer]:
+              - /url: /series/126308-shogun-2024
+              - generic [ref=e1592]:
+                - img "Shōgun" [ref=e1593]
+                - generic [ref=e1597]:
+                  - heading "Shōgun" [level=3] [ref=e1598]
+                  - generic [ref=e1599]:
+                    - generic [ref=e1600]: "2024"
+                    - generic [ref=e1601]: "8.4"
+            - link "Baby Reindeer" [ref=e1603] [cursor=pointer]:
+              - /url: /series/241259-baby-reindeer-2024
+              - generic [ref=e1604]:
+                - img "Baby Reindeer" [ref=e1605]
+                - generic [ref=e1609]:
+                  - heading "Baby Reindeer" [level=3] [ref=e1610]
+                  - generic [ref=e1611]:
+                    - generic [ref=e1612]: "2024"
+                    - generic [ref=e1613]: "7.6"
+            - link "BEEF" [ref=e1615] [cursor=pointer]:
+              - /url: /series/154385-beef-2023
+              - generic [ref=e1616]:
+                - img "BEEF" [ref=e1617]
+                - generic [ref=e1621]:
+                  - heading "BEEF" [level=3] [ref=e1622]
+                  - generic [ref=e1623]:
+                    - generic [ref=e1624]: "2023"
+                    - generic [ref=e1625]: "7.8"
+            - link "The Bear" [ref=e1627] [cursor=pointer]:
+              - /url: /series/136315-the-bear-2022
+              - generic [ref=e1628]:
+                - img "The Bear" [ref=e1629]
+                - generic [ref=e1633]:
+                  - heading "The Bear" [level=3] [ref=e1634]
+                  - generic [ref=e1635]:
+                    - generic [ref=e1636]: "2022"
+                    - generic [ref=e1637]: "8.2"
+            - link "Hacks" [ref=e1639] [cursor=pointer]:
+              - /url: /series/124101-hacks-2021
+              - generic [ref=e1640]:
+                - img "Hacks" [ref=e1641]
+                - generic [ref=e1645]:
+                  - heading "Hacks" [level=3] [ref=e1646]
+                  - generic [ref=e1647]:
+                    - generic [ref=e1648]: "2021"
+                    - generic [ref=e1649]: "7.5"
+            - link "The White Lotus" [ref=e1651] [cursor=pointer]:
+              - /url: /series/111803-the-white-lotus-2021
+              - generic [ref=e1652]:
+                - img "The White Lotus" [ref=e1653]
+                - generic [ref=e1657]:
+                  - heading "The White Lotus" [level=3] [ref=e1658]
+                  - generic [ref=e1659]:
+                    - generic [ref=e1660]: "2021"
+                    - generic [ref=e1661]: "7.6"
+            - link "Succession" [ref=e1663] [cursor=pointer]:
+              - /url: /series/76331-succession-2018
+              - generic [ref=e1664]:
+                - img "Succession" [ref=e1665]
+                - generic [ref=e1669]:
+                  - heading "Succession" [level=3] [ref=e1670]
+                  - generic [ref=e1671]:
+                    - generic [ref=e1672]: "2018"
+                    - generic [ref=e1673]: "8.3"
+            - link "Ted Lasso" [ref=e1675] [cursor=pointer]:
+              - /url: /series/97546-ted-lasso-2020
+              - generic [ref=e1676]:
+                - img "Ted Lasso" [ref=e1677]
+                - generic [ref=e1681]:
+                  - heading "Ted Lasso" [level=3] [ref=e1682]
+                  - generic [ref=e1683]:
+                    - generic [ref=e1684]: "2020"
+                    - generic [ref=e1685]: "8.4"
+            - link "The Queen's Gambit" [ref=e1687] [cursor=pointer]:
+              - /url: /series/87739-the-queen-s-gambit-2020
+              - generic [ref=e1688]:
+                - img "The Queen's Gambit" [ref=e1689]
+                - generic [ref=e1693]:
+                  - heading "The Queen's Gambit" [level=3] [ref=e1694]
+                  - generic [ref=e1695]:
+                    - generic [ref=e1696]: "2020"
+                    - generic [ref=e1697]: "8.4"
+            - link "The Crown" [ref=e1699] [cursor=pointer]:
+              - /url: /series/65494-the-crown-2016
+              - generic [ref=e1700]:
+                - img "The Crown" [ref=e1701]
+                - generic [ref=e1705]:
+                  - heading "The Crown" [level=3] [ref=e1706]
+                  - generic [ref=e1707]:
+                    - generic [ref=e1708]: "2016"
+                    - generic [ref=e1709]: "8.2"
+            - link "Chernobyl" [ref=e1711] [cursor=pointer]:
+              - /url: /series/87108-chernobyl-2019
+              - generic [ref=e1712]:
+                - img "Chernobyl" [ref=e1713]
+                - generic [ref=e1717]:
+                  - heading "Chernobyl" [level=3] [ref=e1718]
+                  - generic [ref=e1719]:
+                    - generic [ref=e1720]: "2019"
+                    - generic [ref=e1721]: "8.7"
+            - link "Schitt's Creek" [ref=e1723] [cursor=pointer]:
+              - /url: /series/61662-schitt-s-creek-2015
+              - generic [ref=e1724]:
+                - img "Schitt's Creek" [ref=e1725]
+                - generic [ref=e1729]:
+                  - heading "Schitt's Creek" [level=3] [ref=e1730]
+                  - generic [ref=e1731]:
+                    - generic [ref=e1732]: "2015"
+                    - generic [ref=e1733]: "7.8"
+            - link "Fleabag" [ref=e1735] [cursor=pointer]:
+              - /url: /series/67070-fleabag-2016
+              - generic [ref=e1736]:
+                - img "Fleabag" [ref=e1737]
+                - generic [ref=e1741]:
+                  - heading "Fleabag" [level=3] [ref=e1742]
+                  - generic [ref=e1743]:
+                    - generic [ref=e1744]: "2016"
+                    - generic [ref=e1745]: "8.3"
+            - link "The Marvelous Mrs. Maisel" [ref=e1747] [cursor=pointer]:
+              - /url: /series/70796-the-marvelous-mrs-maisel-2017
+              - generic [ref=e1748]:
+                - img "The Marvelous Mrs. Maisel" [ref=e1749]
+                - generic [ref=e1753]:
+                  - heading "The Marvelous Mrs. Maisel" [level=3] [ref=e1754]
+                  - generic [ref=e1755]:
+                    - generic [ref=e1756]: "2017"
+                    - generic [ref=e1757]: "8.1"
+            - link "The Handmaid's Tale" [ref=e1759] [cursor=pointer]:
+              - /url: /series/69478-the-handmaid-s-tale-2017
+              - generic [ref=e1760]:
+                - img "The Handmaid's Tale" [ref=e1761]
+                - generic [ref=e1765]:
+                  - heading "The Handmaid's Tale" [level=3] [ref=e1766]
+                  - generic [ref=e1767]:
+                    - generic [ref=e1768]: "2017"
+                    - generic [ref=e1769]: "8.2"
+            - link "Game of Thrones" [ref=e1771] [cursor=pointer]:
+              - /url: /series/1399-game-of-thrones-2011
+              - generic [ref=e1772]:
+                - img "Game of Thrones" [ref=e1773]
+                - generic [ref=e1777]:
+                  - heading "Game of Thrones" [level=3] [ref=e1778]
+                  - generic [ref=e1779]:
+                    - generic [ref=e1780]: "2011"
+                    - generic [ref=e1781]: "8.5"
+            - link "Breaking Bad" [ref=e1783] [cursor=pointer]:
+              - /url: /series/1396-breaking-bad-2008
+              - generic [ref=e1784]:
+                - img "Breaking Bad" [ref=e1785]
+                - generic [ref=e1789]:
+                  - heading "Breaking Bad" [level=3] [ref=e1790]
+                  - generic [ref=e1791]:
+                    - generic [ref=e1792]: "2008"
+                    - generic [ref=e1793]: "9.0"
+            - link "Homeland" [ref=e1795] [cursor=pointer]:
+              - /url: /series/1407-homeland-2011
+              - generic [ref=e1796]:
+                - img "Homeland" [ref=e1797]
+                - generic [ref=e1801]:
+                  - heading "Homeland" [level=3] [ref=e1802]
+                  - generic [ref=e1803]:
+                    - generic [ref=e1804]: "2011"
+                    - generic [ref=e1805]: "7.6"
+            - link "Veep" [ref=e1807] [cursor=pointer]:
+              - /url: /series/2947-veep-2012
+              - generic [ref=e1808]:
+                - img "Veep" [ref=e1809]
+                - generic [ref=e1813]:
+                  - heading "Veep" [level=3] [ref=e1814]
+                  - generic [ref=e1815]:
+                    - generic [ref=e1816]: "2012"
+                    - generic [ref=e1817]: "7.5"
+            - link "Modern Family" [ref=e1819] [cursor=pointer]:
+              - /url: /series/1421-modern-family-2009
+              - generic [ref=e1820]:
+                - img "Modern Family" [ref=e1821]
+                - generic [ref=e1825]:
+                  - heading "Modern Family" [level=3] [ref=e1826]
+                  - generic [ref=e1827]:
+                    - generic [ref=e1828]: "2009"
+                    - generic [ref=e1829]: "7.9"
+            - link "Mad Men" [ref=e1831] [cursor=pointer]:
+              - /url: /series/1104-mad-men-2007
+              - generic [ref=e1832]:
+                - img "Mad Men" [ref=e1833]
+                - generic [ref=e1837]:
+                  - heading "Mad Men" [level=3] [ref=e1838]
+                  - generic [ref=e1839]:
+                    - generic [ref=e1840]: "2007"
+                    - generic [ref=e1841]: "8.1"
+            - link "30 Rock" [ref=e1843] [cursor=pointer]:
+              - /url: /series/4608-30-rock-2006
+              - generic [ref=e1844]:
+                - img "30 Rock" [ref=e1845]
+                - generic [ref=e1849]:
+                  - heading "30 Rock" [level=3] [ref=e1850]
+                  - generic [ref=e1851]:
+                    - generic [ref=e1852]: "2006"
+                    - generic [ref=e1853]: "7.5"
+            - link "Lost" [ref=e1855] [cursor=pointer]:
+              - /url: /series/4607-lost-2004
+              - generic [ref=e1856]:
+                - img "Lost" [ref=e1857]
+                - generic [ref=e1861]:
+                  - heading "Lost" [level=3] [ref=e1862]
+                  - generic [ref=e1863]:
+                    - generic [ref=e1864]: "2004"
+                    - generic [ref=e1865]: "8.0"
+            - link "Arrested Development" [ref=e1867] [cursor=pointer]:
+              - /url: /series/4589-arrested-development-2003
+              - generic [ref=e1868]:
+                - img "Arrested Development" [ref=e1869]
+                - generic [ref=e1873]:
+                  - heading "Arrested Development" [level=3] [ref=e1874]
+                  - generic [ref=e1875]:
+                    - generic [ref=e1876]: "2003"
+                    - generic [ref=e1877]: "7.9"
+            - link "The Sopranos" [ref=e1879] [cursor=pointer]:
+              - /url: /series/1398-the-sopranos-1999
+              - generic [ref=e1880]:
+                - img "The Sopranos" [ref=e1881]
+                - generic [ref=e1885]:
+                  - heading "The Sopranos" [level=3] [ref=e1886]
+                  - generic [ref=e1887]:
+                    - generic [ref=e1888]: "1999"
+                    - generic [ref=e1889]: "8.7"
+            - link "The West Wing" [ref=e1891] [cursor=pointer]:
+              - /url: /series/688-the-west-wing-1999
+              - generic [ref=e1892]:
+                - img "The West Wing" [ref=e1893]
+                - generic [ref=e1897]:
+                  - heading "The West Wing" [level=3] [ref=e1898]
+                  - generic [ref=e1899]:
+                    - generic [ref=e1900]: "1999"
+                    - generic [ref=e1901]: "8.3"
+            - link "Everybody Loves Raymond" [ref=e1903] [cursor=pointer]:
+              - /url: /series/2140-everybody-loves-raymond-1996
+              - generic [ref=e1904]:
+                - img "Everybody Loves Raymond" [ref=e1905]
+                - generic [ref=e1909]:
+                  - heading "Everybody Loves Raymond" [level=3] [ref=e1910]
+                  - generic [ref=e1911]:
+                    - generic [ref=e1912]: "1996"
+                    - generic [ref=e1913]: "6.8"
+            - link "Frasier" [ref=e1915] [cursor=pointer]:
+              - /url: /series/3452-frasier-1993
+              - generic [ref=e1916]:
+                - img "Frasier" [ref=e1917]
+                - generic [ref=e1921]:
+                  - heading "Frasier" [level=3] [ref=e1922]
+                  - generic [ref=e1923]:
+                    - generic [ref=e1924]: "1993"
+                    - generic [ref=e1925]: "7.7"
+      - generic [ref=e1927]:
+        - generic [ref=e1928]:
+          - heading "Top Rated Movies" [level=2] [ref=e1929]
+          - link "View All" [ref=e1930] [cursor=pointer]:
+            - /url: /category/movie/top_rated
+        - generic [ref=e1933]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e1934] [cursor=pointer]
+          - generic [ref=e1936]:
+            - 'link "Batman: Knightfall Part 1: Knightfall" [ref=e1937] [cursor=pointer]':
+              - /url: /movie/1560520-batman-knightfall-part-1-knightfall-2026
+              - generic [ref=e1938]:
+                - 'img "Batman: Knightfall Part 1: Knightfall" [ref=e1939]'
+                - generic [ref=e1943]:
+                  - 'heading "Batman: Knightfall Part 1: Knightfall" [level=3] [ref=e1944]'
+                  - generic [ref=e1945]:
+                    - generic [ref=e1946]: "2026"
+                    - generic [ref=e1947]: "9.2"
+            - 'link "Avatar Aang: The Last Airbender" [ref=e1949] [cursor=pointer]':
+              - /url: /movie/980431-avatar-aang-the-last-airbender-2026
+              - generic [ref=e1950]:
+                - 'img "Avatar Aang: The Last Airbender" [ref=e1951]'
+                - generic [ref=e1955]:
+                  - 'heading "Avatar Aang: The Last Airbender" [level=3] [ref=e1956]'
+                  - generic [ref=e1957]:
+                    - generic [ref=e1958]: "2026"
+                    - generic [ref=e1959]: "9.1"
+            - link "Swapped" [ref=e1961] [cursor=pointer]:
+              - /url: /movie/1007757-swapped-2026
+              - generic [ref=e1962]:
+                - img "Swapped" [ref=e1963]
+                - generic [ref=e1967]:
+                  - heading "Swapped" [level=3] [ref=e1968]
+                  - generic [ref=e1969]:
+                    - generic [ref=e1970]: "2026"
+                    - generic [ref=e1971]: "8.9"
+            - link "Accidental Partners" [ref=e1973] [cursor=pointer]:
+              - /url: /movie/1632181-accidental-partners-2026
+              - generic [ref=e1974]:
+                - img "Accidental Partners" [ref=e1975]
+                - generic [ref=e1979]:
+                  - heading "Accidental Partners" [level=3] [ref=e1980]
+                  - generic [ref=e1981]:
+                    - generic [ref=e1982]: "2026"
+                    - generic [ref=e1983]: "8.8"
+            - 'link "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [ref=e1985] [cursor=pointer]':
+              - /url: /movie/1311031-demon-slayer-kimetsu-no-yaiba-infinity-castle-2025
+              - generic [ref=e1986]:
+                - 'img "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [ref=e1987]'
+                - generic [ref=e1991]:
+                  - 'heading "Demon Slayer: Kimetsu no Yaiba Infinity Castle" [level=3] [ref=e1992]'
+                  - generic [ref=e1993]:
+                    - generic [ref=e1994]: "2025"
+                    - generic [ref=e1995]: "8.8"
+            - link "Facing El Chapo" [ref=e1997] [cursor=pointer]:
+              - /url: /movie/1621552-facing-el-chapo-2026
+              - generic [ref=e1998]:
+                - img "Facing El Chapo" [ref=e1999]
+                - generic [ref=e2003]:
+                  - heading "Facing El Chapo" [level=3] [ref=e2004]
+                  - generic [ref=e2005]:
+                    - generic [ref=e2006]: "2026"
+                    - generic [ref=e2007]: "8.8"
+            - link "The Shawshank Redemption" [ref=e2009] [cursor=pointer]:
+              - /url: /movie/278-the-shawshank-redemption-1994
+              - generic [ref=e2010]:
+                - img "The Shawshank Redemption" [ref=e2011]
+                - generic [ref=e2015]:
+                  - heading "The Shawshank Redemption" [level=3] [ref=e2016]
+                  - generic [ref=e2017]:
+                    - generic [ref=e2018]: "1994"
+                    - generic [ref=e2019]: "8.7"
+            - link "The Godfather" [ref=e2021] [cursor=pointer]:
+              - /url: /movie/238-the-godfather-1972
+              - generic [ref=e2022]:
+                - img "The Godfather" [ref=e2023]
+                - generic [ref=e2027]:
+                  - heading "The Godfather" [level=3] [ref=e2028]
+                  - generic [ref=e2029]:
+                    - generic [ref=e2030]: "1972"
+                    - generic [ref=e2031]: "8.7"
+            - link "Project Hail Mary" [ref=e2033] [cursor=pointer]:
+              - /url: /movie/687163-project-hail-mary-2026
+              - generic [ref=e2034]:
+                - img "Project Hail Mary" [ref=e2035]
+                - generic [ref=e2039]:
+                  - heading "Project Hail Mary" [level=3] [ref=e2040]
+                  - generic [ref=e2041]:
+                    - generic [ref=e2042]: "2026"
+                    - generic [ref=e2043]: "8.6"
+            - link "Michael" [ref=e2045] [cursor=pointer]:
+              - /url: /movie/936075-michael-2026
+              - generic [ref=e2046]:
+                - img "Michael" [ref=e2047]
+                - generic [ref=e2051]:
+                  - heading "Michael" [level=3] [ref=e2052]
+                  - generic [ref=e2053]:
+                    - generic [ref=e2054]: "2026"
+                    - generic [ref=e2055]: "8.6"
+            - link "Young Hearts" [ref=e2057] [cursor=pointer]:
+              - /url: /movie/1232449-young-hearts-2024
+              - generic [ref=e2058]:
+                - img "Young Hearts" [ref=e2059]
+                - generic [ref=e2063]:
+                  - heading "Young Hearts" [level=3] [ref=e2064]
+                  - generic [ref=e2065]:
+                    - generic [ref=e2066]: "2024"
+                    - generic [ref=e2067]: "8.6"
+            - link "12 Angry Men" [ref=e2069] [cursor=pointer]:
+              - /url: /movie/389-12-angry-men-1957
+              - generic [ref=e2070]:
+                - img "12 Angry Men" [ref=e2071]
+                - generic [ref=e2075]:
+                  - heading "12 Angry Men" [level=3] [ref=e2076]
+                  - generic [ref=e2077]:
+                    - generic [ref=e2078]: "1957"
+                    - generic [ref=e2079]: "8.6"
+            - link "The Godfather Part II" [ref=e2081] [cursor=pointer]:
+              - /url: /movie/240-the-godfather-part-ii-1974
+              - generic [ref=e2082]:
+                - img "The Godfather Part II" [ref=e2083]
+                - generic [ref=e2087]:
+                  - heading "The Godfather Part II" [level=3] [ref=e2088]
+                  - generic [ref=e2089]:
+                    - generic [ref=e2090]: "1974"
+                    - generic [ref=e2091]: "8.6"
+            - link "Schindler's List" [ref=e2093] [cursor=pointer]:
+              - /url: /movie/424-schindler-s-list-1993
+              - generic [ref=e2094]:
+                - img "Schindler's List" [ref=e2095]
+                - generic [ref=e2099]:
+                  - heading "Schindler's List" [level=3] [ref=e2100]
+                  - generic [ref=e2101]:
+                    - generic [ref=e2102]: "1993"
+                    - generic [ref=e2103]: "8.6"
+            - link "My Dearest Assassin" [ref=e2105] [cursor=pointer]:
+              - /url: /movie/1630423-my-dearest-assassin-2026
+              - generic [ref=e2106]:
+                - img "My Dearest Assassin" [ref=e2107]
+                - generic [ref=e2111]:
+                  - heading "My Dearest Assassin" [level=3] [ref=e2112]
+                  - generic [ref=e2113]:
+                    - generic [ref=e2114]: "2026"
+                    - generic [ref=e2115]: "8.6"
+            - 'link "Chainsaw Man - The Movie: Reze Arc" [ref=e2117] [cursor=pointer]':
+              - /url: /movie/1218925-chainsaw-man-the-movie-reze-arc-2025
+              - generic [ref=e2118]:
+                - 'img "Chainsaw Man - The Movie: Reze Arc" [ref=e2119]'
+                - generic [ref=e2123]:
+                  - 'heading "Chainsaw Man - The Movie: Reze Arc" [level=3] [ref=e2124]'
+                  - generic [ref=e2125]:
+                    - generic [ref=e2126]: "2025"
+                    - generic [ref=e2127]: "8.5"
+            - link "The Dark Knight" [ref=e2129] [cursor=pointer]:
+              - /url: /movie/155-the-dark-knight-2008
+              - generic [ref=e2130]:
+                - img "The Dark Knight" [ref=e2131]
+                - generic [ref=e2135]:
+                  - heading "The Dark Knight" [level=3] [ref=e2136]
+                  - generic [ref=e2137]:
+                    - generic [ref=e2138]: "2008"
+                    - generic [ref=e2139]: "8.5"
+            - link "Spirited Away" [ref=e2141] [cursor=pointer]:
+              - /url: /movie/129-spirited-away-2001
+              - generic [ref=e2142]:
+                - img "Spirited Away" [ref=e2143]
+                - generic [ref=e2147]:
+                  - heading "Spirited Away" [level=3] [ref=e2148]
+                  - generic [ref=e2149]:
+                    - generic [ref=e2150]: "2001"
+                    - generic [ref=e2151]: "8.5"
+            - link "The Green Mile" [ref=e2153] [cursor=pointer]:
+              - /url: /movie/497-the-green-mile-1999
+              - generic [ref=e2154]:
+                - img "The Green Mile" [ref=e2155]
+                - generic [ref=e2159]:
+                  - heading "The Green Mile" [level=3] [ref=e2160]
+                  - generic [ref=e2161]:
+                    - generic [ref=e2162]: "1999"
+                    - generic [ref=e2163]: "8.5"
+            - 'link "The Lord of the Rings: The Return of the King" [ref=e2165] [cursor=pointer]':
+              - /url: /movie/122-the-lord-of-the-rings-the-return-of-the-king-2003
+              - generic [ref=e2166]:
+                - 'img "The Lord of the Rings: The Return of the King" [ref=e2167]'
+                - generic [ref=e2171]:
+                  - 'heading "The Lord of the Rings: The Return of the King" [level=3] [ref=e2172]'
+                  - generic [ref=e2173]:
+                    - generic [ref=e2174]: "2003"
+                    - generic [ref=e2175]: "8.5"
+      - generic [ref=e2177]:
+        - generic [ref=e2178]:
+          - heading "Top Rated Series" [level=2] [ref=e2179]
+          - link "View All" [ref=e2180] [cursor=pointer]:
+            - /url: /category/tv/top_rated
+        - generic [ref=e2183]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e2184] [cursor=pointer]
+          - generic [ref=e2186]:
+            - link "Teach You a Lesson" [ref=e2187] [cursor=pointer]:
+              - /url: /series/276161-teach-you-a-lesson-2026
+              - generic [ref=e2188]:
+                - img "Teach You a Lesson" [ref=e2189]
+                - generic [ref=e2193]:
+                  - heading "Teach You a Lesson" [level=3] [ref=e2194]
+                  - generic [ref=e2195]:
+                    - generic [ref=e2196]: "2026"
+                    - generic [ref=e2197]: "9.4"
+            - link "Dutton Ranch" [ref=e2199] [cursor=pointer]:
+              - /url: /series/299167-dutton-ranch-2026
+              - generic [ref=e2200]:
+                - img "Dutton Ranch" [ref=e2201]
+                - generic [ref=e2205]:
+                  - heading "Dutton Ranch" [level=3] [ref=e2206]
+                  - generic [ref=e2207]:
+                    - generic [ref=e2208]: "2026"
+                    - generic [ref=e2209]: "9.1"
+            - link "Perfect Crown" [ref=e2211] [cursor=pointer]:
+              - /url: /series/278573-perfect-crown-2026
+              - generic [ref=e2212]:
+                - img "Perfect Crown" [ref=e2213]
+                - generic [ref=e2217]:
+                  - heading "Perfect Crown" [level=3] [ref=e2218]
+                  - generic [ref=e2219]:
+                    - generic [ref=e2220]: "2026"
+                    - generic [ref=e2221]: "9.0"
+            - link "Breaking Bad" [ref=e2223] [cursor=pointer]:
+              - /url: /series/1396-breaking-bad-2008
+              - generic [ref=e2224]:
+                - img "Breaking Bad" [ref=e2225]
+                - generic [ref=e2229]:
+                  - heading "Breaking Bad" [level=3] [ref=e2230]
+                  - generic [ref=e2231]:
+                    - generic [ref=e2232]: "2008"
+                    - generic [ref=e2233]: "9.0"
+            - link "Off Campus" [ref=e2235] [cursor=pointer]:
+              - /url: /series/273240-off-campus-2026
+              - generic [ref=e2236]:
+                - img "Off Campus" [ref=e2237]
+                - generic [ref=e2241]:
+                  - heading "Off Campus" [level=3] [ref=e2242]
+                  - generic [ref=e2243]:
+                    - generic [ref=e2244]: "2026"
+                    - generic [ref=e2245]: "8.9"
+            - link "The Good Bad Mother" [ref=e2247] [cursor=pointer]:
+              - /url: /series/214999-the-good-bad-mother-2023
+              - generic [ref=e2248]:
+                - img "The Good Bad Mother" [ref=e2249]
+                - generic [ref=e2253]:
+                  - heading "The Good Bad Mother" [level=3] [ref=e2254]
+                  - generic [ref=e2255]:
+                    - generic [ref=e2256]: "2023"
+                    - generic [ref=e2257]: "8.9"
+            - link "The Polygamist" [ref=e2259] [cursor=pointer]:
+              - /url: /series/322430-the-polygamist-2026
+              - generic [ref=e2260]:
+                - img "The Polygamist" [ref=e2261]
+                - generic [ref=e2265]:
+                  - heading "The Polygamist" [level=3] [ref=e2266]
+                  - generic [ref=e2267]:
+                    - generic [ref=e2268]: "2026"
+                    - generic [ref=e2269]: "8.9"
+            - link "Wizards Beyond Waverly Place" [ref=e2271] [cursor=pointer]:
+              - /url: /series/245026-wizards-beyond-waverly-place-2024
+              - generic [ref=e2272]:
+                - img "Wizards Beyond Waverly Place" [ref=e2273]
+                - generic [ref=e2277]:
+                  - heading "Wizards Beyond Waverly Place" [level=3] [ref=e2278]
+                  - generic [ref=e2279]:
+                    - generic [ref=e2280]: "2024"
+                    - generic [ref=e2281]: "8.8"
+            - link "The WONDERfools" [ref=e2283] [cursor=pointer]:
+              - /url: /series/259837-the-wonderfools-2026
+              - generic [ref=e2284]:
+                - img "The WONDERfools" [ref=e2285]
+                - generic [ref=e2289]:
+                  - heading "The WONDERfools" [level=3] [ref=e2290]
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: "2026"
+                    - generic [ref=e2293]: "8.8"
+            - link "The Chosen" [ref=e2295] [cursor=pointer]:
+              - /url: /series/85077-the-chosen-2019
+              - generic [ref=e2296]:
+                - img "The Chosen" [ref=e2297]
+                - generic [ref=e2301]:
+                  - heading "The Chosen" [level=3] [ref=e2302]
+                  - generic [ref=e2303]:
+                    - generic [ref=e2304]: "2019"
+                    - generic [ref=e2305]: "8.8"
+            - 'link "Frieren: Beyond Journey''s End" [ref=e2307] [cursor=pointer]':
+              - /url: /series/209867-frieren-beyond-journey-s-end-2023
+              - generic [ref=e2308]:
+                - 'img "Frieren: Beyond Journey''s End" [ref=e2309]'
+                - generic [ref=e2313]:
+                  - 'heading "Frieren: Beyond Journey''s End" [level=3] [ref=e2314]'
+                  - generic [ref=e2315]:
+                    - generic [ref=e2316]: "2023"
+                    - generic [ref=e2317]: "8.8"
+            - link "When Life Gives You Tangerines" [ref=e2319] [cursor=pointer]:
+              - /url: /series/219246-when-life-gives-you-tangerines-2025
+              - generic [ref=e2320]:
+                - img "When Life Gives You Tangerines" [ref=e2321]
+                - generic [ref=e2325]:
+                  - heading "When Life Gives You Tangerines" [level=3] [ref=e2326]
+                  - generic [ref=e2327]:
+                    - generic [ref=e2328]: "2025"
+                    - generic [ref=e2329]: "8.8"
+            - link "Takopi's Original Sin" [ref=e2331] [cursor=pointer]:
+              - /url: /series/284445-takopi-s-original-sin-2025
+              - generic [ref=e2332]:
+                - img "Takopi's Original Sin" [ref=e2333]
+                - generic [ref=e2337]:
+                  - heading "Takopi's Original Sin" [level=3] [ref=e2338]
+                  - generic [ref=e2339]:
+                    - generic [ref=e2340]: "2025"
+                    - generic [ref=e2341]: "8.8"
+            - link "No One Will Miss Us" [ref=e2343] [cursor=pointer]:
+              - /url: /series/259666-no-one-will-miss-us-2024
+              - generic [ref=e2344]:
+                - img "No One Will Miss Us" [ref=e2345]
+                - generic [ref=e2349]:
+                  - heading "No One Will Miss Us" [level=3] [ref=e2350]
+                  - generic [ref=e2351]:
+                    - generic [ref=e2352]: "2024"
+                    - generic [ref=e2353]: "8.8"
+            - 'link "Avatar: The Last Airbender" [ref=e2355] [cursor=pointer]':
+              - /url: /series/246-avatar-the-last-airbender-2005
+              - generic [ref=e2356]:
+                - 'img "Avatar: The Last Airbender" [ref=e2357]'
+                - generic [ref=e2361]:
+                  - 'heading "Avatar: The Last Airbender" [level=3] [ref=e2362]'
+                  - generic [ref=e2363]:
+                    - generic [ref=e2364]: "2005"
+                    - generic [ref=e2365]: "8.8"
+            - link "Reply 1988" [ref=e2367] [cursor=pointer]:
+              - /url: /series/64010-reply-1988-2015
+              - generic [ref=e2368]:
+                - img "Reply 1988" [ref=e2369]
+                - generic [ref=e2373]:
+                  - heading "Reply 1988" [level=3] [ref=e2374]
+                  - generic [ref=e2375]:
+                    - generic [ref=e2376]: "2015"
+                    - generic [ref=e2377]: "8.8"
+            - link "One Piece" [ref=e2379] [cursor=pointer]:
+              - /url: /series/37854-one-piece-1999
+              - generic [ref=e2380]:
+                - img "One Piece" [ref=e2381]
+                - generic [ref=e2385]:
+                  - heading "One Piece" [level=3] [ref=e2386]
+                  - generic [ref=e2387]:
+                    - generic [ref=e2388]: "1999"
+                    - generic [ref=e2389]: "8.8"
+            - link "Arcane" [ref=e2391] [cursor=pointer]:
+              - /url: /series/94605-arcane-2021
+              - generic [ref=e2392]:
+                - img "Arcane" [ref=e2393]
+                - generic [ref=e2397]:
+                  - heading "Arcane" [level=3] [ref=e2398]
+                  - generic [ref=e2399]:
+                    - generic [ref=e2400]: "2021"
+                    - generic [ref=e2401]: "8.7"
+            - link "The Pitt" [ref=e2403] [cursor=pointer]:
+              - /url: /series/250307-the-pitt-2025
+              - generic [ref=e2404]:
+                - img "The Pitt" [ref=e2405]
+                - generic [ref=e2409]:
+                  - heading "The Pitt" [level=3] [ref=e2410]
+                  - generic [ref=e2411]:
+                    - generic [ref=e2412]: "2025"
+                    - generic [ref=e2413]: "8.7"
+            - link "Chernobyl" [ref=e2415] [cursor=pointer]:
+              - /url: /series/87108-chernobyl-2019
+              - generic [ref=e2416]:
+                - img "Chernobyl" [ref=e2417]
+                - generic [ref=e2421]:
+                  - heading "Chernobyl" [level=3] [ref=e2422]
+                  - generic [ref=e2423]:
+                    - generic [ref=e2424]: "2019"
+                    - generic [ref=e2425]: "8.7"
+      - generic [ref=e2427]:
+        - heading "Oscar Nominees for Best Picture" [level=2] [ref=e2429]
+        - generic [ref=e2430]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e2431] [cursor=pointer]
+          - generic [ref=e2433]:
+            - link "The Godfather" [ref=e2434] [cursor=pointer]:
+              - /url: /movie/238-the-godfather-1972
+              - generic [ref=e2435]:
+                - img "The Godfather" [ref=e2436]
+                - generic [ref=e2440]:
+                  - heading "The Godfather" [level=3] [ref=e2441]
+                  - generic [ref=e2442]:
+                    - generic [ref=e2443]: "1972"
+                    - generic [ref=e2444]: "9.4"
+            - link "12 Angry Men" [ref=e2446] [cursor=pointer]:
+              - /url: /movie/389-12-angry-men-1957
+              - generic [ref=e2447]:
+                - img "12 Angry Men" [ref=e2448]
+                - generic [ref=e2452]:
+                  - heading "12 Angry Men" [level=3] [ref=e2453]
+                  - generic [ref=e2454]:
+                    - generic [ref=e2455]: "1957"
+                    - generic [ref=e2456]: "9.3"
+            - link "Schindler's List" [ref=e2458] [cursor=pointer]:
+              - /url: /movie/424-schindler-s-list-1993
+              - generic [ref=e2459]:
+                - img "Schindler's List" [ref=e2460]
+                - generic [ref=e2464]:
+                  - heading "Schindler's List" [level=3] [ref=e2465]
+                  - generic [ref=e2466]:
+                    - generic [ref=e2467]: "1993"
+                    - generic [ref=e2468]: "9.2"
+            - link "GoodFellas" [ref=e2470] [cursor=pointer]:
+              - /url: /movie/769-goodfellas-1990
+              - generic [ref=e2471]:
+                - img "GoodFellas" [ref=e2472]
+                - generic [ref=e2476]:
+                  - heading "GoodFellas" [level=3] [ref=e2477]
+                  - generic [ref=e2478]:
+                    - generic [ref=e2479]: "1990"
+                    - generic [ref=e2480]: "9.1"
+            - link "The Godfather Part II" [ref=e2482] [cursor=pointer]:
+              - /url: /movie/240-the-godfather-part-ii-1974
+              - generic [ref=e2483]:
+                - img "The Godfather Part II" [ref=e2484]
+                - generic [ref=e2488]:
+                  - heading "The Godfather Part II" [level=3] [ref=e2489]
+                  - generic [ref=e2490]:
+                    - generic [ref=e2491]: "1974"
+                    - generic [ref=e2492]: "9.1"
+            - link "Casablanca" [ref=e2494] [cursor=pointer]:
+              - /url: /movie/289-casablanca-1943
+              - generic [ref=e2495]:
+                - img "Casablanca" [ref=e2496]
+                - generic [ref=e2500]:
+                  - heading "Casablanca" [level=3] [ref=e2501]
+                  - generic [ref=e2502]:
+                    - generic [ref=e2503]: "1943"
+                    - generic [ref=e2504]: "9.1"
+            - link "Parasite" [ref=e2506] [cursor=pointer]:
+              - /url: /movie/496243-parasite-2019
+              - generic [ref=e2507]:
+                - img "Parasite" [ref=e2508]
+                - generic [ref=e2512]:
+                  - heading "Parasite" [level=3] [ref=e2513]
+                  - generic [ref=e2514]:
+                    - generic [ref=e2515]: "2019"
+                    - generic [ref=e2516]: "9.1"
+            - link "Pulp Fiction" [ref=e2518] [cursor=pointer]:
+              - /url: /movie/680-pulp-fiction-1994
+              - generic [ref=e2519]:
+                - img "Pulp Fiction" [ref=e2520]
+                - generic [ref=e2524]:
+                  - heading "Pulp Fiction" [level=3] [ref=e2525]
+                  - generic [ref=e2526]:
+                    - generic [ref=e2527]: "1994"
+                    - generic [ref=e2528]: "9.0"
+            - 'link "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb" [ref=e2530] [cursor=pointer]':
+              - /url: /movie/935-dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964
+              - generic [ref=e2531]:
+                - 'img "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb" [ref=e2532]'
+                - generic [ref=e2536]:
+                  - 'heading "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb" [level=3] [ref=e2537]'
+                  - generic [ref=e2538]:
+                    - generic [ref=e2539]: "1964"
+                    - generic [ref=e2540]: "9.0"
+            - link "Citizen Kane" [ref=e2542] [cursor=pointer]:
+              - /url: /movie/15-citizen-kane-1941
+              - generic [ref=e2543]:
+                - img "Citizen Kane" [ref=e2544]
+                - generic [ref=e2548]:
+                  - heading "Citizen Kane" [level=3] [ref=e2549]
+                  - generic [ref=e2550]:
+                    - generic [ref=e2551]: "1941"
+                    - generic [ref=e2552]: "9.0"
+            - link "All About Eve" [ref=e2554] [cursor=pointer]:
+              - /url: /movie/705-all-about-eve-1950
+              - generic [ref=e2555]:
+                - img "All About Eve" [ref=e2556]
+                - generic [ref=e2560]:
+                  - heading "All About Eve" [level=3] [ref=e2561]
+                  - generic [ref=e2562]:
+                    - generic [ref=e2563]: "1950"
+                    - generic [ref=e2564]: "9.0"
+            - link "It's a Wonderful Life" [ref=e2566] [cursor=pointer]:
+              - /url: /movie/1585-it-s-a-wonderful-life-1946
+              - generic [ref=e2567]:
+                - img "It's a Wonderful Life" [ref=e2568]
+                - generic [ref=e2572]:
+                  - heading "It's a Wonderful Life" [level=3] [ref=e2573]
+                  - generic [ref=e2574]:
+                    - generic [ref=e2575]: "1946"
+                    - generic [ref=e2576]: "9.0"
+            - link "Sunset Boulevard" [ref=e2578] [cursor=pointer]:
+              - /url: /movie/599-sunset-boulevard-1950
+              - generic [ref=e2579]:
+                - img "Sunset Boulevard" [ref=e2580]
+                - generic [ref=e2584]:
+                  - heading "Sunset Boulevard" [level=3] [ref=e2585]
+                  - generic [ref=e2586]:
+                    - generic [ref=e2587]: "1950"
+                    - generic [ref=e2588]: "9.0"
+            - link "Star Wars" [ref=e2590] [cursor=pointer]:
+              - /url: /movie/11-star-wars-1977
+              - generic [ref=e2591]:
+                - img "Star Wars" [ref=e2592]
+                - generic [ref=e2596]:
+                  - heading "Star Wars" [level=3] [ref=e2597]
+                  - generic [ref=e2598]:
+                    - generic [ref=e2599]: "1977"
+                    - generic [ref=e2600]: "8.9"
+            - link "The Shawshank Redemption" [ref=e2602] [cursor=pointer]:
+              - /url: /movie/278-the-shawshank-redemption-1994
+              - generic [ref=e2603]:
+                - img "The Shawshank Redemption" [ref=e2604]
+                - generic [ref=e2608]:
+                  - heading "The Shawshank Redemption" [level=3] [ref=e2609]
+                  - generic [ref=e2610]:
+                    - generic [ref=e2611]: "1994"
+                    - generic [ref=e2612]: "8.9"
+            - link "Whiplash" [ref=e2614] [cursor=pointer]:
+              - /url: /movie/244786-whiplash-2014
+              - generic [ref=e2615]:
+                - img "Whiplash" [ref=e2616]
+                - generic [ref=e2620]:
+                  - heading "Whiplash" [level=3] [ref=e2621]
+                  - generic [ref=e2622]:
+                    - generic [ref=e2623]: "2014"
+                    - generic [ref=e2624]: "8.9"
+            - link "Apocalypse Now" [ref=e2626] [cursor=pointer]:
+              - /url: /movie/28-apocalypse-now-1979
+              - generic [ref=e2627]:
+                - img "Apocalypse Now" [ref=e2628]
+                - generic [ref=e2632]:
+                  - heading "Apocalypse Now" [level=3] [ref=e2633]
+                  - generic [ref=e2634]:
+                    - generic [ref=e2635]: "1979"
+                    - generic [ref=e2636]: "8.9"
+            - link "Lawrence of Arabia" [ref=e2638] [cursor=pointer]:
+              - /url: /movie/947-lawrence-of-arabia-1962
+              - generic [ref=e2639]:
+                - img "Lawrence of Arabia" [ref=e2640]
+                - generic [ref=e2644]:
+                  - heading "Lawrence of Arabia" [level=3] [ref=e2645]
+                  - generic [ref=e2646]:
+                    - generic [ref=e2647]: "1962"
+                    - generic [ref=e2648]: "8.9"
+            - 'link "The Lord of the Rings: The Return of the King" [ref=e2650] [cursor=pointer]':
+              - /url: /movie/122-the-lord-of-the-rings-the-return-of-the-king-2003
+              - generic [ref=e2651]:
+                - 'img "The Lord of the Rings: The Return of the King" [ref=e2652]'
+                - generic [ref=e2656]:
+                  - 'heading "The Lord of the Rings: The Return of the King" [level=3] [ref=e2657]'
+                  - generic [ref=e2658]:
+                    - generic [ref=e2659]: "2003"
+                    - generic [ref=e2660]: "8.9"
+            - link "Saving Private Ryan" [ref=e2662] [cursor=pointer]:
+              - /url: /movie/857-saving-private-ryan-1998
+              - generic [ref=e2663]:
+                - img "Saving Private Ryan" [ref=e2664]
+                - generic [ref=e2668]:
+                  - heading "Saving Private Ryan" [level=3] [ref=e2669]
+                  - generic [ref=e2670]:
+                    - generic [ref=e2671]: "1998"
+                    - generic [ref=e2672]: "8.9"
+            - link "Double Indemnity" [ref=e2674] [cursor=pointer]:
+              - /url: /movie/996-double-indemnity-1944
+              - generic [ref=e2675]:
+                - img "Double Indemnity" [ref=e2676]
+                - generic [ref=e2680]:
+                  - heading "Double Indemnity" [level=3] [ref=e2681]
+                  - generic [ref=e2682]:
+                    - generic [ref=e2683]: "1944"
+                    - generic [ref=e2684]: "8.9"
+            - link "The Treasure of the Sierra Madre" [ref=e2686] [cursor=pointer]:
+              - /url: /movie/3090-the-treasure-of-the-sierra-madre-1948
+              - generic [ref=e2687]:
+                - img "The Treasure of the Sierra Madre" [ref=e2688]
+                - generic [ref=e2692]:
+                  - heading "The Treasure of the Sierra Madre" [level=3] [ref=e2693]
+                  - generic [ref=e2694]:
+                    - generic [ref=e2695]: "1948"
+                    - generic [ref=e2696]: "8.9"
+            - link "The Apartment" [ref=e2698] [cursor=pointer]:
+              - /url: /movie/284-the-apartment-1960
+              - generic [ref=e2699]:
+                - img "The Apartment" [ref=e2700]
+                - generic [ref=e2704]:
+                  - heading "The Apartment" [level=3] [ref=e2705]
+                  - generic [ref=e2706]:
+                    - generic [ref=e2707]: "1960"
+                    - generic [ref=e2708]: "8.9"
+            - link "I'm Still Here" [ref=e2710] [cursor=pointer]:
+              - /url: /movie/1000837-i-m-still-here-2024
+              - generic [ref=e2711]:
+                - img "I'm Still Here" [ref=e2712]
+                - generic [ref=e2716]:
+                  - heading "I'm Still Here" [level=3] [ref=e2717]
+                  - generic [ref=e2718]:
+                    - generic [ref=e2719]: "2024"
+                    - generic [ref=e2720]: "8.9"
+            - link "The Pianist" [ref=e2722] [cursor=pointer]:
+              - /url: /movie/423-the-pianist-2002
+              - generic [ref=e2723]:
+                - img "The Pianist" [ref=e2724]
+                - generic [ref=e2728]:
+                  - heading "The Pianist" [level=3] [ref=e2729]
+                  - generic [ref=e2730]:
+                    - generic [ref=e2731]: "2002"
+                    - generic [ref=e2732]: "8.8"
+      - generic [ref=e2734]:
+        - heading "Psychological Thrillers" [level=2] [ref=e2736]
+        - generic [ref=e2737]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e2738] [cursor=pointer]
+          - generic [ref=e2740]:
+            - link "The Silence of the Lambs" [ref=e2741] [cursor=pointer]:
+              - /url: /movie/274-the-silence-of-the-lambs-1991
+              - generic [ref=e2742]:
+                - img "The Silence of the Lambs" [ref=e2743]
+                - generic [ref=e2747]:
+                  - heading "The Silence of the Lambs" [level=3] [ref=e2748]
+                  - generic [ref=e2749]:
+                    - generic [ref=e2750]: "1991"
+                    - generic [ref=e2751]: "8.7"
+            - link "Children of Men" [ref=e2753] [cursor=pointer]:
+              - /url: /movie/9693-children-of-men-2006
+              - generic [ref=e2754]:
+                - img "Children of Men" [ref=e2755]
+                - generic [ref=e2759]:
+                  - heading "Children of Men" [level=3] [ref=e2760]
+                  - generic [ref=e2761]:
+                    - generic [ref=e2762]: "2006"
+                    - generic [ref=e2763]: "8.5"
+            - link "Mystic River" [ref=e2765] [cursor=pointer]:
+              - /url: /movie/322-mystic-river-2003
+              - generic [ref=e2766]:
+                - img "Mystic River" [ref=e2767]
+                - generic [ref=e2771]:
+                  - heading "Mystic River" [level=3] [ref=e2772]
+                  - generic [ref=e2773]:
+                    - generic [ref=e2774]: "2003"
+                    - generic [ref=e2775]: "8.4"
+            - link "Casino" [ref=e2777] [cursor=pointer]:
+              - /url: /movie/524-casino-1995
+              - generic [ref=e2778]:
+                - img "Casino" [ref=e2779]
+                - generic [ref=e2783]:
+                  - heading "Casino" [level=3] [ref=e2784]
+                  - generic [ref=e2785]:
+                    - generic [ref=e2786]: "1995"
+                    - generic [ref=e2787]: "8.4"
+            - link "The Shining" [ref=e2789] [cursor=pointer]:
+              - /url: /movie/694-the-shining-1980
+              - generic [ref=e2790]:
+                - img "The Shining" [ref=e2791]
+                - generic [ref=e2795]:
+                  - heading "The Shining" [level=3] [ref=e2796]
+                  - generic [ref=e2797]:
+                    - generic [ref=e2798]: "1980"
+                    - generic [ref=e2799]: "8.4"
+            - link "Memento" [ref=e2801] [cursor=pointer]:
+              - /url: /movie/77-memento-2000
+              - generic [ref=e2802]:
+                - img "Memento" [ref=e2803]
+                - generic [ref=e2807]:
+                  - heading "Memento" [level=3] [ref=e2808]
+                  - generic [ref=e2809]:
+                    - generic [ref=e2810]: "2000"
+                    - generic [ref=e2811]: "8.4"
+            - link "Blackfish" [ref=e2813] [cursor=pointer]:
+              - /url: /movie/158999-blackfish-2013
+              - generic [ref=e2814]:
+                - img "Blackfish" [ref=e2815]
+                - generic [ref=e2819]:
+                  - heading "Blackfish" [level=3] [ref=e2820]
+                  - generic [ref=e2821]:
+                    - generic [ref=e2822]: "2013"
+                    - generic [ref=e2823]: "8.3"
+            - link "Nightcrawler" [ref=e2825] [cursor=pointer]:
+              - /url: /movie/242582-nightcrawler-2014
+              - generic [ref=e2826]:
+                - img "Nightcrawler" [ref=e2827]
+                - generic [ref=e2831]:
+                  - heading "Nightcrawler" [level=3] [ref=e2832]
+                  - generic [ref=e2833]:
+                    - generic [ref=e2834]: "2014"
+                    - generic [ref=e2835]: "8.3"
+            - link "Get Out" [ref=e2837] [cursor=pointer]:
+              - /url: /movie/419430-get-out-2017
+              - generic [ref=e2838]:
+                - img "Get Out" [ref=e2839]
+                - generic [ref=e2843]:
+                  - heading "Get Out" [level=3] [ref=e2844]
+                  - generic [ref=e2845]:
+                    - generic [ref=e2846]: "2017"
+                    - generic [ref=e2847]: "8.2"
+            - link "The Bourne Ultimatum" [ref=e2849] [cursor=pointer]:
+              - /url: /movie/2503-the-bourne-ultimatum-2007
+              - generic [ref=e2850]:
+                - img "The Bourne Ultimatum" [ref=e2851]
+                - generic [ref=e2855]:
+                  - heading "The Bourne Ultimatum" [level=3] [ref=e2856]
+                  - generic [ref=e2857]:
+                    - generic [ref=e2858]: "2007"
+                    - generic [ref=e2859]: "8.2"
+            - link "Gone Girl" [ref=e2861] [cursor=pointer]:
+              - /url: /movie/210577-gone-girl-2014
+              - generic [ref=e2862]:
+                - img "Gone Girl" [ref=e2863]
+                - generic [ref=e2867]:
+                  - heading "Gone Girl" [level=3] [ref=e2868]
+                  - generic [ref=e2869]:
+                    - generic [ref=e2870]: "2014"
+                    - generic [ref=e2871]: "8.2"
+            - link "Black Swan" [ref=e2873] [cursor=pointer]:
+              - /url: /movie/44214-black-swan-2010
+              - generic [ref=e2874]:
+                - img "Black Swan" [ref=e2875]
+                - generic [ref=e2879]:
+                  - heading "Black Swan" [level=3] [ref=e2880]
+                  - generic [ref=e2881]:
+                    - generic [ref=e2882]: "2010"
+                    - generic [ref=e2883]: "8.1"
+            - link "The Prestige" [ref=e2885] [cursor=pointer]:
+              - /url: /movie/1124-the-prestige-2006
+              - generic [ref=e2886]:
+                - img "The Prestige" [ref=e2887]
+                - generic [ref=e2891]:
+                  - heading "The Prestige" [level=3] [ref=e2892]
+                  - generic [ref=e2893]:
+                    - generic [ref=e2894]: "2006"
+                    - generic [ref=e2895]: "8.1"
+            - link "The Sixth Sense" [ref=e2897] [cursor=pointer]:
+              - /url: /movie/745-the-sixth-sense-1999
+              - generic [ref=e2898]:
+                - img "The Sixth Sense" [ref=e2899]
+                - generic [ref=e2903]:
+                  - heading "The Sixth Sense" [level=3] [ref=e2904]
+                  - generic [ref=e2905]:
+                    - generic [ref=e2906]: "1999"
+                    - generic [ref=e2907]: "8.0"
+            - link "The Cook, the Thief, His Wife & Her Lover" [ref=e2909] [cursor=pointer]:
+              - /url: /movie/7452-the-cook-the-thief-his-wife-her-lover-1989
+              - generic [ref=e2910]:
+                - img "The Cook, the Thief, His Wife & Her Lover" [ref=e2911]
+                - generic [ref=e2915]:
+                  - heading "The Cook, the Thief, His Wife & Her Lover" [level=3] [ref=e2916]
+                  - generic [ref=e2917]:
+                    - generic [ref=e2918]: "1989"
+                    - generic [ref=e2919]: "8.0"
+            - link "Misery" [ref=e2921] [cursor=pointer]:
+              - /url: /movie/1700-misery-1990
+              - generic [ref=e2922]:
+                - img "Misery" [ref=e2923]
+                - generic [ref=e2927]:
+                  - heading "Misery" [level=3] [ref=e2928]
+                  - generic [ref=e2929]:
+                    - generic [ref=e2930]: "1990"
+                    - generic [ref=e2931]: "8.0"
+            - link "The Talented Mr. Ripley" [ref=e2933] [cursor=pointer]:
+              - /url: /movie/1213-the-talented-mr-ripley-1999
+              - generic [ref=e2934]:
+                - img "The Talented Mr. Ripley" [ref=e2935]
+                - generic [ref=e2939]:
+                  - heading "The Talented Mr. Ripley" [level=3] [ref=e2940]
+                  - generic [ref=e2941]:
+                    - generic [ref=e2942]: "1999"
+                    - generic [ref=e2943]: "7.9"
+            - link "Moon" [ref=e2945] [cursor=pointer]:
+              - /url: /movie/17431-moon-2009
+              - generic [ref=e2946]:
+                - img "Moon" [ref=e2947]
+                - generic [ref=e2951]:
+                  - heading "Moon" [level=3] [ref=e2952]
+                  - generic [ref=e2953]:
+                    - generic [ref=e2954]: "2009"
+                    - generic [ref=e2955]: "7.9"
+            - link "Prisoners" [ref=e2957] [cursor=pointer]:
+              - /url: /movie/146233-prisoners-2013
+              - generic [ref=e2958]:
+                - img "Prisoners" [ref=e2959]
+                - generic [ref=e2963]:
+                  - heading "Prisoners" [level=3] [ref=e2964]
+                  - generic [ref=e2965]:
+                    - generic [ref=e2966]: "2013"
+                    - generic [ref=e2967]: "7.9"
+            - 'link "Léon: The Professional" [ref=e2969] [cursor=pointer]':
+              - /url: /movie/101-leon-the-professional-1994
+              - generic [ref=e2970]:
+                - 'img "Léon: The Professional" [ref=e2971]'
+                - generic [ref=e2975]:
+                  - 'heading "Léon: The Professional" [level=3] [ref=e2976]'
+                  - generic [ref=e2977]:
+                    - generic [ref=e2978]: "1994"
+                    - generic [ref=e2979]: "7.8"
+            - link "The Bourne Identity" [ref=e2981] [cursor=pointer]:
+              - /url: /movie/2501-the-bourne-identity-2002
+              - generic [ref=e2982]:
+                - img "The Bourne Identity" [ref=e2983]
+                - generic [ref=e2987]:
+                  - heading "The Bourne Identity" [level=3] [ref=e2988]
+                  - generic [ref=e2989]:
+                    - generic [ref=e2990]: "2002"
+                    - generic [ref=e2991]: "7.8"
+            - link "Shutter Island" [ref=e2993] [cursor=pointer]:
+              - /url: /movie/11324-shutter-island-2010
+              - generic [ref=e2994]:
+                - img "Shutter Island" [ref=e2995]
+                - generic [ref=e2999]:
+                  - heading "Shutter Island" [level=3] [ref=e3000]
+                  - generic [ref=e3001]:
+                    - generic [ref=e3002]: "2010"
+                    - generic [ref=e3003]: "7.8"
+            - link "The Outfit" [ref=e3005] [cursor=pointer]:
+              - /url: /movie/799876-the-outfit-2022
+              - generic [ref=e3006]:
+                - img "The Outfit" [ref=e3007]
+                - generic [ref=e3011]:
+                  - heading "The Outfit" [level=3] [ref=e3012]
+                  - generic [ref=e3013]:
+                    - generic [ref=e3014]: "2022"
+                    - generic [ref=e3015]: "7.7"
+            - link "Lantana" [ref=e3017] [cursor=pointer]:
+              - /url: /movie/9523-lantana-2001
+              - generic [ref=e3018]:
+                - img "Lantana" [ref=e3019]
+                - generic [ref=e3023]:
+                  - heading "Lantana" [level=3] [ref=e3024]
+                  - generic [ref=e3025]:
+                    - generic [ref=e3026]: "2001"
+                    - generic [ref=e3027]: "7.7"
+            - link "A Quiet Place Part II" [ref=e3029] [cursor=pointer]:
+              - /url: /movie/520763-a-quiet-place-part-ii-2021
+              - generic [ref=e3030]:
+                - img "A Quiet Place Part II" [ref=e3031]
+                - generic [ref=e3035]:
+                  - heading "A Quiet Place Part II" [level=3] [ref=e3036]
+                  - generic [ref=e3037]:
+                    - generic [ref=e3038]: "2021"
+                    - generic [ref=e3039]: "7.7"
+      - generic [ref=e3041]:
+        - heading "Cannes Film Festival" [level=2] [ref=e3043]
+        - generic [ref=e3044]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e3045] [cursor=pointer]
+          - generic [ref=e3047]:
+            - link "Parasite" [ref=e3048] [cursor=pointer]:
+              - /url: /movie/496243-parasite-2019
+              - generic [ref=e3049]:
+                - img "Parasite" [ref=e3050]
+                - generic [ref=e3054]:
+                  - heading "Parasite" [level=3] [ref=e3055]
+                  - generic [ref=e3056]:
+                    - generic [ref=e3057]: "2019"
+                    - generic [ref=e3058]: "9.1"
+            - link "Pulp Fiction" [ref=e3060] [cursor=pointer]:
+              - /url: /movie/680-pulp-fiction-1994
+              - generic [ref=e3061]:
+                - img "Pulp Fiction" [ref=e3062]
+                - generic [ref=e3066]:
+                  - heading "Pulp Fiction" [level=3] [ref=e3067]
+                  - generic [ref=e3068]:
+                    - generic [ref=e3069]: "1994"
+                    - generic [ref=e3070]: "9.0"
+            - link "Apocalypse Now" [ref=e3072] [cursor=pointer]:
+              - /url: /movie/28-apocalypse-now-1979
+              - generic [ref=e3073]:
+                - img "Apocalypse Now" [ref=e3074]
+                - generic [ref=e3078]:
+                  - heading "Apocalypse Now" [level=3] [ref=e3079]
+                  - generic [ref=e3080]:
+                    - generic [ref=e3081]: "1979"
+                    - generic [ref=e3082]: "8.9"
+            - link "Shoplifters" [ref=e3084] [cursor=pointer]:
+              - /url: /movie/505192-shoplifters-2018
+              - generic [ref=e3085]:
+                - img "Shoplifters" [ref=e3086]
+                - generic [ref=e3090]:
+                  - heading "Shoplifters" [level=3] [ref=e3091]
+                  - generic [ref=e3092]:
+                    - generic [ref=e3093]: "2018"
+                    - generic [ref=e3094]: "8.8"
+            - link "The Third Man" [ref=e3096] [cursor=pointer]:
+              - /url: /movie/1092-the-third-man-1949
+              - generic [ref=e3097]:
+                - img "The Third Man" [ref=e3098]
+                - generic [ref=e3102]:
+                  - heading "The Third Man" [level=3] [ref=e3103]
+                  - generic [ref=e3104]:
+                    - generic [ref=e3105]: "1949"
+                    - generic [ref=e3106]: "8.8"
+            - link "The Pianist" [ref=e3108] [cursor=pointer]:
+              - /url: /movie/423-the-pianist-2002
+              - generic [ref=e3109]:
+                - img "The Pianist" [ref=e3110]
+                - generic [ref=e3114]:
+                  - heading "The Pianist" [level=3] [ref=e3115]
+                  - generic [ref=e3116]:
+                    - generic [ref=e3117]: "2002"
+                    - generic [ref=e3118]: "8.8"
+            - link "The Leopard" [ref=e3120] [cursor=pointer]:
+              - /url: /movie/1040-the-leopard-1963
+              - generic [ref=e3121]:
+                - img "The Leopard" [ref=e3122]
+                - generic [ref=e3126]:
+                  - heading "The Leopard" [level=3] [ref=e3127]
+                  - generic [ref=e3128]:
+                    - generic [ref=e3129]: "1963"
+                    - generic [ref=e3130]: "8.7"
+            - link "Secrets & Lies" [ref=e3132] [cursor=pointer]:
+              - /url: /movie/11159-secrets-lies-1996
+              - generic [ref=e3133]:
+                - img "Secrets & Lies" [ref=e3134]
+                - generic [ref=e3138]:
+                  - heading "Secrets & Lies" [level=3] [ref=e3139]
+                  - generic [ref=e3140]:
+                    - generic [ref=e3141]: "1996"
+                    - generic [ref=e3142]: "8.7"
+            - link "Taxi Driver" [ref=e3144] [cursor=pointer]:
+              - /url: /movie/103-taxi-driver-1976
+              - generic [ref=e3145]:
+                - img "Taxi Driver" [ref=e3146]
+                - generic [ref=e3150]:
+                  - heading "Taxi Driver" [level=3] [ref=e3151]
+                  - generic [ref=e3152]:
+                    - generic [ref=e3153]: "1976"
+                    - generic [ref=e3154]: "8.7"
+            - link "Farewell My Concubine" [ref=e3156] [cursor=pointer]:
+              - /url: /movie/10997-farewell-my-concubine-1993
+              - generic [ref=e3157]:
+                - img "Farewell My Concubine" [ref=e3158]
+                - generic [ref=e3162]:
+                  - heading "Farewell My Concubine" [level=3] [ref=e3163]
+                  - generic [ref=e3164]:
+                    - generic [ref=e3165]: "1993"
+                    - generic [ref=e3166]: "8.7"
+            - link "Paris, Texas" [ref=e3168] [cursor=pointer]:
+              - /url: /movie/655-paris-texas-1984
+              - generic [ref=e3169]:
+                - img "Paris, Texas" [ref=e3170]
+                - generic [ref=e3174]:
+                  - heading "Paris, Texas" [level=3] [ref=e3175]
+                  - generic [ref=e3176]:
+                    - generic [ref=e3177]: "1984"
+                    - generic [ref=e3178]: "8.7"
+            - link "4 Months, 3 Weeks and 2 Days" [ref=e3180] [cursor=pointer]:
+              - /url: /movie/2009-4-months-3-weeks-and-2-days-2007
+              - generic [ref=e3181]:
+                - img "4 Months, 3 Weeks and 2 Days" [ref=e3182]
+                - generic [ref=e3186]:
+                  - heading "4 Months, 3 Weeks and 2 Days" [level=3] [ref=e3187]
+                  - generic [ref=e3188]:
+                    - generic [ref=e3189]: "2007"
+                    - generic [ref=e3190]: "8.6"
+            - link "The Given Word" [ref=e3192] [cursor=pointer]:
+              - /url: /movie/59990-the-given-word-1962
+              - generic [ref=e3193]:
+                - img "The Given Word" [ref=e3194]
+                - generic [ref=e3198]:
+                  - heading "The Given Word" [level=3] [ref=e3199]
+                  - generic [ref=e3200]:
+                    - generic [ref=e3201]: "1962"
+                    - generic [ref=e3202]: "8.6"
+            - link "It Was Just an Accident" [ref=e3204] [cursor=pointer]:
+              - /url: /movie/1456349-it-was-just-an-accident-2025
+              - generic [ref=e3205]:
+                - img "It Was Just an Accident" [ref=e3206]
+                - generic [ref=e3210]:
+                  - heading "It Was Just an Accident" [level=3] [ref=e3211]
+                  - generic [ref=e3212]:
+                    - generic [ref=e3213]: "2025"
+                    - generic [ref=e3214]: "8.5"
+            - link "The Wages of Fear" [ref=e3216] [cursor=pointer]:
+              - /url: /movie/204-the-wages-of-fear-1953
+              - generic [ref=e3217]:
+                - img "The Wages of Fear" [ref=e3218]
+                - generic [ref=e3222]:
+                  - heading "The Wages of Fear" [level=3] [ref=e3223]
+                  - generic [ref=e3224]:
+                    - generic [ref=e3225]: "1953"
+                    - generic [ref=e3226]: "8.5"
+            - link "The Cranes Are Flying" [ref=e3228] [cursor=pointer]:
+              - /url: /movie/38360-the-cranes-are-flying-1957
+              - generic [ref=e3229]:
+                - img "The Cranes Are Flying" [ref=e3230]
+                - generic [ref=e3234]:
+                  - heading "The Cranes Are Flying" [level=3] [ref=e3235]
+                  - generic [ref=e3236]:
+                    - generic [ref=e3237]: "1957"
+                    - generic [ref=e3238]: "8.5"
+            - link "Viridiana" [ref=e3240] [cursor=pointer]:
+              - /url: /movie/4497-viridiana-1962
+              - generic [ref=e3241]:
+                - img "Viridiana" [ref=e3242]
+                - generic [ref=e3246]:
+                  - heading "Viridiana" [level=3] [ref=e3247]
+                  - generic [ref=e3248]:
+                    - generic [ref=e3249]: "1962"
+                    - generic [ref=e3250]: "8.5"
+            - link "La Dolce Vita" [ref=e3252] [cursor=pointer]:
+              - /url: /movie/439-la-dolce-vita-1960
+              - generic [ref=e3253]:
+                - img "La Dolce Vita" [ref=e3254]
+                - generic [ref=e3258]:
+                  - heading "La Dolce Vita" [level=3] [ref=e3259]
+                  - generic [ref=e3260]:
+                    - generic [ref=e3261]: "1960"
+                    - generic [ref=e3262]: "8.5"
+            - link "Kagemusha" [ref=e3264] [cursor=pointer]:
+              - /url: /movie/11953-kagemusha-1980
+              - generic [ref=e3265]:
+                - img "Kagemusha" [ref=e3266]
+                - generic [ref=e3270]:
+                  - heading "Kagemusha" [level=3] [ref=e3271]
+                  - generic [ref=e3272]:
+                    - generic [ref=e3273]: "1980"
+                    - generic [ref=e3274]: "8.5"
+            - link "Amour" [ref=e3276] [cursor=pointer]:
+              - /url: /movie/86837-amour-2012
+              - generic [ref=e3277]:
+                - img "Amour" [ref=e3278]
+                - generic [ref=e3282]:
+                  - heading "Amour" [level=3] [ref=e3283]
+                  - generic [ref=e3284]:
+                    - generic [ref=e3285]: "2012"
+                    - generic [ref=e3286]: "8.5"
+            - link "The Conversation" [ref=e3288] [cursor=pointer]:
+              - /url: /movie/592-the-conversation-1974
+              - generic [ref=e3289]:
+                - img "The Conversation" [ref=e3290]
+                - generic [ref=e3294]:
+                  - heading "The Conversation" [level=3] [ref=e3295]
+                  - generic [ref=e3296]:
+                    - generic [ref=e3297]: "1974"
+                    - generic [ref=e3298]: "8.4"
+            - link "The Ballad of Narayama" [ref=e3300] [cursor=pointer]:
+              - /url: /movie/42113-the-ballad-of-narayama-1983
+              - generic [ref=e3301]:
+                - img "The Ballad of Narayama" [ref=e3302]
+                - generic [ref=e3306]:
+                  - heading "The Ballad of Narayama" [level=3] [ref=e3307]
+                  - generic [ref=e3308]:
+                    - generic [ref=e3309]: "1983"
+                    - generic [ref=e3310]: "8.4"
+            - link "Eternity and a Day" [ref=e3312] [cursor=pointer]:
+              - /url: /movie/24858-eternity-and-a-day-1998
+              - generic [ref=e3313]:
+                - img "Eternity and a Day" [ref=e3314]
+                - generic [ref=e3318]:
+                  - heading "Eternity and a Day" [level=3] [ref=e3319]
+                  - generic [ref=e3320]:
+                    - generic [ref=e3321]: "1998"
+                    - generic [ref=e3322]: "8.4"
+            - link "Winter Sleep" [ref=e3324] [cursor=pointer]:
+              - /url: /movie/265169-winter-sleep-2014
+              - generic [ref=e3325]:
+                - img "Winter Sleep" [ref=e3326]
+                - generic [ref=e3330]:
+                  - heading "Winter Sleep" [level=3] [ref=e3331]
+                  - generic [ref=e3332]:
+                    - generic [ref=e3333]: "2014"
+                    - generic [ref=e3334]: "8.4"
+            - link "Anatomy of a Fall" [ref=e3336] [cursor=pointer]:
+              - /url: /movie/915935-anatomy-of-a-fall-2023
+              - generic [ref=e3337]:
+                - img "Anatomy of a Fall" [ref=e3338]
+                - generic [ref=e3342]:
+                  - heading "Anatomy of a Fall" [level=3] [ref=e3343]
+                  - generic [ref=e3344]:
+                    - generic [ref=e3345]: "2023"
+                    - generic [ref=e3346]: "8.3"
+      - generic [ref=e3348]:
+        - heading "Top 100 Halloween Movies" [level=2] [ref=e3350]
+        - generic [ref=e3351]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e3352] [cursor=pointer]
+          - generic [ref=e3354]:
+            - link "Michael Jackson's Thriller" [ref=e3355] [cursor=pointer]:
+              - /url: /movie/92060-michael-jackson-s-thriller-1983
+              - generic [ref=e3356]:
+                - img "Michael Jackson's Thriller" [ref=e3357]
+                - generic [ref=e3361]:
+                  - heading "Michael Jackson's Thriller" [level=3] [ref=e3362]
+                  - generic [ref=e3363]:
+                    - generic [ref=e3364]: "1983"
+                    - generic [ref=e3365]: "8.5"
+            - link "Halloween" [ref=e3367] [cursor=pointer]:
+              - /url: /movie/948-halloween-1978
+              - generic [ref=e3368]:
+                - img "Halloween" [ref=e3369]
+                - generic [ref=e3373]:
+                  - heading "Halloween" [level=3] [ref=e3374]
+                  - generic [ref=e3375]:
+                    - generic [ref=e3376]: "1978"
+                    - generic [ref=e3377]: "8.4"
+            - link "E.T. the Extra-Terrestrial" [ref=e3379] [cursor=pointer]:
+              - /url: /movie/601-e-t-the-extra-terrestrial-1982
+              - generic [ref=e3380]:
+                - img "E.T. the Extra-Terrestrial" [ref=e3381]
+                - generic [ref=e3385]:
+                  - heading "E.T. the Extra-Terrestrial" [level=3] [ref=e3386]
+                  - generic [ref=e3387]:
+                    - generic [ref=e3388]: "1982"
+                    - generic [ref=e3389]: "8.4"
+            - link "The Nightmare Before Christmas" [ref=e3391] [cursor=pointer]:
+              - /url: /movie/9479-the-nightmare-before-christmas-1993
+              - generic [ref=e3392]:
+                - img "The Nightmare Before Christmas" [ref=e3393]
+                - generic [ref=e3397]:
+                  - heading "The Nightmare Before Christmas" [level=3] [ref=e3398]
+                  - generic [ref=e3399]:
+                    - generic [ref=e3400]: "1993"
+                    - generic [ref=e3401]: "8.4"
+            - link "Night of the Living Dead" [ref=e3403] [cursor=pointer]:
+              - /url: /movie/10331-night-of-the-living-dead-1968
+              - generic [ref=e3404]:
+                - img "Night of the Living Dead" [ref=e3405]
+                - generic [ref=e3409]:
+                  - heading "Night of the Living Dead" [level=3] [ref=e3410]
+                  - generic [ref=e3411]:
+                    - generic [ref=e3412]: "1968"
+                    - generic [ref=e3413]: "8.3"
+            - link "Harry Potter and the Prisoner of Azkaban" [ref=e3415] [cursor=pointer]:
+              - /url: /movie/673-harry-potter-and-the-prisoner-of-azkaban-2004
+              - generic [ref=e3416]:
+                - img "Harry Potter and the Prisoner of Azkaban" [ref=e3417]
+                - generic [ref=e3421]:
+                  - heading "Harry Potter and the Prisoner of Azkaban" [level=3] [ref=e3422]
+                  - generic [ref=e3423]:
+                    - generic [ref=e3424]: "2004"
+                    - generic [ref=e3425]: "8.3"
+            - link "It's the Great Pumpkin, Charlie Brown" [ref=e3427] [cursor=pointer]:
+              - /url: /movie/13353-it-s-the-great-pumpkin-charlie-brown-1966
+              - generic [ref=e3428]:
+                - img "It's the Great Pumpkin, Charlie Brown" [ref=e3429]
+                - generic [ref=e3433]:
+                  - heading "It's the Great Pumpkin, Charlie Brown" [level=3] [ref=e3434]
+                  - generic [ref=e3435]:
+                    - generic [ref=e3436]: "1966"
+                    - generic [ref=e3437]: "8.2"
+            - link "The Exorcist" [ref=e3439] [cursor=pointer]:
+              - /url: /movie/9552-the-exorcist-1973
+              - generic [ref=e3440]:
+                - img "The Exorcist" [ref=e3441]
+                - generic [ref=e3445]:
+                  - heading "The Exorcist" [level=3] [ref=e3446]
+                  - generic [ref=e3447]:
+                    - generic [ref=e3448]: "1973"
+                    - generic [ref=e3449]: "8.2"
+            - link "Frankenstein" [ref=e3451] [cursor=pointer]:
+              - /url: /movie/3035-frankenstein-1931
+              - generic [ref=e3452]:
+                - img "Frankenstein" [ref=e3453]
+                - generic [ref=e3457]:
+                  - heading "Frankenstein" [level=3] [ref=e3458]
+                  - generic [ref=e3459]:
+                    - generic [ref=e3460]: "1931"
+                    - generic [ref=e3461]: "8.1"
+            - link "Kiki's Delivery Service" [ref=e3463] [cursor=pointer]:
+              - /url: /movie/16859-kiki-s-delivery-service-1989
+              - generic [ref=e3464]:
+                - img "Kiki's Delivery Service" [ref=e3465]
+                - generic [ref=e3469]:
+                  - heading "Kiki's Delivery Service" [level=3] [ref=e3470]
+                  - generic [ref=e3471]:
+                    - generic [ref=e3472]: "1989"
+                    - generic [ref=e3473]: "8.1"
+            - link "The Sixth Sense" [ref=e3475] [cursor=pointer]:
+              - /url: /movie/745-the-sixth-sense-1999
+              - generic [ref=e3476]:
+                - img "The Sixth Sense" [ref=e3477]
+                - generic [ref=e3481]:
+                  - heading "The Sixth Sense" [level=3] [ref=e3482]
+                  - generic [ref=e3483]:
+                    - generic [ref=e3484]: "1999"
+                    - generic [ref=e3485]: "8.0"
+            - link "The Batman" [ref=e3487] [cursor=pointer]:
+              - /url: /movie/414906-the-batman-2022
+              - generic [ref=e3488]:
+                - img "The Batman" [ref=e3489]
+                - generic [ref=e3493]:
+                  - heading "The Batman" [level=3] [ref=e3494]
+                  - generic [ref=e3495]:
+                    - generic [ref=e3496]: "2022"
+                    - generic [ref=e3497]: "8.0"
+            - 'link "Wallace & Gromit: The Curse of the Were-Rabbit" [ref=e3499] [cursor=pointer]':
+              - /url: /movie/533-wallace-gromit-the-curse-of-the-were-rabbit-2005
+              - generic [ref=e3500]:
+                - 'img "Wallace & Gromit: The Curse of the Were-Rabbit" [ref=e3501]'
+                - generic [ref=e3505]:
+                  - 'heading "Wallace & Gromit: The Curse of the Were-Rabbit" [level=3] [ref=e3506]'
+                  - generic [ref=e3507]:
+                    - generic [ref=e3508]: "2005"
+                    - generic [ref=e3509]: "8.0"
+            - link "The Crow" [ref=e3511] [cursor=pointer]:
+              - /url: /movie/9495-the-crow-1994
+              - generic [ref=e3512]:
+                - img "The Crow" [ref=e3513]
+                - generic [ref=e3517]:
+                  - heading "The Crow" [level=3] [ref=e3518]
+                  - generic [ref=e3519]:
+                    - generic [ref=e3520]: "1994"
+                    - generic [ref=e3521]: "8.0"
+            - link "Coraline" [ref=e3523] [cursor=pointer]:
+              - /url: /movie/14836-coraline-2009
+              - generic [ref=e3524]:
+                - img "Coraline" [ref=e3525]
+                - generic [ref=e3529]:
+                  - heading "Coraline" [level=3] [ref=e3530]
+                  - generic [ref=e3531]:
+                    - generic [ref=e3532]: "2009"
+                    - generic [ref=e3533]: "8.0"
+            - link "Ghostbusters" [ref=e3535] [cursor=pointer]:
+              - /url: /movie/620-ghostbusters-1984
+              - generic [ref=e3536]:
+                - img "Ghostbusters" [ref=e3537]
+                - generic [ref=e3541]:
+                  - heading "Ghostbusters" [level=3] [ref=e3542]
+                  - generic [ref=e3543]:
+                    - generic [ref=e3544]: "1984"
+                    - generic [ref=e3545]: "8.0"
+            - link "Dracula" [ref=e3547] [cursor=pointer]:
+              - /url: /movie/138-dracula-1931
+              - generic [ref=e3548]:
+                - img "Dracula" [ref=e3549]
+                - generic [ref=e3553]:
+                  - heading "Dracula" [level=3] [ref=e3554]
+                  - generic [ref=e3555]:
+                    - generic [ref=e3556]: "1931"
+                    - generic [ref=e3557]: "7.9"
+            - link "Evil Dead II" [ref=e3559] [cursor=pointer]:
+              - /url: /movie/765-evil-dead-ii-1987
+              - generic [ref=e3560]:
+                - img "Evil Dead II" [ref=e3561]
+                - generic [ref=e3565]:
+                  - heading "Evil Dead II" [level=3] [ref=e3566]
+                  - generic [ref=e3567]:
+                    - generic [ref=e3568]: "1987"
+                    - generic [ref=e3569]: "7.8"
+            - link "Corpse Bride" [ref=e3571] [cursor=pointer]:
+              - /url: /movie/3933-corpse-bride-2005
+              - generic [ref=e3572]:
+                - img "Corpse Bride" [ref=e3573]
+                - generic [ref=e3577]:
+                  - heading "Corpse Bride" [level=3] [ref=e3578]
+                  - generic [ref=e3579]:
+                    - generic [ref=e3580]: "2005"
+                    - generic [ref=e3581]: "7.8"
+            - link "Donnie Darko" [ref=e3583] [cursor=pointer]:
+              - /url: /movie/141-donnie-darko-2001
+              - generic [ref=e3584]:
+                - img "Donnie Darko" [ref=e3585]
+                - generic [ref=e3589]:
+                  - heading "Donnie Darko" [level=3] [ref=e3590]
+                  - generic [ref=e3591]:
+                    - generic [ref=e3592]: "2001"
+                    - generic [ref=e3593]: "7.7"
+            - link "Poltergeist" [ref=e3595] [cursor=pointer]:
+              - /url: /movie/609-poltergeist-1982
+              - generic [ref=e3596]:
+                - img "Poltergeist" [ref=e3597]
+                - generic [ref=e3601]:
+                  - heading "Poltergeist" [level=3] [ref=e3602]
+                  - generic [ref=e3603]:
+                    - generic [ref=e3604]: "1982"
+                    - generic [ref=e3605]: "7.6"
+            - link "Re-Animator" [ref=e3607] [cursor=pointer]:
+              - /url: /movie/1694-re-animator-1985
+              - generic [ref=e3608]:
+                - img "Re-Animator" [ref=e3609]
+                - generic [ref=e3613]:
+                  - heading "Re-Animator" [level=3] [ref=e3614]
+                  - generic [ref=e3615]:
+                    - generic [ref=e3616]: "1985"
+                    - generic [ref=e3617]: "7.5"
+            - link "Trick 'r Treat" [ref=e3619] [cursor=pointer]:
+              - /url: /movie/23202-trick-r-treat-2007
+              - generic [ref=e3620]:
+                - img "Trick 'r Treat" [ref=e3621]
+                - generic [ref=e3625]:
+                  - heading "Trick 'r Treat" [level=3] [ref=e3626]
+                  - generic [ref=e3627]:
+                    - generic [ref=e3628]: "2007"
+                    - generic [ref=e3629]: "7.5"
+            - link "The Rocky Horror Picture Show" [ref=e3631] [cursor=pointer]:
+              - /url: /movie/36685-the-rocky-horror-picture-show-1975
+              - generic [ref=e3632]:
+                - img "The Rocky Horror Picture Show" [ref=e3633]
+                - generic [ref=e3637]:
+                  - heading "The Rocky Horror Picture Show" [level=3] [ref=e3638]
+                  - generic [ref=e3639]:
+                    - generic [ref=e3640]: "1975"
+                    - generic [ref=e3641]: "7.5"
+            - link "It" [ref=e3643] [cursor=pointer]:
+              - /url: /movie/346364-it-2017
+              - generic [ref=e3644]:
+                - img "It" [ref=e3645]
+                - generic [ref=e3649]:
+                  - heading "It" [level=3] [ref=e3650]
+                  - generic [ref=e3651]:
+                    - generic [ref=e3652]: "2017"
+                    - generic [ref=e3653]: "7.5"
+      - generic [ref=e3655]:
+        - 'heading "Rotten Tomatoes: Best Movies of All Time" [level=2] [ref=e3657]'
+        - generic [ref=e3658]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e3659] [cursor=pointer]
+          - generic [ref=e3661]:
+            - link "Toy Story" [ref=e3662] [cursor=pointer]:
+              - /url: /movie/862-toy-story-1995
+              - generic [ref=e3663]:
+                - img "Toy Story" [ref=e3664]
+                - generic [ref=e3668]:
+                  - heading "Toy Story" [level=3] [ref=e3669]
+                  - generic [ref=e3670]:
+                    - generic [ref=e3671]: "1995"
+                    - generic [ref=e3672]: "8.9"
+            - link "Toy Story 2" [ref=e3674] [cursor=pointer]:
+              - /url: /movie/863-toy-story-2-1999
+              - generic [ref=e3675]:
+                - img "Toy Story 2" [ref=e3676]
+                - generic [ref=e3680]:
+                  - heading "Toy Story 2" [level=3] [ref=e3681]
+                  - generic [ref=e3682]:
+                    - generic [ref=e3683]: "1999"
+                    - generic [ref=e3684]: "8.4"
+            - link "Gloria" [ref=e3686] [cursor=pointer]:
+              - /url: /movie/160068-gloria-2013
+              - generic [ref=e3687]:
+                - img "Gloria" [ref=e3688]
+                - generic [ref=e3692]:
+                  - heading "Gloria" [level=3] [ref=e3693]
+                  - generic [ref=e3694]:
+                    - generic [ref=e3695]: "2013"
+                    - generic [ref=e3696]: "7.7"
+            - link "Leave No Trace" [ref=e3698] [cursor=pointer]:
+              - /url: /movie/443463-leave-no-trace-2018
+              - generic [ref=e3699]:
+                - img "Leave No Trace" [ref=e3700]
+                - generic [ref=e3704]:
+                  - heading "Leave No Trace" [level=3] [ref=e3705]
+                  - generic [ref=e3706]:
+                    - generic [ref=e3707]: "2018"
+                    - generic [ref=e3708]: "8.1"
+            - link "The Philadelphia Story" [ref=e3710] [cursor=pointer]:
+              - /url: /movie/981-the-philadelphia-story-1940
+              - generic [ref=e3711]:
+                - img "The Philadelphia Story" [ref=e3712]
+                - generic [ref=e3716]:
+                  - heading "The Philadelphia Story" [level=3] [ref=e3717]
+                  - generic [ref=e3718]:
+                    - generic [ref=e3719]: "1940"
+                    - generic [ref=e3720]: "8.5"
+            - link "His House" [ref=e3722] [cursor=pointer]:
+              - /url: /movie/575774-his-house-2020
+              - generic [ref=e3723]:
+                - img "His House" [ref=e3724]
+                - generic [ref=e3728]:
+                  - heading "His House" [level=3] [ref=e3729]
+                  - generic [ref=e3730]:
+                    - generic [ref=e3731]: "2020"
+                    - generic [ref=e3732]: "7.4"
+            - link "All We Imagine as Light" [ref=e3734] [cursor=pointer]:
+              - /url: /movie/927547-all-we-imagine-as-light-2024
+              - generic [ref=e3735]:
+                - img "All We Imagine as Light" [ref=e3736]
+                - generic [ref=e3740]:
+                  - heading "All We Imagine as Light" [level=3] [ref=e3741]
+                  - generic [ref=e3742]:
+                    - generic [ref=e3743]: "2024"
+                    - generic [ref=e3744]: "7.9"
+            - 'link "Wallace & Gromit: Vengeance Most Fowl" [ref=e3746] [cursor=pointer]':
+              - /url: /movie/929204-wallace-gromit-vengeance-most-fowl-2024
+              - generic [ref=e3747]:
+                - 'img "Wallace & Gromit: Vengeance Most Fowl" [ref=e3748]'
+                - generic [ref=e3752]:
+                  - 'heading "Wallace & Gromit: Vengeance Most Fowl" [level=3] [ref=e3753]'
+                  - generic [ref=e3754]:
+                    - generic [ref=e3755]: "2024"
+                    - generic [ref=e3756]: "8.2"
+            - link "On Becoming a Guinea Fowl" [ref=e3758] [cursor=pointer]:
+              - /url: /movie/1082938-on-becoming-a-guinea-fowl-2024
+              - generic [ref=e3759]:
+                - img "On Becoming a Guinea Fowl" [ref=e3760]
+                - generic [ref=e3764]:
+                  - heading "On Becoming a Guinea Fowl" [level=3] [ref=e3765]
+                  - generic [ref=e3766]:
+                    - generic [ref=e3767]: "2024"
+                    - generic [ref=e3768]: "8.0"
+            - link "Finding Nemo" [ref=e3770] [cursor=pointer]:
+              - /url: /movie/12-finding-nemo-2003
+              - generic [ref=e3771]:
+                - img "Finding Nemo" [ref=e3772]
+                - generic [ref=e3776]:
+                  - heading "Finding Nemo" [level=3] [ref=e3777]
+                  - generic [ref=e3778]:
+                    - generic [ref=e3779]: "2003"
+                    - generic [ref=e3780]: "8.7"
+            - link "How to Train Your Dragon" [ref=e3782] [cursor=pointer]:
+              - /url: /movie/10191-how-to-train-your-dragon-2010
+              - generic [ref=e3783]:
+                - img "How to Train Your Dragon" [ref=e3784]
+                - generic [ref=e3788]:
+                  - heading "How to Train Your Dragon" [level=3] [ref=e3789]
+                  - generic [ref=e3790]:
+                    - generic [ref=e3791]: "2010"
+                    - generic [ref=e3792]: "8.3"
+            - link "Lady Bird" [ref=e3794] [cursor=pointer]:
+              - /url: /movie/391713-lady-bird-2017
+              - generic [ref=e3795]:
+                - img "Lady Bird" [ref=e3796]
+                - generic [ref=e3800]:
+                  - heading "Lady Bird" [level=3] [ref=e3801]
+                  - generic [ref=e3802]:
+                    - generic [ref=e3803]: "2017"
+                    - generic [ref=e3804]: "8.1"
+            - link "Paddington 2" [ref=e3806] [cursor=pointer]:
+              - /url: /movie/346648-paddington-2-2017
+              - generic [ref=e3807]:
+                - img "Paddington 2" [ref=e3808]
+                - generic [ref=e3812]:
+                  - heading "Paddington 2" [level=3] [ref=e3813]
+                  - generic [ref=e3814]:
+                    - generic [ref=e3815]: "2017"
+                    - generic [ref=e3816]: "8.3"
+            - link "Shaun the Sheep Movie" [ref=e3818] [cursor=pointer]:
+              - /url: /movie/263109-shaun-the-sheep-movie-2015
+              - generic [ref=e3819]:
+                - img "Shaun the Sheep Movie" [ref=e3820]
+                - generic [ref=e3824]:
+                  - heading "Shaun the Sheep Movie" [level=3] [ref=e3825]
+                  - generic [ref=e3826]:
+                    - generic [ref=e3827]: "2015"
+                    - generic [ref=e3828]: "8.1"
+            - link "Selma" [ref=e3830] [cursor=pointer]:
+              - /url: /movie/273895-selma-2014
+              - generic [ref=e3831]:
+                - img "Selma" [ref=e3832]
+                - generic [ref=e3836]:
+                  - heading "Selma" [level=3] [ref=e3837]
+                  - generic [ref=e3838]:
+                    - generic [ref=e3839]: "2014"
+                    - generic [ref=e3840]: "8.2"
+            - link "Starred Up" [ref=e3842] [cursor=pointer]:
+              - /url: /movie/209276-starred-up-2014
+              - generic [ref=e3843]:
+                - img "Starred Up" [ref=e3844]
+                - generic [ref=e3848]:
+                  - heading "Starred Up" [level=3] [ref=e3849]
+                  - generic [ref=e3850]:
+                    - generic [ref=e3851]: "2014"
+                    - generic [ref=e3852]: "8.0"
+            - link "Things to Come" [ref=e3854] [cursor=pointer]:
+              - /url: /movie/374465-things-to-come-2016
+              - generic [ref=e3855]:
+                - img "Things to Come" [ref=e3856]
+                - generic [ref=e3860]:
+                  - heading "Things to Come" [level=3] [ref=e3861]
+                  - generic [ref=e3862]:
+                    - generic [ref=e3863]: "2016"
+                    - generic [ref=e3864]: "7.7"
+            - link "Casablanca" [ref=e3866] [cursor=pointer]:
+              - /url: /movie/289-casablanca-1943
+              - generic [ref=e3867]:
+                - img "Casablanca" [ref=e3868]
+                - generic [ref=e3872]:
+                  - heading "Casablanca" [level=3] [ref=e3873]
+                  - generic [ref=e3874]:
+                    - generic [ref=e3875]: "1943"
+                    - generic [ref=e3876]: "9.1"
+            - link "Citizen Kane" [ref=e3878] [cursor=pointer]:
+              - /url: /movie/15-citizen-kane-1941
+              - generic [ref=e3879]:
+                - img "Citizen Kane" [ref=e3880]
+                - generic [ref=e3884]:
+                  - heading "Citizen Kane" [level=3] [ref=e3885]
+                  - generic [ref=e3886]:
+                    - generic [ref=e3887]: "1941"
+                    - generic [ref=e3888]: "9.0"
+            - link "The Third Man" [ref=e3890] [cursor=pointer]:
+              - /url: /movie/1092-the-third-man-1949
+              - generic [ref=e3891]:
+                - img "The Third Man" [ref=e3892]
+                - generic [ref=e3896]:
+                  - heading "The Third Man" [level=3] [ref=e3897]
+                  - generic [ref=e3898]:
+                    - generic [ref=e3899]: "1949"
+                    - generic [ref=e3900]: "8.8"
+            - link "The Lady Eve" [ref=e3902] [cursor=pointer]:
+              - /url: /movie/3086-the-lady-eve-1941
+              - generic [ref=e3903]:
+                - img "The Lady Eve" [ref=e3904]
+                - generic [ref=e3908]:
+                  - heading "The Lady Eve" [level=3] [ref=e3909]
+                  - generic [ref=e3910]:
+                    - generic [ref=e3911]: "1941"
+                    - generic [ref=e3912]: "8.5"
+            - link "Blow the Man Down" [ref=e3914] [cursor=pointer]:
+              - /url: /movie/586451-blow-the-man-down-2019
+              - generic [ref=e3915]:
+                - img "Blow the Man Down" [ref=e3916]
+                - generic [ref=e3920]:
+                  - heading "Blow the Man Down" [level=3] [ref=e3921]
+                  - generic [ref=e3922]:
+                    - generic [ref=e3923]: "2019"
+                    - generic [ref=e3924]: "7.2"
+            - link "Eighth Grade" [ref=e3926] [cursor=pointer]:
+              - /url: /movie/489925-eighth-grade-2018
+              - generic [ref=e3927]:
+                - img "Eighth Grade" [ref=e3928]
+                - generic [ref=e3932]:
+                  - heading "Eighth Grade" [level=3] [ref=e3933]
+                  - generic [ref=e3934]:
+                    - generic [ref=e3935]: "2018"
+                    - generic [ref=e3936]: "8.0"
+            - link "Parasite" [ref=e3938] [cursor=pointer]:
+              - /url: /movie/496243-parasite-2019
+              - generic [ref=e3939]:
+                - img "Parasite" [ref=e3940]
+                - generic [ref=e3944]:
+                  - heading "Parasite" [level=3] [ref=e3945]
+                  - generic [ref=e3946]:
+                    - generic [ref=e3947]: "2019"
+                    - generic [ref=e3948]: "9.1"
+            - link "Never Rarely Sometimes Always" [ref=e3950] [cursor=pointer]:
+              - /url: /movie/595671-never-rarely-sometimes-always-2020
+              - generic [ref=e3951]:
+                - img "Never Rarely Sometimes Always" [ref=e3952]
+                - generic [ref=e3956]:
+                  - heading "Never Rarely Sometimes Always" [level=3] [ref=e3957]
+                  - generic [ref=e3958]:
+                    - generic [ref=e3959]: "2020"
+                    - generic [ref=e3960]: "7.8"
+      - generic [ref=e3962]:
+        - heading "Mindf*ck Movies" [level=2] [ref=e3964]
+        - generic [ref=e3965]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e3966] [cursor=pointer]
+          - generic [ref=e3968]:
+            - link "Parasite" [ref=e3969] [cursor=pointer]:
+              - /url: /movie/496243-parasite-2019
+              - generic [ref=e3970]:
+                - img "Parasite" [ref=e3971]
+                - generic [ref=e3975]:
+                  - heading "Parasite" [level=3] [ref=e3976]
+                  - generic [ref=e3977]:
+                    - generic [ref=e3978]: "2019"
+                    - generic [ref=e3979]: "9.1"
+            - link "Psycho" [ref=e3981] [cursor=pointer]:
+              - /url: /movie/539-psycho-1960
+              - generic [ref=e3982]:
+                - img "Psycho" [ref=e3983]
+                - generic [ref=e3987]:
+                  - heading "Psycho" [level=3] [ref=e3988]
+                  - generic [ref=e3989]:
+                    - generic [ref=e3990]: "1960"
+                    - generic [ref=e3991]: "9.0"
+            - link "Vertigo" [ref=e3993] [cursor=pointer]:
+              - /url: /movie/426-vertigo-1958
+              - generic [ref=e3994]:
+                - img "Vertigo" [ref=e3995]
+                - generic [ref=e3999]:
+                  - heading "Vertigo" [level=3] [ref=e4000]
+                  - generic [ref=e4001]:
+                    - generic [ref=e4002]: "1958"
+                    - generic [ref=e4003]: "8.9"
+            - link "Whiplash" [ref=e4005] [cursor=pointer]:
+              - /url: /movie/244786-whiplash-2014
+              - generic [ref=e4006]:
+                - img "Whiplash" [ref=e4007]
+                - generic [ref=e4011]:
+                  - heading "Whiplash" [level=3] [ref=e4012]
+                  - generic [ref=e4013]:
+                    - generic [ref=e4014]: "2014"
+                    - generic [ref=e4015]: "8.9"
+            - link "Chinatown" [ref=e4017] [cursor=pointer]:
+              - /url: /movie/829-chinatown-1974
+              - generic [ref=e4018]:
+                - img "Chinatown" [ref=e4019]
+                - generic [ref=e4023]:
+                  - heading "Chinatown" [level=3] [ref=e4024]
+                  - generic [ref=e4025]:
+                    - generic [ref=e4026]: "1974"
+                    - generic [ref=e4027]: "8.8"
+            - link "Pan's Labyrinth" [ref=e4029] [cursor=pointer]:
+              - /url: /movie/1417-pan-s-labyrinth-2006
+              - generic [ref=e4030]:
+                - img "Pan's Labyrinth" [ref=e4031]
+                - generic [ref=e4035]:
+                  - heading "Pan's Labyrinth" [level=3] [ref=e4036]
+                  - generic [ref=e4037]:
+                    - generic [ref=e4038]: "2006"
+                    - generic [ref=e4039]: "8.8"
+            - link "The Truman Show" [ref=e4041] [cursor=pointer]:
+              - /url: /movie/37165-the-truman-show-1998
+              - generic [ref=e4042]:
+                - img "The Truman Show" [ref=e4043]
+                - generic [ref=e4047]:
+                  - heading "The Truman Show" [level=3] [ref=e4048]
+                  - generic [ref=e4049]:
+                    - generic [ref=e4050]: "1998"
+                    - generic [ref=e4051]: "8.8"
+            - link "Persona" [ref=e4053] [cursor=pointer]:
+              - /url: /movie/797-persona-1966
+              - generic [ref=e4054]:
+                - img "Persona" [ref=e4055]
+                - generic [ref=e4059]:
+                  - heading "Persona" [level=3] [ref=e4060]
+                  - generic [ref=e4061]:
+                    - generic [ref=e4062]: "1966"
+                    - generic [ref=e4063]: "8.7"
+            - link "Rosemary's Baby" [ref=e4065] [cursor=pointer]:
+              - /url: /movie/805-rosemary-s-baby-1968
+              - generic [ref=e4066]:
+                - img "Rosemary's Baby" [ref=e4067]
+                - generic [ref=e4071]:
+                  - heading "Rosemary's Baby" [level=3] [ref=e4072]
+                  - generic [ref=e4073]:
+                    - generic [ref=e4074]: "1968"
+                    - generic [ref=e4075]: "8.7"
+            - link "Your Name." [ref=e4077] [cursor=pointer]:
+              - /url: /movie/372058-your-name-2016
+              - generic [ref=e4078]:
+                - img "Your Name." [ref=e4079]
+                - generic [ref=e4083]:
+                  - heading "Your Name." [level=3] [ref=e4084]
+                  - generic [ref=e4085]:
+                    - generic [ref=e4086]: "2016"
+                    - generic [ref=e4087]: "8.7"
+            - link "The Silence of the Lambs" [ref=e4089] [cursor=pointer]:
+              - /url: /movie/274-the-silence-of-the-lambs-1991
+              - generic [ref=e4090]:
+                - img "The Silence of the Lambs" [ref=e4091]
+                - generic [ref=e4095]:
+                  - heading "The Silence of the Lambs" [level=3] [ref=e4096]
+                  - generic [ref=e4097]:
+                    - generic [ref=e4098]: "1991"
+                    - generic [ref=e4099]: "8.7"
+            - link "Oldboy" [ref=e4101] [cursor=pointer]:
+              - /url: /movie/670-oldboy-2003
+              - generic [ref=e4102]:
+                - img "Oldboy" [ref=e4103]
+                - generic [ref=e4107]:
+                  - heading "Oldboy" [level=3] [ref=e4108]
+                  - generic [ref=e4109]:
+                    - generic [ref=e4110]: "2003"
+                    - generic [ref=e4111]: "8.6"
+            - link "Eternal Sunshine of the Spotless Mind" [ref=e4113] [cursor=pointer]:
+              - /url: /movie/38-eternal-sunshine-of-the-spotless-mind-2004
+              - generic [ref=e4114]:
+                - img "Eternal Sunshine of the Spotless Mind" [ref=e4115]
+                - generic [ref=e4119]:
+                  - heading "Eternal Sunshine of the Spotless Mind" [level=3] [ref=e4120]
+                  - generic [ref=e4121]:
+                    - generic [ref=e4122]: "2004"
+                    - generic [ref=e4123]: "8.6"
+            - link "Solaris" [ref=e4125] [cursor=pointer]:
+              - /url: /movie/593-solaris-1972
+              - generic [ref=e4126]:
+                - img "Solaris" [ref=e4127]
+                - generic [ref=e4131]:
+                  - heading "Solaris" [level=3] [ref=e4132]
+                  - generic [ref=e4133]:
+                    - generic [ref=e4134]: "1972"
+                    - generic [ref=e4135]: "8.6"
+            - link "Incendies" [ref=e4137] [cursor=pointer]:
+              - /url: /movie/46738-incendies-2010
+              - generic [ref=e4138]:
+                - img "Incendies" [ref=e4139]
+                - generic [ref=e4143]:
+                  - heading "Incendies" [level=3] [ref=e4144]
+                  - generic [ref=e4145]:
+                    - generic [ref=e4146]: "2010"
+                    - generic [ref=e4147]: "8.6"
+            - link "Inception" [ref=e4149] [cursor=pointer]:
+              - /url: /movie/27205-inception-2010
+              - generic [ref=e4150]:
+                - img "Inception" [ref=e4151]
+                - generic [ref=e4155]:
+                  - heading "Inception" [level=3] [ref=e4156]
+                  - generic [ref=e4157]:
+                    - generic [ref=e4158]: "2010"
+                    - generic [ref=e4159]: "8.6"
+            - 'link "2001: A Space Odyssey" [ref=e4161] [cursor=pointer]':
+              - /url: /movie/62-2001-a-space-odyssey-1968
+              - generic [ref=e4162]:
+                - 'img "2001: A Space Odyssey" [ref=e4163]'
+                - generic [ref=e4167]:
+                  - 'heading "2001: A Space Odyssey" [level=3] [ref=e4168]'
+                  - generic [ref=e4169]:
+                    - generic [ref=e4170]: "1968"
+                    - generic [ref=e4171]: "8.5"
+            - link "Diabolique" [ref=e4173] [cursor=pointer]:
+              - /url: /movie/827-diabolique-1955
+              - generic [ref=e4174]:
+                - img "Diabolique" [ref=e4175]
+                - generic [ref=e4179]:
+                  - heading "Diabolique" [level=3] [ref=e4180]
+                  - generic [ref=e4181]:
+                    - generic [ref=e4182]: "1955"
+                    - generic [ref=e4183]: "8.5"
+            - link "American Beauty" [ref=e4185] [cursor=pointer]:
+              - /url: /movie/14-american-beauty-1999
+              - generic [ref=e4186]:
+                - img "American Beauty" [ref=e4187]
+                - generic [ref=e4191]:
+                  - heading "American Beauty" [level=3] [ref=e4192]
+                  - generic [ref=e4193]:
+                    - generic [ref=e4194]: "1999"
+                    - generic [ref=e4195]: "8.5"
+            - link "La Jetée" [ref=e4197] [cursor=pointer]:
+              - /url: /movie/662-la-jetee-1962
+              - generic [ref=e4198]:
+                - img "La Jetée" [ref=e4199]
+                - generic [ref=e4203]:
+                  - heading "La Jetée" [level=3] [ref=e4204]
+                  - generic [ref=e4205]:
+                    - generic [ref=e4206]: "1962"
+                    - generic [ref=e4207]: "8.4"
+            - link "Being John Malkovich" [ref=e4209] [cursor=pointer]:
+              - /url: /movie/492-being-john-malkovich-1999
+              - generic [ref=e4210]:
+                - img "Being John Malkovich" [ref=e4211]
+                - generic [ref=e4215]:
+                  - heading "Being John Malkovich" [level=3] [ref=e4216]
+                  - generic [ref=e4217]:
+                    - generic [ref=e4218]: "1999"
+                    - generic [ref=e4219]: "8.4"
+            - link "Mulholland Drive" [ref=e4221] [cursor=pointer]:
+              - /url: /movie/1018-mulholland-drive-2001
+              - generic [ref=e4222]:
+                - img "Mulholland Drive" [ref=e4223]
+                - generic [ref=e4227]:
+                  - heading "Mulholland Drive" [level=3] [ref=e4228]
+                  - generic [ref=e4229]:
+                    - generic [ref=e4230]: "2001"
+                    - generic [ref=e4231]: "8.4"
+            - link "The Shining" [ref=e4233] [cursor=pointer]:
+              - /url: /movie/694-the-shining-1980
+              - generic [ref=e4234]:
+                - img "The Shining" [ref=e4235]
+                - generic [ref=e4239]:
+                  - heading "The Shining" [level=3] [ref=e4240]
+                  - generic [ref=e4241]:
+                    - generic [ref=e4242]: "1980"
+                    - generic [ref=e4243]: "8.4"
+            - link "Memento" [ref=e4245] [cursor=pointer]:
+              - /url: /movie/77-memento-2000
+              - generic [ref=e4246]:
+                - img "Memento" [ref=e4247]
+                - generic [ref=e4251]:
+                  - heading "Memento" [level=3] [ref=e4252]
+                  - generic [ref=e4253]:
+                    - generic [ref=e4254]: "2000"
+                    - generic [ref=e4255]: "8.4"
+            - link "Se7en" [ref=e4257] [cursor=pointer]:
+              - /url: /movie/807-se7en-1995
+              - generic [ref=e4258]:
+                - img "Se7en" [ref=e4259]
+                - generic [ref=e4263]:
+                  - heading "Se7en" [level=3] [ref=e4264]
+                  - generic [ref=e4265]:
+                    - generic [ref=e4266]: "1995"
+                    - generic [ref=e4267]: "8.4"
+      - generic [ref=e4269]:
+        - heading "Based on a True Story" [level=2] [ref=e4271]
+        - generic [ref=e4272]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e4273] [cursor=pointer]
+          - generic [ref=e4275]:
+            - link "City of God" [ref=e4276] [cursor=pointer]:
+              - /url: /movie/598-city-of-god-2002
+              - generic [ref=e4277]:
+                - img "City of God" [ref=e4278]
+                - generic [ref=e4282]:
+                  - heading "City of God" [level=3] [ref=e4283]
+                  - generic [ref=e4284]:
+                    - generic [ref=e4285]: "2002"
+                    - generic [ref=e4286]: "8.9"
+            - link "The Pianist" [ref=e4288] [cursor=pointer]:
+              - /url: /movie/423-the-pianist-2002
+              - generic [ref=e4289]:
+                - img "The Pianist" [ref=e4290]
+                - generic [ref=e4294]:
+                  - heading "The Pianist" [level=3] [ref=e4295]
+                  - generic [ref=e4296]:
+                    - generic [ref=e4297]: "2002"
+                    - generic [ref=e4298]: "8.8"
+            - link "Memories of Murder" [ref=e4300] [cursor=pointer]:
+              - /url: /movie/11423-memories-of-murder-2003
+              - generic [ref=e4301]:
+                - img "Memories of Murder" [ref=e4302]
+                - generic [ref=e4306]:
+                  - heading "Memories of Murder" [level=3] [ref=e4307]
+                  - generic [ref=e4308]:
+                    - generic [ref=e4309]: "2003"
+                    - generic [ref=e4310]: "8.7"
+            - link "There Will Be Blood" [ref=e4312] [cursor=pointer]:
+              - /url: /movie/7345-there-will-be-blood-2007
+              - generic [ref=e4313]:
+                - img "There Will Be Blood" [ref=e4314]
+                - generic [ref=e4318]:
+                  - heading "There Will Be Blood" [level=3] [ref=e4319]
+                  - generic [ref=e4320]:
+                    - generic [ref=e4321]: "2007"
+                    - generic [ref=e4322]: "8.6"
+            - link "The Diving Bell and the Butterfly" [ref=e4324] [cursor=pointer]:
+              - /url: /movie/2013-the-diving-bell-and-the-butterfly-2007
+              - generic [ref=e4325]:
+                - img "The Diving Bell and the Butterfly" [ref=e4326]
+                - generic [ref=e4330]:
+                  - heading "The Diving Bell and the Butterfly" [level=3] [ref=e4331]
+                  - generic [ref=e4332]:
+                    - generic [ref=e4333]: "2007"
+                    - generic [ref=e4334]: "8.6"
+            - link "Downfall" [ref=e4336] [cursor=pointer]:
+              - /url: /movie/613-downfall-2004
+              - generic [ref=e4337]:
+                - img "Downfall" [ref=e4338]
+                - generic [ref=e4342]:
+                  - heading "Downfall" [level=3] [ref=e4343]
+                  - generic [ref=e4344]:
+                    - generic [ref=e4345]: "2004"
+                    - generic [ref=e4346]: "8.6"
+            - link "12 Years a Slave" [ref=e4348] [cursor=pointer]:
+              - /url: /movie/76203-12-years-a-slave-2013
+              - generic [ref=e4349]:
+                - img "12 Years a Slave" [ref=e4350]
+                - generic [ref=e4354]:
+                  - heading "12 Years a Slave" [level=3] [ref=e4355]
+                  - generic [ref=e4356]:
+                    - generic [ref=e4357]: "2013"
+                    - generic [ref=e4358]: "8.6"
+            - link "Almost Famous" [ref=e4360] [cursor=pointer]:
+              - /url: /movie/786-almost-famous-2000
+              - generic [ref=e4361]:
+                - img "Almost Famous" [ref=e4362]
+                - generic [ref=e4366]:
+                  - heading "Almost Famous" [level=3] [ref=e4367]
+                  - generic [ref=e4368]:
+                    - generic [ref=e4369]: "2000"
+                    - generic [ref=e4370]: "8.5"
+            - link "Hotel Rwanda" [ref=e4372] [cursor=pointer]:
+              - /url: /movie/205-hotel-rwanda-2004
+              - generic [ref=e4373]:
+                - img "Hotel Rwanda" [ref=e4374]
+                - generic [ref=e4378]:
+                  - heading "Hotel Rwanda" [level=3] [ref=e4379]
+                  - generic [ref=e4380]:
+                    - generic [ref=e4381]: "2004"
+                    - generic [ref=e4382]: "8.5"
+            - link "The King's Speech" [ref=e4384] [cursor=pointer]:
+              - /url: /movie/45269-the-king-s-speech-2010
+              - generic [ref=e4385]:
+                - img "The King's Speech" [ref=e4386]
+                - generic [ref=e4390]:
+                  - heading "The King's Speech" [level=3] [ref=e4391]
+                  - generic [ref=e4392]:
+                    - generic [ref=e4393]: "2010"
+                    - generic [ref=e4394]: "8.5"
+            - link "Million Dollar Baby" [ref=e4396] [cursor=pointer]:
+              - /url: /movie/70-million-dollar-baby-2004
+              - generic [ref=e4397]:
+                - img "Million Dollar Baby" [ref=e4398]
+                - generic [ref=e4402]:
+                  - heading "Million Dollar Baby" [level=3] [ref=e4403]
+                  - generic [ref=e4404]:
+                    - generic [ref=e4405]: "2004"
+                    - generic [ref=e4406]: "8.5"
+            - link "The Social Network" [ref=e4408] [cursor=pointer]:
+              - /url: /movie/37799-the-social-network-2010
+              - generic [ref=e4409]:
+                - img "The Social Network" [ref=e4410]
+                - generic [ref=e4414]:
+                  - heading "The Social Network" [level=3] [ref=e4415]
+                  - generic [ref=e4416]:
+                    - generic [ref=e4417]: "2010"
+                    - generic [ref=e4418]: "8.5"
+            - link "Temple Grandin" [ref=e4420] [cursor=pointer]:
+              - /url: /movie/33602-temple-grandin-2010
+              - generic [ref=e4421]:
+                - img "Temple Grandin" [ref=e4422]
+                - generic [ref=e4426]:
+                  - heading "Temple Grandin" [level=3] [ref=e4427]
+                  - generic [ref=e4428]:
+                    - generic [ref=e4429]: "2010"
+                    - generic [ref=e4430]: "8.5"
+            - link "Argo" [ref=e4432] [cursor=pointer]:
+              - /url: /movie/68734-argo-2012
+              - generic [ref=e4433]:
+                - img "Argo" [ref=e4434]
+                - generic [ref=e4438]:
+                  - heading "Argo" [level=3] [ref=e4439]
+                  - generic [ref=e4440]:
+                    - generic [ref=e4441]: "2012"
+                    - generic [ref=e4442]: "8.4"
+            - link "Dangal" [ref=e4444] [cursor=pointer]:
+              - /url: /movie/360814-dangal-2016
+              - generic [ref=e4445]:
+                - img "Dangal" [ref=e4446]
+                - generic [ref=e4450]:
+                  - heading "Dangal" [level=3] [ref=e4451]
+                  - generic [ref=e4452]:
+                    - generic [ref=e4453]: "2016"
+                    - generic [ref=e4454]: "8.4"
+            - link "Letters from Iwo Jima" [ref=e4456] [cursor=pointer]:
+              - /url: /movie/1251-letters-from-iwo-jima-2006
+              - generic [ref=e4457]:
+                - img "Letters from Iwo Jima" [ref=e4458]
+                - generic [ref=e4462]:
+                  - heading "Letters from Iwo Jima" [level=3] [ref=e4463]
+                  - generic [ref=e4464]:
+                    - generic [ref=e4465]: "2006"
+                    - generic [ref=e4466]: "8.4"
+            - link "Hidden Figures" [ref=e4468] [cursor=pointer]:
+              - /url: /movie/381284-hidden-figures-2016
+              - generic [ref=e4469]:
+                - img "Hidden Figures" [ref=e4470]
+                - generic [ref=e4474]:
+                  - heading "Hidden Figures" [level=3] [ref=e4475]
+                  - generic [ref=e4476]:
+                    - generic [ref=e4477]: "2016"
+                    - generic [ref=e4478]: "8.3"
+            - link "Moneyball" [ref=e4480] [cursor=pointer]:
+              - /url: /movie/60308-moneyball-2011
+              - generic [ref=e4481]:
+                - img "Moneyball" [ref=e4482]
+                - generic [ref=e4486]:
+                  - heading "Moneyball" [level=3] [ref=e4487]
+                  - generic [ref=e4488]:
+                    - generic [ref=e4489]: "2011"
+                    - generic [ref=e4490]: "8.3"
+            - link "Into the Wild" [ref=e4492] [cursor=pointer]:
+              - /url: /movie/5915-into-the-wild-2007
+              - generic [ref=e4493]:
+                - img "Into the Wild" [ref=e4494]
+                - generic [ref=e4498]:
+                  - heading "Into the Wild" [level=3] [ref=e4499]
+                  - generic [ref=e4500]:
+                    - generic [ref=e4501]: "2007"
+                    - generic [ref=e4502]: "8.2"
+            - link "A Beautiful Mind" [ref=e4504] [cursor=pointer]:
+              - /url: /movie/453-a-beautiful-mind-2001
+              - generic [ref=e4505]:
+                - img "A Beautiful Mind" [ref=e4506]
+                - generic [ref=e4510]:
+                  - heading "A Beautiful Mind" [level=3] [ref=e4511]
+                  - generic [ref=e4512]:
+                    - generic [ref=e4513]: "2001"
+                    - generic [ref=e4514]: "8.2"
+            - link "Bloody Sunday" [ref=e4516] [cursor=pointer]:
+              - /url: /movie/4107-bloody-sunday-2002
+              - generic [ref=e4517]:
+                - img "Bloody Sunday" [ref=e4518]
+                - generic [ref=e4522]:
+                  - heading "Bloody Sunday" [level=3] [ref=e4523]
+                  - generic [ref=e4524]:
+                    - generic [ref=e4525]: "2002"
+                    - generic [ref=e4526]: "8.2"
+            - link "Frost/Nixon" [ref=e4528] [cursor=pointer]:
+              - /url: /movie/11499-frost-nixon-2008
+              - generic [ref=e4529]:
+                - img "Frost/Nixon" [ref=e4530]
+                - generic [ref=e4534]:
+                  - heading "Frost/Nixon" [level=3] [ref=e4535]
+                  - generic [ref=e4536]:
+                    - generic [ref=e4537]: "2008"
+                    - generic [ref=e4538]: "8.2"
+            - link "American Gangster" [ref=e4540] [cursor=pointer]:
+              - /url: /movie/4982-american-gangster-2007
+              - generic [ref=e4541]:
+                - img "American Gangster" [ref=e4542]
+                - generic [ref=e4546]:
+                  - heading "American Gangster" [level=3] [ref=e4547]
+                  - generic [ref=e4548]:
+                    - generic [ref=e4549]: "2007"
+                    - generic [ref=e4550]: "8.2"
+            - link "The Big Sick" [ref=e4552] [cursor=pointer]:
+              - /url: /movie/416477-the-big-sick-2017
+              - generic [ref=e4553]:
+                - img "The Big Sick" [ref=e4554]
+                - generic [ref=e4558]:
+                  - heading "The Big Sick" [level=3] [ref=e4559]
+                  - generic [ref=e4560]:
+                    - generic [ref=e4561]: "2017"
+                    - generic [ref=e4562]: "8.2"
+            - link "Catch Me If You Can" [ref=e4564] [cursor=pointer]:
+              - /url: /movie/640-catch-me-if-you-can-2002
+              - generic [ref=e4565]:
+                - img "Catch Me If You Can" [ref=e4566]
+                - generic [ref=e4570]:
+                  - heading "Catch Me If You Can" [level=3] [ref=e4571]
+                  - generic [ref=e4572]:
+                    - generic [ref=e4573]: "2002"
+                    - generic [ref=e4574]: "8.2"
+  - contentinfo [ref=e170]:
+    - generic [ref=e172]:
+      - link "Home" [ref=e4576] [cursor=pointer]:
+        - /url: /
+        - img "Cinejoy" [ref=e4578]
+      - paragraph [ref=e173]: Cinejoy does not host, store, or distribute any media files. All content is sourced from third-party providers.
+      - link "contact@cinejoy.pk" [ref=e174] [cursor=pointer]:
+        - /url: mailto:contact@cinejoy.pk

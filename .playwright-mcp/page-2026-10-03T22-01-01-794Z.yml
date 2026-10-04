@@ -1,0 +1,76 @@
+- generic [ref=e3]:
+  - generic:
+    - generic:
+      - link "Home":
+        - /url: /
+        - generic:
+          - img "Cinejoy"
+    - tablist [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e8] [cursor=pointer]:
+        - /url: /movies
+      - link "Shows" [ref=e9] [cursor=pointer]:
+        - /url: /series
+      - link "My List" [ref=e10] [cursor=pointer]:
+        - /url: /lists
+      - button "Search" [ref=e12]
+      - button "Settings" [ref=e15]
+  - generic [ref=e17]:
+    - button [ref=e18]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Browse by Provider" [level=2] [ref=e32]
+        - generic [ref=e33]:
+          - button "Scroll left"
+          - button "Scroll right" [ref=e34] [cursor=pointer]
+          - generic [ref=e36]:
+            - link "Netflix" [ref=e37] [cursor=pointer]:
+              - /url: /provider/8
+            - link "Amazon Prime Video" [ref=e40] [cursor=pointer]:
+              - /url: /provider/9
+            - link "Disney Plus" [ref=e43] [cursor=pointer]:
+              - /url: /provider/337
+            - link "Apple TV+" [ref=e46] [cursor=pointer]:
+              - /url: /provider/350
+            - link "Apple TV" [ref=e49] [cursor=pointer]:
+              - /url: /provider/2
+            - link "Hulu" [ref=e52] [cursor=pointer]:
+              - /url: /provider/15
+            - link "HBO Max" [ref=e55] [cursor=pointer]:
+              - /url: /provider/1899
+            - link "Paramount Plus" [ref=e58] [cursor=pointer]:
+              - /url: /provider/2303
+            - link "Peacock Premium" [ref=e61] [cursor=pointer]:
+              - /url: /provider/386
+            - link "Crunchyroll" [ref=e64] [cursor=pointer]:
+              - /url: /provider/283
+            - link "Starz" [ref=e67] [cursor=pointer]:
+              - /url: /provider/43
+            - link "AMC+" [ref=e70] [cursor=pointer]:
+              - /url: /provider/526
+            - link "MGM Plus" [ref=e73] [cursor=pointer]:
+              - /url: /provider/34
+            - link "YouTube Premium" [ref=e76] [cursor=pointer]:
+              - /url: /provider/188
+            - link "YouTube" [ref=e79] [cursor=pointer]:
+              - /url: /provider/192
+            - link "Tubi TV" [ref=e82] [cursor=pointer]:
+              - /url: /provider/73
+            - link "Pluto TV" [ref=e85] [cursor=pointer]:
+              - /url: /provider/300
+      - generic [ref=e107]:
+        - heading "Movies on" [level=2] [ref=e108]
+        - button "Netflix" [ref=e110] [cursor=pointer]
+      - generic [ref=e121]:
+        - heading "TV Series on" [level=2] [ref=e122]
+        - button "Netflix" [ref=e124] [cursor=pointer]
+  - contentinfo [ref=e170]:
+    - generic [ref=e172]:
+      - link "Home":
+        - /url: /
+        - generic:
+          - img "Cinejoy"
+      - paragraph [ref=e173]: Cinejoy does not host, store, or distribute any media files. All content is sourced from third-party providers.
+      - link "contact@cinejoy.pk" [ref=e174] [cursor=pointer]:
+        - /url: mailto:contact@cinejoy.pk

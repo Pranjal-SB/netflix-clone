@@ -1,0 +1,264 @@
+- generic [active] [ref=f6e1]:
+  - banner:
+    - navigation "Main navigation" [ref=f6e2]:
+      - link "NETFLIX" [ref=f6e3] [cursor=pointer]:
+        - /url: /browse
+      - link "Home" [ref=f6e5] [cursor=pointer]:
+        - /url: /browse
+      - button "Sign Out" [ref=f6e7] [cursor=pointer]
+  - generic [ref=f6e9]:
+    - heading "Stranger Things" [level=1] [ref=f6e10]
+    - generic [ref=f6e11]: 📅 2016
+    - paragraph [ref=f6e13]: Kids in Hawkins uncover a secret lab and a parallel dimension.
+    - generic [ref=f6e14]:
+      - link "▶ More Info" [ref=f6e15] [cursor=pointer]:
+        - /url: /title/local/1
+      - link "Details" [ref=f6e16] [cursor=pointer]:
+        - /url: /title/local/1
+        - text: ⓘ
+  - main [ref=f6e17]:
+    - generic [ref=f6e18]:
+      - generic [ref=f6e19]:
+        - heading "Trending Now" [level=2] [ref=f6e20]
+        - generic [aria-hidden] [ref=f6e21]: View All ›
+      - generic [ref=f6e22]:
+        - article [ref=f6e23]:
+          - generic [ref=f6e24]: "1"
+          - link [ref=f6e25] [cursor=pointer]:
+            - /url: /title/local/1
+            - img "Stranger Things" [ref=f6e26]
+          - generic [ref=f6e27]:
+            - generic [ref=f6e28]: Stranger Things
+            - button "Add Stranger Things to My List" [ref=f6e30] [cursor=pointer]: + My List
+        - article [ref=f6e31]:
+          - generic [ref=f6e32]: "2"
+          - link [ref=f6e33] [cursor=pointer]:
+            - /url: /title/local/2
+            - img "Wednesday" [ref=f6e34]
+          - generic [ref=f6e35]:
+            - generic [ref=f6e36]: Wednesday
+            - button "Add Wednesday to My List" [ref=f6e38] [cursor=pointer]: + My List
+        - article [ref=f6e39]:
+          - generic [ref=f6e40]: "3"
+          - link [ref=f6e41] [cursor=pointer]:
+            - /url: /title/local/3
+            - img "Money Heist" [ref=f6e42]
+          - generic [ref=f6e43]:
+            - generic [ref=f6e44]: Money Heist
+            - button "Add Money Heist to My List" [ref=f6e46] [cursor=pointer]: + My List
+        - article [ref=f6e47]:
+          - generic [ref=f6e48]: "4"
+          - link [ref=f6e49] [cursor=pointer]:
+            - /url: /title/local/4
+            - img "The Witcher" [ref=f6e50]
+          - generic [ref=f6e51]:
+            - generic [ref=f6e52]: The Witcher
+            - button "Add The Witcher to My List" [ref=f6e54] [cursor=pointer]: + My List
+        - article [ref=f6e55]:
+          - generic [ref=f6e56]: "5"
+          - link [ref=f6e57] [cursor=pointer]:
+            - /url: /title/local/5
+            - img "Squid Game" [ref=f6e58]
+          - generic [ref=f6e59]:
+            - generic [ref=f6e60]: Squid Game
+            - button "Add Squid Game to My List" [ref=f6e62] [cursor=pointer]: + My List
+        - article [ref=f6e63]:
+          - generic [ref=f6e64]: "6"
+          - link [ref=f6e65] [cursor=pointer]:
+            - /url: /title/local/6
+            - img "Dark" [ref=f6e66]
+          - generic [ref=f6e67]:
+            - generic [ref=f6e68]: Dark
+            - button "Add Dark to My List" [ref=f6e70] [cursor=pointer]: + My List
+        - article [ref=f6e71]:
+          - generic [ref=f6e72]: "7"
+          - link [ref=f6e73] [cursor=pointer]:
+            - /url: /title/local/7
+            - img "The Crown" [ref=f6e74]
+          - generic [ref=f6e75]:
+            - generic [ref=f6e76]: The Crown
+            - button "Add The Crown to My List" [ref=f6e78] [cursor=pointer]: + My List
+        - article [ref=f6e79]:
+          - generic [ref=f6e80]: "8"
+          - link [ref=f6e81] [cursor=pointer]:
+            - /url: /title/local/8
+            - img "Bridgerton" [ref=f6e82]
+          - generic [ref=f6e83]:
+            - generic [ref=f6e84]: Bridgerton
+            - button "Add Bridgerton to My List" [ref=f6e86] [cursor=pointer]: + My List
+        - article [ref=f6e87]:
+          - generic [ref=f6e88]: "9"
+          - link [ref=f6e89] [cursor=pointer]:
+            - /url: /title/local/9
+            - img "Lupin" [ref=f6e90]
+          - generic [ref=f6e91]:
+            - generic [ref=f6e92]: Lupin
+            - button "Add Lupin to My List" [ref=f6e94] [cursor=pointer]: + My List
+        - article [ref=f6e95]:
+          - generic [ref=f6e96]: "10"
+          - link [ref=f6e97] [cursor=pointer]:
+            - /url: /title/local/10
+            - img "Narcos" [ref=f6e98]
+          - generic [ref=f6e99]:
+            - generic [ref=f6e100]: Narcos
+            - button "Add Narcos to My List" [ref=f6e102] [cursor=pointer]: + My List
+    - generic [ref=f6e103]:
+      - generic [ref=f6e104]:
+        - heading "Action" [level=2] [ref=f6e105]
+        - generic [aria-hidden] [ref=f6e106]: View All ›
+      - generic [ref=f6e107]:
+        - article [ref=f6e108]:
+          - link [ref=f6e109] [cursor=pointer]:
+            - /url: /title/local/20
+            - img "6 Underground" [ref=f6e110]
+          - generic [ref=f6e111]:
+            - generic [ref=f6e112]: 6 Underground
+            - button "Add 6 Underground to My List" [ref=f6e114] [cursor=pointer]: + My List
+        - article [ref=f6e115]:
+          - link [ref=f6e116] [cursor=pointer]:
+            - /url: /title/local/29
+            - img "Arcane" [ref=f6e117]
+          - generic [ref=f6e118]:
+            - generic [ref=f6e119]: Arcane
+            - button "Add Arcane to My List" [ref=f6e121] [cursor=pointer]: + My List
+        - article [ref=f6e122]:
+          - link [ref=f6e123] [cursor=pointer]:
+            - /url: /title/local/18
+            - img "Extraction" [ref=f6e124]
+          - generic [ref=f6e125]:
+            - generic [ref=f6e126]: Extraction
+            - button "Add Extraction to My List" [ref=f6e128] [cursor=pointer]: + My List
+        - article [ref=f6e129]:
+          - link [ref=f6e130] [cursor=pointer]:
+            - /url: /title/local/21
+            - img "Red Notice" [ref=f6e131]
+          - generic [ref=f6e132]:
+            - generic [ref=f6e133]: Red Notice
+            - button "Add Red Notice to My List" [ref=f6e135] [cursor=pointer]: + My List
+        - article [ref=f6e136]:
+          - link [ref=f6e137] [cursor=pointer]:
+            - /url: /title/local/22
+            - img "Sweet Tooth" [ref=f6e138]
+          - generic [ref=f6e139]:
+            - generic [ref=f6e140]: Sweet Tooth
+            - button "Add Sweet Tooth to My List" [ref=f6e142] [cursor=pointer]: + My List
+        - article [ref=f6e143]:
+          - link [ref=f6e144] [cursor=pointer]:
+            - /url: /title/local/19
+            - img "The Old Guard" [ref=f6e145]
+          - generic [ref=f6e146]:
+            - generic [ref=f6e147]: The Old Guard
+            - button "Add The Old Guard to My List" [ref=f6e149] [cursor=pointer]: + My List
+        - article [ref=f6e150]:
+          - link [ref=f6e151] [cursor=pointer]:
+            - /url: /title/local/17
+            - img "The Umbrella Academy" [ref=f6e152]
+          - generic [ref=f6e153]:
+            - generic [ref=f6e154]: The Umbrella Academy
+            - button "Add The Umbrella Academy to My List" [ref=f6e156] [cursor=pointer]: + My List
+    - generic [ref=f6e157]:
+      - generic [ref=f6e158]:
+        - heading "Comedy" [level=2] [ref=f6e159]
+        - generic [aria-hidden] [ref=f6e160]: View All ›
+      - generic [ref=f6e161]:
+        - article [ref=f6e162]:
+          - link [ref=f6e163] [cursor=pointer]:
+            - /url: /title/local/23
+            - img "BoJack Horseman" [ref=f6e164]
+          - generic [ref=f6e165]:
+            - generic [ref=f6e166]: BoJack Horseman
+            - button "Add BoJack Horseman to My List" [ref=f6e168] [cursor=pointer]: + My List
+        - article [ref=f6e169]:
+          - link [ref=f6e170] [cursor=pointer]:
+            - /url: /title/local/28
+            - img "Grace and Frankie" [ref=f6e171]
+          - generic [ref=f6e172]:
+            - generic [ref=f6e173]: Grace and Frankie
+            - button "Add Grace and Frankie to My List" [ref=f6e175] [cursor=pointer]: + My List
+        - article [ref=f6e176]:
+          - link [ref=f6e177] [cursor=pointer]:
+            - /url: /title/local/26
+            - img "Never Have I Ever" [ref=f6e178]
+          - generic [ref=f6e179]:
+            - generic [ref=f6e180]: Never Have I Ever
+            - button "Add Never Have I Ever to My List" [ref=f6e182] [cursor=pointer]: + My List
+        - article [ref=f6e183]:
+          - link [ref=f6e184] [cursor=pointer]:
+            - /url: /title/local/25
+            - img "Sex Education" [ref=f6e185]
+          - generic [ref=f6e186]:
+            - generic [ref=f6e187]: Sex Education
+            - button "Add Sex Education to My List" [ref=f6e189] [cursor=pointer]: + My List
+        - article [ref=f6e190]:
+          - link [ref=f6e191] [cursor=pointer]:
+            - /url: /title/local/27
+            - img "Space Force" [ref=f6e192]
+          - generic [ref=f6e193]:
+            - generic [ref=f6e194]: Space Force
+            - button "Add Space Force to My List" [ref=f6e196] [cursor=pointer]: + My List
+        - article [ref=f6e197]:
+          - link [ref=f6e198] [cursor=pointer]:
+            - /url: /title/local/24
+            - img "The Good Place" [ref=f6e199]
+          - generic [ref=f6e200]:
+            - generic [ref=f6e201]: The Good Place
+            - button "Add The Good Place to My List" [ref=f6e203] [cursor=pointer]: + My List
+    - generic [ref=f6e204]:
+      - generic [ref=f6e205]:
+        - heading "Drama" [level=2] [ref=f6e206]
+        - generic [aria-hidden] [ref=f6e207]: View All ›
+      - generic [ref=f6e208]:
+        - article [ref=f6e209]:
+          - link [ref=f6e210] [cursor=pointer]:
+            - /url: /title/local/11
+            - img "Breaking Bad" [ref=f6e211]
+          - generic [ref=f6e212]:
+            - generic [ref=f6e213]: Breaking Bad
+            - button "Add Breaking Bad to My List" [ref=f6e215] [cursor=pointer]: + My List
+        - article [ref=f6e216]:
+          - link [ref=f6e217] [cursor=pointer]:
+            - /url: /title/local/30
+            - img "Maniac" [ref=f6e218]
+          - generic [ref=f6e219]:
+            - generic [ref=f6e220]: Maniac
+            - button "Add Maniac to My List" [ref=f6e222] [cursor=pointer]: + My List
+        - article [ref=f6e223]:
+          - link [ref=f6e224] [cursor=pointer]:
+            - /url: /title/local/13
+            - img "Ozark" [ref=f6e225]
+          - generic [ref=f6e226]:
+            - generic [ref=f6e227]: Ozark
+            - button "Add Ozark to My List" [ref=f6e229] [cursor=pointer]: + My List
+        - article [ref=f6e230]:
+          - link [ref=f6e231] [cursor=pointer]:
+            - /url: /title/local/14
+            - img "Peaky Blinders" [ref=f6e232]
+          - generic [ref=f6e233]:
+            - generic [ref=f6e234]: Peaky Blinders
+            - button "Add Peaky Blinders to My List" [ref=f6e236] [cursor=pointer]: + My List
+        - article [ref=f6e237]:
+          - link [ref=f6e238] [cursor=pointer]:
+            - /url: /title/local/12
+            - img "The Queens Gambit" [ref=f6e239]
+          - generic [ref=f6e240]:
+            - generic [ref=f6e241]: The Queens Gambit
+            - button "Add The Queens Gambit to My List" [ref=f6e243] [cursor=pointer]: + My List
+        - article [ref=f6e244]:
+          - link [ref=f6e245] [cursor=pointer]:
+            - /url: /title/local/16
+            - img "Unbelievable" [ref=f6e246]
+          - generic [ref=f6e247]:
+            - generic [ref=f6e248]: Unbelievable
+            - button "Add Unbelievable to My List" [ref=f6e250] [cursor=pointer]: + My List
+        - article [ref=f6e251]:
+          - link [ref=f6e252] [cursor=pointer]:
+            - /url: /title/local/15
+            - img "When They See Us" [ref=f6e253]
+          - generic [ref=f6e254]:
+            - generic [ref=f6e255]: When They See Us
+            - button "Add When They See Us to My List" [ref=f6e257] [cursor=pointer]: + My List
+  - contentinfo [ref=f6e258]:
+    - paragraph [ref=f6e259]: Netflix Clone. Built for HTB. Not affiliated with Netflix.
+  - link "Back to top" [ref=f6e260] [cursor=pointer]:
+    - /url: "#top"
+    - text: ↑

@@ -1,11 +1,13 @@
 <section class="row"<% if (typeof anchor !== "undefined" && anchor) { %> id="<%= anchor %>"<% } %>>
   <div class="row-head">
     <h2 class="row-title"><%= rowTitle %></h2>
-    <span class="row-viewall" aria-hidden="true"></span>
+    <% if (typeof rowSubtitle === "string" && rowSubtitle) { %><span class="row-subtitle"><%= rowSubtitle %></span><% } %>
   </div>
-  <div class="row-cards">
-    <% items.forEach(function (item, i) { %>
-      <%- include("card", { item, inList, csrfToken, back, numbered: !!numbered, rank: i + 1 }) %>
-    <% }); %>
+  <div class="row-cards-wrap">
+    <div class="row-cards">
+      <% items.forEach(function (item, i) { %>
+        <%- include("card", { item, inList, csrfToken, back, numbered: !!numbered, rank: i + 1 }) %>
+      <% }); %>
+    </div>
   </div>
 </section>

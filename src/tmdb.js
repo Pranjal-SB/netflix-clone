@@ -85,10 +85,10 @@ async function tmdbGet(path, params = {}, fetchImpl = globalThis.fetch) {
 }
 
 const ROWS = [
-  { title: "Trending Now", path: "/trending/all/week", fallback: "movie" },
-  { title: "Popular Movies", path: "/movie/popular", fallback: "movie" },
-  { title: "Top Rated", path: "/movie/top_rated", fallback: "movie" },
-  { title: "Popular TV", path: "/tv/popular", fallback: "tv" },
+  { title: "Trending Now",   subtitle: "What everyone is watching this week",  path: "/trending/all/week",  fallback: "movie" },
+  { title: "Popular Movies", subtitle: "The most-watched films right now",      path: "/movie/popular",      fallback: "movie" },
+  { title: "Top Rated",      subtitle: "Highest rated across all time",         path: "/movie/top_rated",    fallback: "movie" },
+  { title: "Popular TV",     subtitle: "Series everyone is talking about",      path: "/tv/popular",         fallback: "tv"    },
 ];
 
 export async function getBrowseRows(fetchImpl) {
@@ -98,7 +98,7 @@ export async function getBrowseRows(fetchImpl) {
       const items = (data.results || [])
         .map((x) => normalizeItem(x, r.fallback))
         .filter((x) => x.poster_url);
-      return { title: r.title, items };
+      return { title: r.title, subtitle: r.subtitle || null, items };
     })
   );
   return rows.filter((r) => r.items.length);

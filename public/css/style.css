@@ -106,6 +106,8 @@ input:focus-visible,
   backdrop-filter: blur(6px);
 }
 .btn.ghost:hover { background: rgba(255, 255, 255, 0.16); border-color: rgba(255, 255, 255, 0.4); }
+.btn.white { background: #fff; color: #0a0a0a; }
+.btn.white:hover { background: #e6e6e6; }
 .btn.icon-only { padding: 0.72rem 0.95rem; font-size: 1.1rem; }
 
 .chip {
@@ -265,31 +267,43 @@ input:focus-visible,
 }
 .row-viewall { display: none; }
 
+.row-cards-wrap {
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+  /* negative margin/padding trick to allow overflow-y visible while scrolling */
+  padding-bottom: 0;
+}
+.row-cards-wrap::-webkit-scrollbar { display: none; }
 .row-cards {
   display: flex;
   gap: 0.75rem;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 1.4rem var(--gutter);   /* vertical room for hover scale/shadow */
+  padding: 1.4rem var(--gutter);
+  width: max-content;
   scroll-snap-type: x proximity;
-  scrollbar-width: none;
 }
-.row-cards::-webkit-scrollbar { display: none; }
 
 .card {
   position: relative;
   flex: 0 0 auto;
   width: var(--card-w);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: visible;
   background: var(--elev-1);
   border: 1px solid var(--line-soft);
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
   transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 .card img { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; }
-.card-link { display: block; }
+.card-link {
+  display: block;
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: hidden;
+}
 .card-noimg {
   display: flex;
   align-items: center;
@@ -303,7 +317,7 @@ input:focus-visible,
 }
 .card:hover,
 .card:focus-within {
-  transform: translateY(-6px) scale(1.05);
+  transform: translateY(-4px);
   z-index: 5;
   border-color: var(--line);
   box-shadow: var(--shadow-card);
@@ -324,28 +338,19 @@ input:focus-visible,
   backdrop-filter: blur(2px);
 }
 
-/* card meta overlay */
+/* card meta — static row below the poster */
 .card-meta {
-  position: absolute;
-  inset: auto 0 0 0;
-  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.4rem;
-  padding: 1.8rem 0.6rem 0.6rem;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.92), transparent);
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+  padding: 0.5rem;
+  background: var(--elev-1);
+  border-radius: 0 0 var(--radius) var(--radius);
+  border-top: 1px solid var(--line-soft);
 }
 .card:hover .card-meta,
-.card:focus-within .card-meta,
-.card.numbered:hover .card-meta,
-.card.numbered:focus-within .card-meta {
-  opacity: 1;
-  transform: translateY(0);
-}
+.card:focus-within .card-meta { background: var(--elev-2); }
 .card-name {
   flex: 1 1 auto;
   min-width: 0;
@@ -405,7 +410,7 @@ input:focus-visible,
 }
 .card.numbered:hover img,
 .card.numbered:focus-within img { transform: scale(1.05); }
-.card.numbered .card-meta { left: 58px; }
+.card.numbered .card-meta { left: 0; }
 .rank {
   flex: 0 0 auto;
   width: 58px;
@@ -414,8 +419,8 @@ input:focus-visible,
   font-size: 7.5rem;
   font-weight: 900;
   line-height: 1;
-  color: var(--bg);
-  -webkit-text-stroke: 3px #444444;
+  color: transparent;
+  -webkit-text-stroke: 2px #666666;
   text-align: center;
   user-select: none;
 }
@@ -789,7 +794,7 @@ input:focus-visible,
   .landing-hero { margin-top: -56px; }
   .rank { width: 46px; font-size: 5.2rem; -webkit-text-stroke-width: 2px; }
   .card.numbered { width: calc(var(--card-w) + 46px); }
-  .card.numbered .card-meta { left: 46px; }
+  .card.numbered .card-meta { left: 0; }
   .auth-card { padding: 2.2rem 1.6rem; }
 }
 
@@ -802,7 +807,7 @@ input:focus-visible,
 
 /* Touch / no-hover: keep card meta usable without hover */
 @media (hover: none) {
-  .card-meta { opacity: 1; transform: none; }
+  .card-meta { opacity: 1; transform: none; }  /* no-op now; card-meta is always visible */
   .card .card-rating { top: 0.4rem; }
 }
 

@@ -23,7 +23,7 @@
     </div>
     <% if (featured.overview) { %><p class="hero-overview"><%= featured.overview %></p><% } %>
     <div class="hero-actions">
-      <a class="btn primary" href="<%= featured.href %>">&#9654; Play</a>
+      <a class="btn white" href="<%= featured.href %>">&#9654; Play</a>
       <a class="btn ghost icon-only" href="<%= featured.href %>" aria-label="Details">&#9432;</a>
     </div>
   </div>
@@ -34,7 +34,7 @@
     <%- include("partials/row", { rowTitle: "My List", items: myItems, numbered: false, inList, csrfToken, back: "/browse", anchor: "my-list" }) %>
   <% } %>
   <% rows.forEach(function (r, i) { %>
-    <%- include("partials/row", { rowTitle: r.title, items: r.items, numbered: i === 0, inList, csrfToken, back: "/browse" }) %>
+    <%- include("partials/row", { rowTitle: r.title, rowSubtitle: r.subtitle || null, items: r.items, numbered: i === 0, inList, csrfToken, back: "/browse" }) %>
   <% }); %>
 </main>
 <%- include("partials/footer") %>
